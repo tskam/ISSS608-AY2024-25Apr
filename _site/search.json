@@ -1958,5 +1958,390 @@
     "title": "Lesson 10: Information Dashboard Design",
     "section": "References",
     "text": "References\nBullet Chart & Sparklines\n\nBullet graph @wiki\nBullet Graph Design Specification\nSparkline theory and practice\nBest Practices for Scaling Sparklines in Dashboard\nIntroducing Bandlines"
+  },
+  {
+    "objectID": "Quarto.html",
+    "href": "Quarto.html",
+    "title": "All About Quarto",
+    "section": "",
+    "text": "This page provides links to useful resources related Quarto."
+  },
+  {
+    "objectID": "Quarto.html#overview",
+    "href": "Quarto.html#overview",
+    "title": "All About Quarto",
+    "section": "Overview",
+    "text": "Overview\n\nGetting Started\nRStudio IDE\nUsing R\nHTML Basics"
+  },
+  {
+    "objectID": "Quarto.html#create-websites-and-blogs",
+    "href": "Quarto.html#create-websites-and-blogs",
+    "title": "All About Quarto",
+    "section": "Create websites and blogs",
+    "text": "Create websites and blogs\n\nCreating a Website\nWebsite Navigation\nDocument Listings"
+  },
+  {
+    "objectID": "Quarto.html#authoring-guide",
+    "href": "Quarto.html#authoring-guide",
+    "title": "All About Quarto",
+    "section": "Authoring Guide",
+    "text": "Authoring Guide\n\nMarkdown Basics\nFigures\nTables\nDiagrams\nCitations & Footnotes\nCross References\nArticle Layout"
+  },
+  {
+    "objectID": "Quarto.html#useful-web-resources",
+    "href": "Quarto.html#useful-web-resources",
+    "title": "All About Quarto",
+    "section": "Useful web resources",
+    "text": "Useful web resources\n\nAwesome Quarto. This github repository provides a comprehensive listing of Quarto resources. It should be the second stop (after Quarto homepage) if you need to look for revelent materials about Quarto."
+  },
+  {
+    "objectID": "Quarto.html#website-prepared-by-seniors",
+    "href": "Quarto.html#website-prepared-by-seniors",
+    "title": "All About Quarto",
+    "section": "Website prepared by seniors",
+    "text": "Website prepared by seniors\n\nAY2023-24 January Term\n\nImran’s Visual Analytics page\nVictoria’s Visual Analytics page\nKale’s Visual Analytics Tales\n\n\n\nAY2023-24 April Term\n\nAlicia’s VA Webpage\nJoshua’s VA Journey"
+  },
+  {
+    "objectID": "Tableau.html",
+    "href": "Tableau.html",
+    "title": "Tableau Resources",
+    "section": "",
+    "text": "Tableau home page\nTraining and Tutorials\nTableau Desktop User Guide\nTableau Prep Builder User Guide\nVisual Gallery\nTableau Public"
+  },
+  {
+    "objectID": "Tableau.html#all-about-tableau",
+    "href": "Tableau.html#all-about-tableau",
+    "title": "Tableau Resources",
+    "section": "",
+    "text": "Tableau home page\nTraining and Tutorials\nTableau Desktop User Guide\nTableau Prep Builder User Guide\nVisual Gallery\nTableau Public"
+  },
+  {
+    "objectID": "Tableau.html#white-papers",
+    "href": "Tableau.html#white-papers",
+    "title": "Tableau Resources",
+    "section": "White papers",
+    "text": "White papers\n\n10 Best Practices for Building Effective Dashboards\nTips for creating effective, engaging data visualizations"
+  },
+  {
+    "objectID": "Tableau.html#blogs-that-inspired",
+    "href": "Tableau.html#blogs-that-inspired",
+    "title": "Tableau Resources",
+    "section": "Blogs that inspired",
+    "text": "Blogs that inspired\n\nThe Information Lab\nDataRemixed\nPlayfairData\nData Revelations, especially Visualizing Survey Data and Steven’s Blog"
+  },
+  {
+    "objectID": "Tableau.html#from-data-to-tada",
+    "href": "Tableau.html#from-data-to-tada",
+    "title": "Tableau Resources",
+    "section": "From data to tada",
+    "text": "From data to tada\n\nUsing data visualization to make better decisions—faster\n17 key traits of data literacy\nInspiring change with data visualization\n5 important elements of dashboard design"
+  },
+  {
+    "objectID": "Tableau.html#tableau-tips-and-tricks",
+    "href": "Tableau.html#tableau-tips-and-tricks",
+    "title": "Tableau Resources",
+    "section": "Tableau Tips and Tricks",
+    "text": "Tableau Tips and Tricks\n\nRelationships, Joins and Unions in Tableau 2020.2, this Youtube video explains selected data management features introduced in Tableau 2020.2. (updated on 8th Feb 2021)."
+  },
+  {
+    "objectID": "R.html",
+    "href": "R.html",
+    "title": "R Resources",
+    "section": "",
+    "text": "R for Data Science by Garrett Grolemund and Hadley Wickham.\nModern R with the tidyverse by Bruno Rodrigues. Chapter 2 provides a detail discussion on R data objects.\nBrendan R. E. Ansell Introduction to R - tidyverse\nThe Comprehensive Guide to Installing R Packages from CRAN, Bioconductor, GitHub and Co.. This article provides useful tips on how to install R packages from different sources.\nR Workflow"
+  },
+  {
+    "objectID": "R.html#getting-started-with-r",
+    "href": "R.html#getting-started-with-r",
+    "title": "R Resources",
+    "section": "",
+    "text": "R for Data Science by Garrett Grolemund and Hadley Wickham.\nModern R with the tidyverse by Bruno Rodrigues. Chapter 2 provides a detail discussion on R data objects.\nBrendan R. E. Ansell Introduction to R - tidyverse\nThe Comprehensive Guide to Installing R Packages from CRAN, Bioconductor, GitHub and Co.. This article provides useful tips on how to install R packages from different sources.\nR Workflow"
+  },
+  {
+    "objectID": "R.html#blog-post",
+    "href": "R.html#blog-post",
+    "title": "R Resources",
+    "section": "Blog post",
+    "text": "Blog post\n\nR Workflow from Statistical Thinking."
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#motivation-of-visual-analytics",
+    "href": "lesson/Epilogue/The_Epilogue.html#motivation-of-visual-analytics",
+    "title": "The Epilogue",
+    "section": "Motivation of Visual Analytics",
+    "text": "Motivation of Visual Analytics\n\nThe World is full of charts that lie!\n\nWe need to get smarter about visual information"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#motivation-of-visual-analytics-1",
+    "href": "lesson/Epilogue/The_Epilogue.html#motivation-of-visual-analytics-1",
+    "title": "The Epilogue",
+    "section": "Motivation of Visual Analytics",
+    "text": "Motivation of Visual Analytics\n\nIs there a place for Visual Analytics in knowledge discovery?"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#what-is-visual-analytics",
+    "href": "lesson/Epilogue/The_Epilogue.html#what-is-visual-analytics",
+    "title": "The Epilogue",
+    "section": "What is Visual Analytics?",
+    "text": "What is Visual Analytics?\n\nVisual Analytics must be Reprducible\n\nReference: Ten Simple Rules for Reproducible Computational Research"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nData Visualization: Clarity or Aesthetics?"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-1",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-1",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nAvoiding junk charts"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-2",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-2",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nAvoiding junk charts"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-3",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-3",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nAvoiding junk charts"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-4",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-4",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nAvoiding junk charts"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-5",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-5",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nAvoiding junk charts"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-6",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-6",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nAvoiding junk charts"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-7",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-7",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nAvoiding junk charts"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-8",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-8",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nShow the world the good visual design priciples"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-9",
+    "href": "lesson/Epilogue/The_Epilogue.html#a-gentle-reminder-9",
+    "title": "The Epilogue",
+    "section": "A Gentle Reminder",
+    "text": "A Gentle Reminder\n\nShow the world the good visual design priciples"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster",
+    "href": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster",
+    "title": "The Epilogue",
+    "section": "The bumper ride of R rollercoaster",
+    "text": "The bumper ride of R rollercoaster"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-1",
+    "href": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-1",
+    "title": "The Epilogue",
+    "section": "The bumper ride of R rollercoaster",
+    "text": "The bumper ride of R rollercoaster"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-2",
+    "href": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-2",
+    "title": "The Epilogue",
+    "section": "The bumper ride of R rollercoaster",
+    "text": "The bumper ride of R rollercoaster"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-3",
+    "href": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-3",
+    "title": "The Epilogue",
+    "section": "The bumper ride of R rollercoaster",
+    "text": "The bumper ride of R rollercoaster"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-4",
+    "href": "lesson/Epilogue/The_Epilogue.html#the-bumper-ride-of-r-rollercoaster-4",
+    "title": "The Epilogue",
+    "section": "The bumper ride of R rollercoaster",
+    "text": "The bumper ride of R rollercoaster"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#time-to-say-goodbye",
+    "href": "lesson/Epilogue/The_Epilogue.html#time-to-say-goodbye",
+    "title": "The Epilogue",
+    "section": "Time to Say Goodbye",
+    "text": "Time to Say Goodbye\n\n\nLet’s Build a Better World with Visual Analytics"
+  },
+  {
+    "objectID": "lesson/Epilogue/The_Epilogue.html#things-end-but-memories-last-forever",
+    "href": "lesson/Epilogue/The_Epilogue.html#things-end-but-memories-last-forever",
+    "title": "The Epilogue",
+    "section": "Things end but memories last forever!",
+    "text": "Things end but memories last forever!"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "",
+    "text": "A new output format for easily creating dashboards from .qmd files. They make it easy to create interactive dashboards using Python, R, Julia, and Observable:\n\nPublish a group of related data visualizations as a dashboard. Use a wide variety of components including Plotly, Leaflet, Jupyter Widgets, htmlwidgets; static graphics (Matplotlib, Seaborn, ggplot2, etc.); tabular data; value boxes; and text annotations.\nFlexible and easy to specify row and column-based Layouts. Components are intelligently re-sized to fill the browser and adapted for display on mobile devices.\nAuthor using any notebook editor (JupyterLab, etc.) or in plain text markdown with any text editor (VS Code, RStudio, Neovim, etc.)\nDashboards can be deployed as static web pages (no special server required) or you can optionally integrate a backend Shiny Server for enhanced interactivity.\n\n\n\n\nFor live demo, click on this link.\n\n\n\n\nFor live demo, click on this link.\n\n\n\n\nFor live demo, click on this link."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#example-1-mynorfolk-requests",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#example-1-mynorfolk-requests",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "",
+    "text": "For live demo, click on this link."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#example-2-labor-and-delivery-dashboard",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#example-2-labor-and-delivery-dashboard",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "",
+    "text": "For live demo, click on this link."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#example-3",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#example-3",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "",
+    "text": "For live demo, click on this link."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#navigation-bar-and-pages",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#navigation-bar-and-pages",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Navigation Bar and Pages",
+    "text": "Navigation Bar and Pages"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#sidebars-page-level",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#sidebars-page-level",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Sidebars: Page Level",
+    "text": "Sidebars: Page Level"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#sidebars-global",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#sidebars-global",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Sidebars: Global",
+    "text": "Sidebars: Global"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#layout-rows",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#layout-rows",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Layout: Rows",
+    "text": "Layout: Rows"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#layout-columns",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#layout-columns",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Layout: Columns",
+    "text": "Layout: Columns"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#tabset",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#tabset",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Tabset",
+    "text": "Tabset"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#plots",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#plots",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Plots",
+    "text": "Plots\nEach code chunk makes a card, and can take a title"
+  },
+  {
+    "objectID": "R4Vis.html",
+    "href": "R4Vis.html",
+    "title": "R for Visual Analytics",
+    "section": "",
+    "text": "ggplot2\nggplot2 – The R graph Gallery\nIntroduction to R Graphics with ggplot2\nggplot2 - A Short Tutorial\nggplot2 介紹\n\n\n\n\n\nHadley Wickham, Danielle Navarro, and Thomas Lin Pedersen (2020)ggplot2: Elegant Graphics for Data Analysis (3rd Edition, online version).\nKieran Healy (2019) Data Visualization: A practical introduction. This is the online version.\nAravind Hebbali (2020) Data Visualization with ggplot2\nWinston Chang (2020) R Graphics Cookbook (2nd edition, online version)\nRob Kabacoff (2020) Modern Data Visualization with R\nZuguang Gu Circular Visualization in R. Last visit: 27/12/2020.\nZach Bogart & Joyce Robbins (2020) Exploratory Data Analysis & Visualization\nBBC Visual and Data Journalism cookbook for R graphics\nNordmann, E., McAleer, P., Toivo, W., Paterson, H. & DeBruine, L. Data visualisation using R, for researchers who don’t use R\n\n\n\n\n\nHow to make any plot in ggplot2?\nThe Complete ggplot2 Tutorial - Part1 | Introduction To ggplot2 (Full R code)\nThe Complete ggplot2 Tutorial - Part 2 | How To Customize ggplot2 (Full R code)\nTop 50 ggplot2 Visualizations - The Master List (With Full R Code)\nggplot2 Quickref\nData visualization with ggplot2\nggplot Wizardary\n\n\n\n\n\nggplot2 workshop part 1\nggplot2 workshop part 2\nMake Beautiful Graphs in R: 5 Quick Ways to Improve ggplot2 Graphs\nOutlier 2021—ggplot wizardy: my favorite tricks and secrets for beautiful plots in R by Cédric Scherer\n\n\n\n\n\nggVis\nggmap\nggtern, an extension to ggplot2 specifically for the plotting of ternary diagrams.\nggExtra, a collection of functions and layers to enhance ggplot2. The main function is ggMarginal, which can be used to add marginal histograms/boxplots/density plots to ggplot2 scatterplots.\nggthemes, some extra themes, geoms, and scales for ‘ggplot2’. Provides ‘ggplot2’ themes and scales that replicate the look of plots by Edward Tufte, Stephen Few, ‘Fivethirtyeight’, ‘The Economist’, ‘Stata’, ‘Excel’, and ‘The Wall Street Journal’, among others. Provides ‘geoms’ for Tufte’s box plot and range frame.\nGGally extends ‘ggplot2’ by adding several functions to reduce the complexity of combining geometric objects with transformed data. Some of these functions include a pairwise plot matrix, a two group pairwise plot matrix, a parallel coordinates plot, a survival plot, and several functions to plot networks.\nsjPlot:Data Visualization for Statistics in Social Science\nggstatsplot is an extension of ggplot2 package for creating graphics with details from statistical tests included in the plots themselves and targeted primarily at behavioral sciences community to provide a one-line code to produce information-rich plots.\nggside allows the user to add graphical information about one of the main panel’s axis. This is particularly useful for metadata for discrete axis, or summary graphics on a continuous axis such as a boxplot or a density distribution. These vignette and article provide useful introduction.\nPatchwork is a package designed to make plot composition in R extremely simple and powerful. It is mainly intended for users of ggplot2 and goes to great lengths to make sure ggplots are properly aligned no matter the complexity of your composition. The Getting Started page explains the main features of the package.\ngganimate extends the grammar of graphics as implemented by ggplot2 to include the description of animation. It does this by providing a range of new grammar classes that can be added to the plot object in order to customise how it should change with time.\nggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty. It is designed for both frequentist and [https://mjskay.github.io/ggdist/articles/freq-uncertainty-vis.html] visualization, taking the view that uncertainty visualization can be unified through the perspective of distribution visualization: for frequentist models, one visualizes confidence distributions or bootstrap distributions (see vignette(“freq-uncertainty-vis”)); for Bayesian models, one visualizes probability distributions (see the tidybayes package, which builds on top of ggdist)."
+  },
+  {
+    "objectID": "R4Vis.html#ggplot2",
+    "href": "R4Vis.html#ggplot2",
+    "title": "R for Visual Analytics",
+    "section": "",
+    "text": "ggplot2\nggplot2 – The R graph Gallery\nIntroduction to R Graphics with ggplot2\nggplot2 - A Short Tutorial\nggplot2 介紹\n\n\n\n\n\nHadley Wickham, Danielle Navarro, and Thomas Lin Pedersen (2020)ggplot2: Elegant Graphics for Data Analysis (3rd Edition, online version).\nKieran Healy (2019) Data Visualization: A practical introduction. This is the online version.\nAravind Hebbali (2020) Data Visualization with ggplot2\nWinston Chang (2020) R Graphics Cookbook (2nd edition, online version)\nRob Kabacoff (2020) Modern Data Visualization with R\nZuguang Gu Circular Visualization in R. Last visit: 27/12/2020.\nZach Bogart & Joyce Robbins (2020) Exploratory Data Analysis & Visualization\nBBC Visual and Data Journalism cookbook for R graphics\nNordmann, E., McAleer, P., Toivo, W., Paterson, H. & DeBruine, L. Data visualisation using R, for researchers who don’t use R\n\n\n\n\n\nHow to make any plot in ggplot2?\nThe Complete ggplot2 Tutorial - Part1 | Introduction To ggplot2 (Full R code)\nThe Complete ggplot2 Tutorial - Part 2 | How To Customize ggplot2 (Full R code)\nTop 50 ggplot2 Visualizations - The Master List (With Full R Code)\nggplot2 Quickref\nData visualization with ggplot2\nggplot Wizardary\n\n\n\n\n\nggplot2 workshop part 1\nggplot2 workshop part 2\nMake Beautiful Graphs in R: 5 Quick Ways to Improve ggplot2 Graphs\nOutlier 2021—ggplot wizardy: my favorite tricks and secrets for beautiful plots in R by Cédric Scherer\n\n\n\n\n\nggVis\nggmap\nggtern, an extension to ggplot2 specifically for the plotting of ternary diagrams.\nggExtra, a collection of functions and layers to enhance ggplot2. The main function is ggMarginal, which can be used to add marginal histograms/boxplots/density plots to ggplot2 scatterplots.\nggthemes, some extra themes, geoms, and scales for ‘ggplot2’. Provides ‘ggplot2’ themes and scales that replicate the look of plots by Edward Tufte, Stephen Few, ‘Fivethirtyeight’, ‘The Economist’, ‘Stata’, ‘Excel’, and ‘The Wall Street Journal’, among others. Provides ‘geoms’ for Tufte’s box plot and range frame.\nGGally extends ‘ggplot2’ by adding several functions to reduce the complexity of combining geometric objects with transformed data. Some of these functions include a pairwise plot matrix, a two group pairwise plot matrix, a parallel coordinates plot, a survival plot, and several functions to plot networks.\nsjPlot:Data Visualization for Statistics in Social Science\nggstatsplot is an extension of ggplot2 package for creating graphics with details from statistical tests included in the plots themselves and targeted primarily at behavioral sciences community to provide a one-line code to produce information-rich plots.\nggside allows the user to add graphical information about one of the main panel’s axis. This is particularly useful for metadata for discrete axis, or summary graphics on a continuous axis such as a boxplot or a density distribution. These vignette and article provide useful introduction.\nPatchwork is a package designed to make plot composition in R extremely simple and powerful. It is mainly intended for users of ggplot2 and goes to great lengths to make sure ggplots are properly aligned no matter the complexity of your composition. The Getting Started page explains the main features of the package.\ngganimate extends the grammar of graphics as implemented by ggplot2 to include the description of animation. It does this by providing a range of new grammar classes that can be added to the plot object in order to customise how it should change with time.\nggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty. It is designed for both frequentist and [https://mjskay.github.io/ggdist/articles/freq-uncertainty-vis.html] visualization, taking the view that uncertainty visualization can be unified through the perspective of distribution visualization: for frequentist models, one visualizes confidence distributions or bootstrap distributions (see vignette(“freq-uncertainty-vis”)); for Bayesian models, one visualizes probability distributions (see the tidybayes package, which builds on top of ggdist)."
+  },
+  {
+    "objectID": "R4Vis.html#interactive-data-visualisation-with-r",
+    "href": "R4Vis.html#interactive-data-visualisation-with-r",
+    "title": "R for Visual Analytics",
+    "section": "Interactive Data Visualisation with R",
+    "text": "Interactive Data Visualisation with R\n\nplotly R\n\nplotly: Create Interactive Web Graphics via ‘plotly.js’\nInteractive web-based data visualization with R, plotly, and shiny\nPlotly R Open Source Graphing Library\nGetting Started with Plotly and ggplot2\n\n\n\nggigraph\n\nggigraph lets R users to make ggplot interactive."
+  },
+  {
+    "objectID": "R4Vis.html#other-r-graphics-packages",
+    "href": "R4Vis.html#other-r-graphics-packages",
+    "title": "R for Visual Analytics",
+    "section": "Other R graphics packages",
+    "text": "Other R graphics packages\n\ncorrplot. A graphical display of a correlation matrix or general matrix. It also contains some algorithms to do matrix reordering. In addition, corrplot is good at details, including choosing color, text labels, color labels, layout, etc.\ncorrgram calculates correlation of variables and displays the results graphically. Included panel functions can display points, shading, ellipses, and correlation values with confidence intervals. [https://cran.r-project.org/web/packages/corrgram/index.html]\nvcd, Visualization techniques, data sets, summary and inference procedures aimed particularly at categorical data. Special emphasis is given to highly extensible grid graphics.\ntmap offers a flexible, layer-based, and easy to use approach to create thematic maps, such as choropleths and bubble maps."
+  },
+  {
+    "objectID": "Rt.html",
+    "href": "Rt.html",
+    "title": "R Tips & Tricks",
+    "section": "",
+    "text": "Importing multiple files into R"
+  },
+  {
+    "objectID": "git.html",
+    "href": "git.html",
+    "title": "Git and Github",
+    "section": "",
+    "text": "Happy Git and GitHub for the useR. Highly recommended to beginners."
+  },
+  {
+    "objectID": "git.html#book",
+    "href": "git.html#book",
+    "title": "Git and Github",
+    "section": "",
+    "text": "Happy Git and GitHub for the useR. Highly recommended to beginners."
+  },
+  {
+    "objectID": "git.html#gitgithub",
+    "href": "git.html#gitgithub",
+    "title": "Git and Github",
+    "section": "git/github",
+    "text": "git/github\n\ngithub doc\nGitHub and RStudio"
+  },
+  {
+    "objectID": "git.html#blog-post",
+    "href": "git.html#blog-post",
+    "title": "Git and Github",
+    "section": "Blog post",
+    "text": "Blog post\n\nGetting starting with git and GitHub using RStudio\ngit\nTransform a folder as git project synchronized on Github or Gitlab\nRecovering from common Git predicaments\ngit in RStudio\nSolving git(GitHub) token issue"
   }
 ]
