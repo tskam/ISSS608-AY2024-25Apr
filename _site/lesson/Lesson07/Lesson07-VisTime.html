@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.42">
+
+  <meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems (Practice)">
+  <meta name="dcterms.date" content="2025-04-13">
+  <title>ISSS608 – Lesson 7: Visualising and Analysing Time-Oriented Data</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Lesson 7: Visualising and Analysing Time-Oriented Data</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems (Practice) 
+</div>
+        <p class="quarto-title-affiliation">
+            School of Computing and Information Systems,<br>Singapore Management University
+          </p>
+    </div>
+</div>
+
+  <p class="date">13 Apr 2025</p>
+</section>
+<section id="what-will-you-learn-from-this-lesson" class="slide level2">
+<h2>What will you learn from this lesson?</h2>
+<div style="font-size: 1.2em">
+<ul>
+<li><p>Characteristics of time-series data</p></li>
+<li><p>Classic ways of graphing time</p></li>
+<li><p>Time-series patterns</p></li>
+<li><p>Time-series data visualization</p></li>
+<li><p>Interactive techniques for time-series data visualisation</p></li>
+</ul>
+</div>
+<aside class="notes">
+<p>In this lesson, I am going to share with you methods and best practice for visualising and analysing time-series data. It is organised into five main sections. First, we will examine different format of time series data. This is followed by a review of selected inspiring data visualisation for revealing time series patterns. In section three, we will examine different time-series patterns graphically. In section 4, I will introduce selected not so commonly used time-series data visualisation techniques. Lastly, in section 5, we will examine how interactivity and animation can be used to enhance visual time-series data discovery.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="characteristics-of-time-series-data" class="slide level2">
+<h2>Characteristics of time-series data</h2>
+<h3 id="a-typical-time-series-data-table">A typical time-series data table</h3>
+
+<img data-src="img/image5-1.jpg" class="r-stretch"><aside class="notes">
+<p>The data table shows a typical time-series data. The first column contains the time series values in calender month and year. It is important to note that the values must not be in character data type. The next four columns are called time-series variables. They can be categorical or numeric data type.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="characteristics-of-time-series-data-1" class="slide level2">
+<h2>Characteristics of time-series data</h2>
+<h3 id="not-so-friendly-time-series-data">Not so friendly time-series data</h3>
+
+<img data-src="img/image5-2.jpg" class="r-stretch"><aside class="notes">
+<p>The data table in this slide is an example of time-series data which was not organised in machine understandable time-series manner. As shown on the slide earlier, a machine understandable time-series data must be organised in rows and columns whereby of of the column must contain the date/time values. In this example, the data need to be reformatted before they can be visualised.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="characteristics-of-time-series-data-2" class="slide level2">
+<h2>Characteristics of time-series data</h2>
+<h3 id="not-so-friendly-time-series-data-1">Not so friendly time-series data</h3>
+
+<img data-src="img/image5-3.jpg" class="r-stretch"><aside class="notes">
+<p>This slide shows a typical reporting table with many formatting features such as column sub-total, row sub-total, spacing, rows separators etc. Again, this table need to be tidied before it can be used to build tiem-series visualisation effectively.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="characteristics-of-time-series-data-3" class="slide level2">
+<h2>Characteristics of time-series data</h2>
+<h3 id="not-so-friendly-time-series-data-2">Not so friendly time-series data</h3>
+
+<img data-src="img/image5-4.jpg" class="r-stretch"><aside class="notes">
+<p>The table on the slide is another good example of not so friendly time-series data set. As you can see, the temporal field was splitted into three columns and the Year and Day fields are in numeric and Month field is in character. Also note that many rows for Year and Month fields were empty. In view of this, this data also need to be tidied before it can be used to build data visualisation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-short-visual-history-of-time-series-graphs" class="slide level2">
+<h2>A short visual history of time-series graphs</h2>
+<h3 id="playfairs-commercial-and-political-atlas-1786">Playfair’s Commercial and Political Atlas (1786)</h3>
+
+<img data-src="img/image5-5.jpg" class="r-stretch"><div style="font-size: 0.6em">
+<p>Reference: William Playfair’s <a href="https://en.wikipedia.org/wiki/William_Playfair">trade-balance time-series chart</a>, Commercial and Political Atlas, 1786.</p>
+</div>
+<aside class="notes">
+<p>In this section, I am going share with you five very well designed time-series data visualisation and hope they inspired you. The first data visualisation is Playfair’s Commercial and Political Atlas (1786). This is not a typical time-series line graph. As you can see, the author put in conscious effort to shade the space between the import and export curve in order to reveal time interval with trade deficit and time interval with trade surplus.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-short-visual-history-of-time-series-graphs-1" class="slide level2">
+<h2>A short visual history of time-series graphs</h2>
+<h3 id="playfairs-chewing-at-one-view-chart-1821">Playfair’s Chewing at One View Chart (1821)</h3>
+
+<img data-src="img/image5-6.jpg" class="r-stretch"><div style="font-size: 0.6em">
+<p>Reference: William Playfair’s <a href="https://wam.fandom.com/wiki/William_Playfair%27s_Price_of_Wheat">Price of Wheat</a></p>
+</div>
+<aside class="notes">
+<p>This data visualisation is also a creation of William Playfair. It is make up of two graphical methods namely bar chart and line graph. Bar chart was used to show the price trend of the quarter of wheat and line graph was used to reveal wage trends of labour by the week.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-short-visual-history-of-time-series-graphs-2" class="slide level2">
+<h2>A short visual history of time-series graphs</h2>
+<h3 id="bump-chart-shows-rank-of-the-most-populous-cities-at-each-census-1790-1890">Bump Chart shows rank of the most populous cities at each census: 1790-1890</h3>
+
+<img data-src="img/image5-7.jpg" width="800" class="r-stretch"><ul>
+<li>An interactive version <a href="http://vallandingham.me/census_bump/">here</a></li>
+</ul>
+<aside class="notes">
+<p>This data visualisation shows rank of the most populous cities at each census 1790-1890. Instead of using lines, this data visualisation using ellipses. The more recent times were on the left of the data visualisation and the earlier times were on the right. Note that the original data visualisation was static.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-short-visual-history-of-time-series-graphs-3" class="slide level2">
+<h2>A short visual history of time-series graphs</h2>
+<h3 id="multiple-charts-showing-records-of-the-weather-in-new-york-city-for-december-1912.">Multiple charts showing records of the Weather in New York City for December, 1912.</h3>
+
+<img data-src="img/image5-8.jpg" class="r-stretch"><aside class="notes">
+<p>This data visualisation shows record of the Weather in New York City for December, 1912. The bold line indicates temperature in degrees Fahrenheit. The light solid line shows wind velocity in miles per hour. The dotted line depicts relative humidity in percentage from readings taken at 8 a.m. and 8 p.m. Arrows portray the prevailing direction of the wind. Initials at the base of the chart show the weather conditions as follows: S, clear; PC, partly cloudy; C, cloudy; R, rain; Sn, snow.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="time-series-graph-that-change-public-understading" class="slide level2">
+<h2>Time-series graph that change public understading</h2>
+<h3 id="the-hockey-stick-chart">The Hockey Stick Chart</h3>
+
+<img data-src="img/image5-45.jpg" class="r-stretch"><div style="font-size: 0.6em">
+<p>Reference: Michael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/1999GL900070">“Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”</a>. <em>Geophysical Research Letters</em>, Vol. 26, No.&nbsp;pp.&nbsp;759-762.</p>
+</div>
+<aside class="notes">
+<p>Hockey stick graphs present the global or hemispherical mean temperature record of the past 500 to 2000 years as shown by quantitative climate reconstructions based on climate proxy records. These reconstructions have consistently shown a slow long term cooling trend changing into relatively rapid warming in the 20th century, with the instrumental temperature record by 2000 exceeding earlier temperatures. It is a good example of how data visualisation can be used to create global awareness of rapid warming in the 20th century.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="time-series-data-patterns" class="slide level2">
+<h2>Time-series data patterns</h2>
+<div style="font-size: 1.2em">
+<ul>
+<li><p>Trend</p></li>
+<li><p>Variability</p></li>
+<li><p>Rate of change</p></li>
+<li><p>Co-variation</p></li>
+<li><p>Cycles</p></li>
+<li><p>Exceptions</p></li>
+</ul>
+</div>
+<aside class="notes">
+<p>In this section, I am going share with you time-series characteristics reveal visually.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<h3 id="time-series-patterns-trend">Time-series Patterns: Trend</h3>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>The overall or general direction of change in a series of time-series values is called the trend.</li>
+</ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="img/image5-10.jpg"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="time-series-patterns-trend-1">Time-series Patterns: Trend</h3>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>An upward trend.</li>
+</ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="img/image5-11.jpg"></p>
+</div></div>
+<aside class="notes">
+<p>This line graph reveals an upward trend of monthly visitor arrivals from Vietnam between 2007-2018.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<h3 id="time-series-patterns-trend-2">Time-series Patterns: Trend</h3>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>A mixed trends.</li>
+</ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="img/image5-12.jpg"></p>
+</div></div>
+<aside class="notes">
+<p>This line graph, on the other, reveals a mixed of upward and plateau trends of monthly visitor arrivals from Malaysia between 2007-2018.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<h3 id="time-series-patterns-variability">Time-series Patterns: Variability</h3>
+<ul>
+<li>The average degree of change from one point of time to the next throughout a particular span of time.</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="img/image5-13.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5-14.jpg"></p>
+</div></div>
+<aside class="notes">
+<p>In order to show variability, we should avoid using a highly aggregated time interval like the line graph shown on the left of the slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<h3 id="time-series-patterns-cycles">Time-series Patterns: Cycles</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Cycles are patterns that repeat at regular intervals.</p></li>
+<li><p>From the line graph, we can see that visitor arrivals from United Kingdom reach its peak on January and lowest on May every year.</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5-15.jpg"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="time-series-patterns-rate-of-change">Time-series Patterns: Rate of change</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>The percentage difference between one value to the next value.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-16.jpg" width="800"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="time-series-patterns-exceptions">Time-series Patterns: Exceptions</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Values that fall outside the norm.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-18.jpg"></p>
+<p>This line graph show the significant impact of SAR on the visitor arrivals pattern to Singapore.</p>
+</div></div>
+</section>
+<section id="line-graph-design-tips" class="slide level2">
+<h2>Line graph design tips</h2>
+<h3 id="not-all-line-graphs-should-start-at-zero">Not all line graphs should start at zero!</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="img/image5-42a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5-42b.jpg"></p>
+</div></div>
+<aside class="notes">
+<p>In this section, I am going to share with you some tips when we want to visualise time-series data. This slide shows that by keeping the y-axis starts at zero might not be able to reveal time-series patterns or trends effectivelly. Hence, it is important to customise the y-axis in search a way that it can reveal the time-series patterns effectively like the line graph on the right of the slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="line-graph-design-tips-1" class="slide level2">
+<h2>Line graph design tips</h2>
+<h3 id="multiple-lines-in-a-single-graph-is-less-effective-than-trellis-line-graph">Multiple lines in a single graph is less effective than trellis line graph</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="img/image5-43a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5-43b.jpg"></p>
+</div></div>
+<aside class="notes">
+<p>In order to support effective comparison, sometime trellis line graphs are more functional then a composite line graph as shown on the right of the slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="line-graph-design-tips-2" class="slide level2">
+<h2>Line graph design tips</h2>
+<h3 id="not-all-time-series-graphs-have-time-on-the-x-axis">Not all time-series graphs have time on the x-axis</h3>
+
+<img data-src="img/image5-44.jpg" class="r-stretch"><div style="font-size: 0.6em">
+<p>Source: <a href="https://ourworldindata.org/growth-and-structural-transformation-are-emerging-economies-industrializing-too-quickly">Are emerging economies deindustrializing too quickly?</a>.</p>
+</div>
+<aside class="notes">
+<p>The <strong>connected scatter plot</strong> below reveals changes over time by joining each time event points on the scatter plot. The historical trail can be a effective alternative to animation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="line-graph-design-tips-3" class="slide level2">
+<h2>Line graph design tips</h2>
+<h3 id="label-line-graph-instead-of-using-legend">Label line graph instead of using legend</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="img/image5-41a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5-41b.jpg"></p>
+</div></div>
+<aside class="notes">
+<p>When ever possible, it is more effective to label on the line directly as shown on the line graph on the right instead of using legend.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="line-graph-design-tips-4" class="slide level2">
+<h2>Line graph design tips</h2>
+<ul>
+<li>In order to support comparison over time effectively, reference line should be used.</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="line-chart-without-reference-line">Line chart without reference line</h3>
+<p><img data-src="img/image5-19.jpg"></p>
+</div><div class="column" style="width:50%;">
+<h3 id="line-chart-with-reference-line">Line chart with reference line</h3>
+<p><img data-src="img/image5-20.jpg"></p>
+</div></div>
+</section>
+<section id="line-graph-design-tips-5" class="slide level2">
+<h2>Line graph design tips</h2>
+<h3 id="line-chart-with-reference-band">Line chart with reference band</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>The reference used don’t have to confine a single line. A confidence interval or quantile range can be used too.</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-21.jpg" width="850"></p>
+</div></div>
+</section>
+<section id="beyond-line-graph" class="slide level2">
+<h2>Beyond Line Graph</h2>
+<h3 id="control-chart-an-analytical-line-chart">Control Chart: An analytical line chart</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Control charts, also known as Shewhart charts (after Walter A. Shewhart) or process-behavior charts. They are a statistical process control tool used to determine if a manufacturing or business process is in a state of control. Beside the average line, there are two additional lines namely the upper control limit (UCL) and lower control limit (LCL). Any data points located beyond UCL or LCL will be flag out as anomalies.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5-22.jpg"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="control-chart-in-real-world">Control chart in real world</h3>
+
+<img data-src="img/image5-23.jpg" class="r-stretch"><aside class="notes">
+<p>In this use-case, control chart was used to display numbers of views of a digital news platform. Notice that two sets of reference lines were used. One for 5 and 95 percentile and upper and lower quantile.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="challenge-i-visualising-change-between-two-points-in-time" class="slide level2">
+<h2>Challenge I: Visualising Change between Two Points in Time</h2>
+<h3 id="bar-chart-method">Bar chart method</h3>
+
+<img data-src="img/image5-27.jpg" class="r-stretch"></section>
+<section id="slopegraphs-come-to-rescue" class="slide level2">
+<h2>Slopegraphs come to rescue!</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Slopegraphs compare changes usually over time for a list of nouns located on an ordinal or interval scale.</p>
+<div style="font-size: 0.6em">
+<p>Reference: <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003nk">Slopegraphs for comparing gradients: Slopegraph theory and practice</a></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-28.jpg" width="750"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="learning-from-the-master">Learning from the Master</h3>
+<p>Visit <a href="https://public.tableau.com/views/Slopegraphs/Slopegraphs?%3Aembed=y&amp;%3AshowVizHome=no&amp;%3Adisplay_count=y&amp;%3Adisplay_static_image=y&amp;%3AbootstrapWhenNotified=true&amp;%3Alanguage=en&amp;%3Amobile=true&amp;:embed=y&amp;:showVizHome=n&amp;:apiID=host0">Tableau Public</a> to try out the interactive version and visit this <a href="https://dataremixed.com/2013/12/slopegraphs-in-tableau/">link</a> to learn more.</p>
+
+<img data-src="img/image5-28b.jpg" class="r-stretch"></section>
+<section id="challenge-ii-visualising-cyclical-patterns" class="slide level2">
+<h2>Challenge II: Visualising cyclical patterns</h2>
+<h3 id="classic-line-graph-method">Classic line graph method</h3>
+
+<img data-src="img/image5-29.jpg" class="r-stretch"></section>
+<section id="challenge-ii-visualising-cyclical-patterns-1" class="slide level2">
+<h2>Challenge II: Visualising cyclical patterns</h2>
+<h3 id="solution-cycle-plot">Solution: Cycle plot</h3>
+
+<img data-src="img/image5-30.jpg" class="r-stretch"><div style="font-size: 0.6em">
+<p>Reference: <a href="http://www.perceptualedge.com/articles/guests/intro_to_cycle_plots.pdf">Intro to Cycle Plot</a></p>
+</div>
+</section>
+<section id="challenge-ii-visualising-cyclical-patterns-2" class="slide level2">
+<h2>Challenge II: Visualising cyclical patterns</h2>
+<h3 id="solution-sunburst-diagram-method">Solution: Sunburst diagram method</h3>
+
+<img data-src="img/image5-31.jpg" class="r-stretch"></section>
+<section id="challenge-iii-massive-time-series-data" class="slide level2">
+<h2>Challenge III: Massive Time-series Data</h2>
+<h3 id="classic-line-graph-method-1">Classic line graph method</h3>
+
+<img data-src="img/image5-32.jpg" class="r-stretch"><aside class="notes">
+<p>Line graph will not be effective to reveal high number of time series lines (for example 50)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="challenge-iii-massive-time-series-data-1" class="slide level2">
+<h2>Challenge III: Massive Time-series Data</h2>
+<h3 id="solution-horizon-graph">Solution: Horizon graph</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>By dividing an area chart into consecutive layers, horizon graphs present time-series data in a compact space while preserving resolution.</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-33.jpg"></p>
+<div style="font-size: 0.6em">
+<p>Reference: <a href="https://www.perceptualedge.com/articles/visual_business_intelligence/time_on_the_horizon.pdf">Time on the Horizon</a></p>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="the-basic-construct-of-a-horizon-graph">The basic construct of a horizon graph</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Figure on the right shows the process of constructing an horizon graph.</p>
+<div style="font-size: 0.6em">
+<p>Reference: <a href="http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=3556C47AD33B1577060EEA3F409ECD32?doi=10.1.1.363.5396&amp;rep=rep1&amp;type=pdf">The Developmentof the Horizon Graph</a></p>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image5-34.jpg"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="horizon-graph-in-tableau">Horizon graph in Tableau</h3>
+
+<img data-src="img/image5-40.jpg" class="r-stretch"><div style="font-size: 0.6em">
+<p>Source: <a href="https://public.tableau.com/en-us/gallery/unemployment-horizon-chart">Unemployment Horizon Chart</a>.</p>
+</div>
+<p>This <a href="https://www.tableau.com/learn/tutorials/on-demand/horizon-charts">video</a> provides step-by-step explanation on how to create a horizon graph using Tableau.</p>
+</section>
+<section id="challenge-iv-distribution-over-time" class="slide level2">
+<h2>Challenge IV: Distribution over time</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="line-graph-method">Line graph method</h3>
+<p><img data-src="img/image5-35.jpg"></p>
+</div><div class="column" style="width:50%;">
+<h3 id="boxplot-method">Boxplot method</h3>
+<p><img data-src="img/image5-36.jpg"></p>
+</div></div>
+</section>
+<section id="alternative-time-series-data-visualisation-methods-calendar-heatmap" class="slide level2">
+<h2>Alternative Time-series Data Visualisation methods: Calendar Heatmap</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>It is a 2-dimensional calendar view that shows a value over time through color coding it, often with warmer colors indicating higher values (hence heatmap).</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-38.jpg"></p>
+<div style="font-size: 0.6em">
+<p>Source: <a href="http://mbostock.github.io/d3/talk/20111018/calendar.html">Calender heatmap</a></p>
+</div>
+</div></div>
+</section>
+<section id="alternative-time-series-data-visualisation-methods" class="slide level2">
+<h2>Alternative Time-series Data Visualisation methods</h2>
+<h3 id="stream-graph-also-know-as-themeriver">Stream Graph (also know as ThemeRiver)</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>A streamgraph, or stream graph, is a type of stacked area graph which is displaced around a central axis, resulting in a flowing, organic shape.</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-37.jpg"></p>
+<div style="font-size: 0.6em">
+<p>Reference: <a href="https://datavizcatalogue.com/methods/stream_graph.html">Steam graph</a></p>
+</div>
+</div></div>
+</section>
+<section id="visualising-change-over-time" class="slide level2">
+<h2>Visualising Change Over Time</h2>
+<h3 id="animated-bubble-plot-or-motion-chart">Animated bubble plot (or motion chart)</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>A motion chart displays changes over time by showing movement within the two-dimensional space and changes in the size and color of the bubbles.</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image5-39.jpg"></p>
+</div></div>
+</section>
+<section id="references" class="slide level2">
+<h2>References</h2>
+<p>Claus. O. Wilke (2019) <strong>Fundamentals of Data Visualisation</strong>, O’Reilly. USA. <a href="https://clauswilke.com/dataviz/time-series.html">Chapter 13 Visualizing time series and other functions of an independent variable</a> and <a href="https://clauswilke.com/dataviz/visualizing-trends.html">Chapter 14 Visualizing trends</a></p>
+<p><a href="http://www.perceptualedge.com/articles/guests/intro_to_cycle_plots.pdf">Introduction to Cycle Plots</a></p>
+<p><a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003nk">Slopegraphs for comparing gradients: Slopegraph theory and practice</a></p>
+<p><a href="http://www.stonesc.com/Vis08_Workshop/DVD/Reijner_submission.pdf">The Development of the Horizon Graph</a></p>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+
+        height: 900,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
