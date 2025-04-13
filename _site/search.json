@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ISSS608 AY2024-25 April Term",
+    "section": "",
+    "text": "Welcome to the home page for ISSS608 Visual Analytics and Applications. All course materials will be posted on this site.\nInstructor: Dr. Kam Tin Seong, Associate Professor of Information Systems (Practice)\nLesson (day/time): Saturday 12:30pm to 3:45pm\nVenue: SCIS 2 Seminar Room 5-2\nConsultation booking link.\nVirtual Meeting Room: Zoom"
+  },
+  {
+    "objectID": "index.html#words-of-encouragement",
+    "href": "index.html#words-of-encouragement",
+    "title": "ISSS608 AY2024-25 April Term",
+    "section": "Words of Encouragement",
+    "text": "Words of Encouragement\nFor the next 10 weeks, your learning journey will be very bumpy, especially come to R programming\n\nLearning R can be difficult at first—it’s like learning a new language, just like Spanish, French, or Chinese. Hadley Wickham—the chief data scientist at RStudio and the author of some amazing R packages you’ll be using like ggplot2 — made this wise observation:\n\nIt’s easy when you start out programming to get really frustrated and think, “Oh it’s me, I’m really stupid,” or, “I’m not made out to program.” But, that is absolutely not the case. Everyone gets frustrated. I still get frustrated occasionally when writing R code. It’s just a natural part of programming. So, it happens to everyone and gets less and less over time. Don’t blame yourself. Just take a break, do something fun, and then come back and try again later.\n\nEven experienced programmers find themselves bashing their heads against seemingly intractable errors.\n\nIf you’re finding yourself taking way too long hitting your head against a wall and not understanding, take a break, talk to classmates, and don’t hesitate to approach me.\nThe students who have a bad time in this course are the ones who don’t work with one another to learn. We are a learning community, and we should help each other to learn.\nIf you understand something and someone is struggling with it, try and help them. If you are struggling, take a breath, and try to pinpoint what you are struggling with.\nOur goal is to be better programmers each day, not to be the perfect programmer. There’s no such thing as a perfect programmer. I’ve been learning new things almost every day.\nI promise you can succeed in this class as long as you are willing to learn, practice, be open minded and don’t give up easily."
+  },
+  {
+    "objectID": "index.html#other-important-information",
+    "href": "index.html#other-important-information",
+    "title": "ISSS608 AY2024-25 April Term",
+    "section": "Other Important Information",
+    "text": "Other Important Information\n\nAcademic Integrity:\nAll acts of academic dishonesty (including, but not limited to, plagiarism, cheating, fabrication, facilitation of acts of academic dishonesty by others, unauthorized possession of exam questions, or tampering with the academic work of other students) are serious offences. All work (whether oral or written) submitted for purposes of assessment must be the student’s own work. Penalties for violation of the policy range from zero marks for the component assessment to expulsion, depending on the nature of the offense. When in doubt, students should consult the instructors of the course. Details on the SMU Code of Academic Integrity may be accessed at http://www.smuscd.org/resources.html\n\n\nHandling of Course Materials:\nCourse materials obtained during your course of study at SMU are meant for personal use only, namely, for the purposes of studying and research. You are strictly not permitted to make copies of or print additional copies or distribute such copies of the course materials or any parts thereof, for commercial gain or exchange. For example, offering such materials on the Internet through CourseHero, Carousell and the like, is strictly prohibited.\nThe selling of these materials and/or any copies thereof are strictly prohibited under Singapore copyright laws. Printed materials and electronic materials are both protected by copyright laws. All students are subject to Singapore copyright laws and must strictly adhere to SMU’s procedures and requirements relating to copyright.\nPlease also note that for some materials, the publishers may specifically state that each copy is for the personal use of one individual only and no further reprographic reproduction is allowed, including for personal use. These restrictions are spelt out clearly on these specific sets of resources and students are required to adhere to these rules.\nStudents who infringe any of the aforesaid rules, laws and requirements shall be liable to disciplinary action by SMU. In addition, such students may also leave themselves open to suits by copyright owners who are entitled to take legal action against persons who infringe their copyright.\nWe strongly urge all students to respect the copyright laws and abide by SMU’s procedures and requirements relating to copyright.\n\n\nAccessibility and Accommodations:\nSMU strives to make learning experiences accessible for all. If you anticipate or experience physical or academic barriers due to disability, please let the instructor know immediately. You are also welcome to contact the university’s disability support team if you have questions or concerns about academic accommodations:included@smu.edu.sg\nPlease be aware that the accessible tables in our seminar room should remain available for students who require them. Emergency Preparedness for Teaching and Learning (EPTL): As part of emergency preparedness, Instructors may conduct lessons online via the WebEx platform during the term, to prepare students for online learning. During an actual emergency, students will be notified to access the WebEx platform for their online lessons. The class schedule will mirror the current face-to-face class timetable unless otherwise stated."
+  },
+  {
+    "objectID": "Syllabus.html",
+    "href": "Syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "In this competitive global environment, the ability to explore visual representation of business data interactively and to detect meaningful patterns, trends and exceptions from these data are increasingly becoming an important skill for data analysts and business practitioners. Drawing from research and practice on Data Visualisation, Human-Computer Interaction, Data Analytics, Data Mining and Usability Engineering, this course aims to share with you how visual analytics techniques can be used to interact with data from various sources and formats, explore relationship, ’‘’detect the expected and discover the unexpected’’’ without having to deal with complex statistical formulas and programming.\nThe goals of this course are:\n\nTo share with you the principles, best practices and methods of visual analytics\nTo provide you hands-on experiences in using commercial-off-the-shelf visual analytics software and programming tools to design visual analytics applications"
+  },
+  {
+    "objectID": "Syllabus.html#synopsis",
+    "href": "Syllabus.html#synopsis",
+    "title": "Syllabus",
+    "section": "",
+    "text": "In this competitive global environment, the ability to explore visual representation of business data interactively and to detect meaningful patterns, trends and exceptions from these data are increasingly becoming an important skill for data analysts and business practitioners. Drawing from research and practice on Data Visualisation, Human-Computer Interaction, Data Analytics, Data Mining and Usability Engineering, this course aims to share with you how visual analytics techniques can be used to interact with data from various sources and formats, explore relationship, ’‘’detect the expected and discover the unexpected’’’ without having to deal with complex statistical formulas and programming.\nThe goals of this course are:\n\nTo share with you the principles, best practices and methods of visual analytics\nTo provide you hands-on experiences in using commercial-off-the-shelf visual analytics software and programming tools to design visual analytics applications"
+  },
+  {
+    "objectID": "Syllabus.html#learning-objectives",
+    "href": "Syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nUpon successful completion of the course, students will be able to:\n\nUnderstand the basic concepts, theories and methodologies of visual analytics.\nAnalyse data using appropriate visual thinking and visual analytics techniques.\nPresent data using appropriate visual communication and graphical methods.\nDesign and implement cutting-edge visual analytics system for supporting decision making.\n\n\nCompetencies\n\nExplaining the concepts and principles of Visual Analytics.\nDescribing the differences between Visual Analytics, Data Visualisation, Statistical Graphs and Infographics.\nExplaining the basic concept of visual variables and applying these concepts and best practices in designing data-driven static graphs.\nExplaining interactive techniques and best practices, and applying these techniques in designing interactive data visualisation.\nUnderstanding the data characteristics of numerical data and building data visualisation by using appropriate visually driven univariate and bivariate data analytics methods.\nUnderstanding the characteristics of multivariate data and building data visualisation by using appropriate multivariate visualisation methods.\nUnderstanding the characteristics of time-series data and building data visualisation by using appropriate time-series visualisation methods.\nUnderstanding the characteristics of geographical data and building data visualisation by using appropriate geovisualisation methods.\nUnderstanding the characteristics of network data and building data visualisation by using appropriate network graph visualisation methods.\nExplain the concepts and principles of Information Dashboard.\nBuilding analytical dashboard by using Commercial off-the-shelf (COTS) software.\nDesigning visual analytics application programmatically by using free and open source software and packages."
+  },
+  {
+    "objectID": "Syllabus.html#basic-modules",
+    "href": "Syllabus.html#basic-modules",
+    "title": "Syllabus",
+    "section": "Basic Modules",
+    "text": "Basic Modules\nThis course comprises ten integrated components as shown below:"
+  },
+  {
+    "objectID": "Syllabus.html#prerequisites",
+    "href": "Syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThere are no prerequisites for the class. However, students taking this course must be willing to learn R programming framework. For students who are new to R, you are encouraged to consult the following resources prior to the lesson starts:\n\nGarrett Grolemund & Hadley Wickham (2020) R for Data Science 2e. This book is highly recommended to anybody who are interested to understand how to do ’‘’Modern Data Science’’’ by using ’‘’tidyverse’’’ principles and methods.\n\n王敏杰 数据科学中的 R 语言.\n\nYou don’t have to finish reading either one of them before lesson starts. Take your time, review them from time to time. You will find yourself learning something new each time you revisit the book."
+  },
+  {
+    "objectID": "Syllabus.html#grading-summary",
+    "href": "Syllabus.html#grading-summary",
+    "title": "Syllabus",
+    "section": "Grading Summary",
+    "text": "Grading Summary\nThe grading distribution of this course is as follows:\n\nPre-lesson Preparation and Hands-on Exercise 20%\nIn-class Exercise and Class Participation 20%\nTake-home Exercise 30%\nVisual Analytics Project 30%\n\nProject website 20%\nPoster 15%\nMinutes of Meeting 15%\nShinyApp 50%\n\n\nThere will be no mid-term test and final examination for this course."
+  },
+  {
+    "objectID": "Syllabus.html#course-components",
+    "href": "Syllabus.html#course-components",
+    "title": "Syllabus",
+    "section": "Course Components",
+    "text": "Course Components\nThe assessment for this course consists of four major components, namely:\n\nPre-lesson Preparation and Hands-on Exercise\nIn-class Exercise and Class Participation\nTake-home exercises\nVisual Analytics Project\n\n\nPre-lesson Preparation and Hands-on Exercise\nPre-lesson videos/slides and recommended readings exercises will be released one week before the weekly lesson starts. A strict requirement for each class meeting is to complete the assigned readings and video before coming to class. Students are encouraged to post question or issue encountered while viewing the video or reading the recommended articles on Piazza. Student sharing of insights from readings of assigned materials on Piazza will form a large part of the learning in this course. After learning the data visuaisation concepts and methods from lesson materials, the hands-on exercises aim to provide students the opportunity to gain hands-on experience on using selected R packages. It is important for students to complete the hands-on exercises before class. This is because the in-class discussion will extend the methods learned from the hands-on exercise to advanced modelling.\n\n\nIn-class Exercise and Class Participation\nDuring lesson, students are required to complete a series of in-class exercises using either Tableau or R. The in-class discussion will focus on how to critic existing data visualisation and how to deliver effective visual communication. In general, these exercises are guided interactively. By the end of each lesson, students are required to publish their in-class exercise on Tableau Public or Netlify.\n\n\nTake-home Exercise\nThe take-home exercise provides students with the opportunity to revise and practice the R packages and programming skills they had learned in class at home. It is a weekly exercise. Each exercise is designed to be completed within 3-5 hours. The exercise is not a repetition of the in-class exercise but it requires students to be innovative and creative in applying appropriate R packages to design enlightening and yet functional data visualisation for analytics purposes.\nStudents may work together to help one another with R programming issues and discuss the materials that constitute the take-home exercise. However, each student is required to prepare and submit the take-home exercise (including any computer work) on their own. Cheating is strictly prohibited. Cheating includes but not limited to: plagiarism and submission of work that is not the student’s\n\n\nVisual Analytics Project\nThe purpose of the project is to provide students first hand experience on building web-enabled visual analytics application by using Shiny. It aims to democratize data and analytics. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.\nFor more details please refer to Visual Analytics Project page."
+  },
+  {
+    "objectID": "Syllabus.html#core-readings",
+    "href": "Syllabus.html#core-readings",
+    "title": "Syllabus",
+    "section": "Core Readings",
+    "text": "Core Readings\nClaus. O. Wilke (2019) Fundamentals of Data Visualisation, O’Reilly. USA\nCairo, Alberto (2013) The Functional Art: An Introduction to Information Graphics and Visualization, New Riders, Berkeley, CA. This book is available at SMU eLibrary.\nFew, Stephen (2004) Show Me the Numbers: Designing Tables and Graphs to Enlighten, Analytics Press, Oakland, USA.\nFew, Stephen (2009) Now You See It: Simple Visualization Techniques for Quantitative Analysis, Analytics Press, Oakland, USA."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "lesson.html",
+    "href": "lesson.html",
+    "title": "Lesson Plan",
+    "section": "",
+    "text": "Lesson\nDate\nVenue\nTopic\nRemarks\n\n\n\n\n1\n19/4\nSOE/SCIS2 SR B5-2\nIntroduction to Visual Analytics\n\n\n\n2\n26/4\nSOE/SCIS2 SR B5-2\nDesigning Graphs to Enlighten\n\n\n\n3\n3/5\nSOE/SCIS2 SR B5-2\nInteractivity in Visual Analytics\n\n\n\n4\n10/5\nSOE/SCIS2 SR B5-2\nFundamentals of Visual Analytics\n\n\n\n5\n17/5\nSOE/SCIS2 SR B5-2\nVisual Multivariate Analysis\n\n\n\n6\n24/5\nSOE/SCIS2 SR B5-2\nDesigning Web-enabled Visual Analytics Application with Shiny\n\n\n\n7\n31/5\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Time-Oriented Data\n\n\n\n\n7/6\n\nPublic Holiday\n\n\n\n8\n14/6\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Geographic Data\n\n\n\n9\n21/6\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Network Data\n\n\n\n10\n28/6\nSOE/SCIS2 SR B5-2\nInformation Dashboard Design\n\n\n\n11\n5/7\nTBC\nPoster Presentation"
+  }
+]
