@@ -8,7 +8,7 @@ editor: visual
 ---
 
 | Lesson | Date | Venue | Topic | Remarks |
-|---------------|:--------------|---------------|:--------------|:--------------|
+|----|:---|----|:---|:---|
 | 1 | 19/4 | SOE/SCIS2 SR B5-2 | [Introduction to Visual Analytics](outline/Lesson01_outline.html) |  |
 | 2 | 26/4 | SOE/SCIS2 SR B5-2 | [Designing Graphs to Enlighten](outline/Lesson02_outline.html) |  |
 | 3 | 3/5 | SOE/SCIS2 SR B5-2 | [Interactivity in Visual Analytics](outline/Lesson03_outline.html) |  |
