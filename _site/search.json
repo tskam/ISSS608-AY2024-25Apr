@@ -915,5 +915,75 @@
     "title": "Lesson 4: Fundamentals of Visual Analytics",
     "section": "Variation and Its Discontents",
     "text": "Variation and Its Discontents\nRandom and unfair comparisons\n\n\nReference: Variation and its discontents\n\n\nCentral to quantitative data analysis is an understanding of variation. When we measure multiple occurrences of things to determine how and to what extent they differ, we’re examining variation. Some variation is random and some is caused by factors that we can attempt to identify and perhaps control. Random variation consists of differences in measures that occur routinely, without a specific cause. We should note random variation and move on, because nothing can be done about it. It is noise. It tells us nothing that requires a response.\nInstances of non-random variation are signals; they tell us something useful and provide opportunities for action. Signals that indicate poor performance—an undesirable state—can perhaps be reduced by controlling the causes. Signals that indicate an especially good state of affairs can provide useful insights and opportunities for improvement.\nDespite the significance of variation, relatively few people who work with data in most organizations understand it, especially the nature of randomness. This leads to false conclusions and poor decisions, especially when comparing measures of performance within a set of like entities (e.g., countries or companies). Most organizations spend too much time examining noise: the cacophony of random variation. Learning to distinguish signals from the noise is a fundamental skill of data analysis and performance monitoring. In this article, we’ll take a look at a special version of a scatter plot, called a funnel plot (not to be confused with a funnel chart), which is designed to filter out the noise and shine a spotlight on meaningful variation when we compare performance among entities in a group. Funnel plots address the fact that entities with relatively few occurrences of the thing being measured (a small sample), when compared to entities with many occurrences (a large sample), exhibit a greater degree of random variation, which must be taken into account when comparing them. A little later we’ll take a look at this problem and the solution that funnel plots provide in relation to healthcare data, but first let’s get more familiar with the effects of sample size on randomness.\nConsider the following display (a caterpillar plot) of actual healthcare data. Each data point represents a hospital, with 260 in total. The values are mortality rates following surgeries and the solid horizontal line represents the mean.\nThe sample sizes (number of surgeries reported by each hospital) on which this graph is based range from 7 to 3,151. For this reason it isn’t appropriate to rank the hospitals by mortality rate. The ranking suggests a relationship of relative performance that cannot be determined by the data.\nImagine that, unlike the anonymous version of the graph above, each data point is labeled with the hospital’s name. Can you hear the screams of surgeons from the hospitals with the highest mortality rates in the 4th quartile section of the chart? Can you see the puffed up egos of the surgeons who work at the hospitals with mortality rates of zero in the 1st quartile section? One of the hospitals with a zero mortality rate provided a sample of only seven surgeries.\nNote: You might realize, especially if you work with healthcare data similar to the example above, that a fair comparison of hospitals would require the data to be adjusted not just to account for varying sample sizes but also for varying levels of risk. Some surgeries are more risky than others and some patients, due to varying levels of illness, are more at risk than others. We’ll ignore this for now to keep the example simple."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#content",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#content",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Content",
+    "text": "Content\nWhat will you learn from this lesson?\n\nUnderstand the characteristics of multidimensional data\nVisual analytics techniques and tools for visualising and analysing multidimensional continuous data\nVisual analytics techniques and tools for visualising and analysing multidimensional categorical data\nSensing both categorical and continuous multidimensional data\nMultidimensional data analysis best practices\n\n\nIn this lesson, I am going to share with you a collection of visual multivariate analysis techniques."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visual-analytics-techniques",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#visual-analytics-techniques",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Visual analytics techniques",
+    "text": "Visual analytics techniques\n\nScatterplot Matrix\nTernary plot\nGlyphs\nParallel coordinates\nHeatmap\n\n\nThere are many Visual Multivariate Analysis technqiues. In this lesson, I am going share with you five popular one. They are:"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#introducing-multidimensional-data",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#introducing-multidimensional-data",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Introducing Multidimensional Data",
+    "text": "Introducing Multidimensional Data\nWine data set\nThere are 13 variables in this data set. 11 of them are in continuous data type, one in ordinal scale and one in nominal scale.\n\n\n\n\n\n\nfixed acidity\nvolatile acidity\ncitric acid\nresidual sugar\nchlorides\nfree sulfur dioxide\ntotal sulfur dioxide\ndensity\npH\nsulphates\nalcohol\nquality\ntype\n\n\n\n\n7.4\n0.70\n0.00\n1.9\n0.076\n11\n34\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n7.8\n0.88\n0.00\n2.6\n0.098\n25\n67\n0.9968\n3.20\n0.68\n9.8\n5\nred\n\n\n7.8\n0.76\n0.04\n2.3\n0.092\n15\n54\n0.9970\n3.26\n0.65\n9.8\n5\nred\n\n\n11.2\n0.28\n0.56\n1.9\n0.075\n17\n60\n0.9980\n3.16\n0.58\n9.8\n6\nred\n\n\n7.4\n0.70\n0.00\n1.9\n0.076\n11\n34\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n7.4\n0.66\n0.00\n1.8\n0.075\n13\n40\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n\n\n\n\n\n\n\nSource: UCI Machine Learning Repository\n\n\nTable in this slide shows a typical multivariate data sets. This is the popular wine quality data from UCI Machine Learning Repository. It consists of 13 variables in this data set. The first 11 variables are in continuous data type. The quality and type variables are in ordinal scale and nominal scale respectively."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#scatterplot-matrix",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#scatterplot-matrix",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Scatterplot Matrix",
+    "text": "Scatterplot Matrix\n\n\n\nScatterplot matrix (also known as correlation matrix) is a graphical method used to reveal the relationship between multiple variables pairwisely.\n\n\n\n\n\nEach black dot in the scatterplot matrix represents an observation in the data table."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#correlogram",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#correlogram",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Correlogram",
+    "text": "Correlogram\n\n\n\nCorrelogram uses visual geometrics such as ellipse, circle, square, and bars to replace the scatterplot in correlation matrix.\nIt is very useful to reveal pair-relationships between variables in a large correlation matrix.\nIn this plot, correlation coefficients is colored according to the value.\n\n\n\n\n\nFor positive correlation, the colour intensity change from light blue to dark blue when the correlation coefficient values increases from 0 to 1. For negative correlation, the colour intensity change from light red to dark red when the correlation coefficient values increase from 0 to -1. Besides colour, the shape and direction of the ellipse also used to map the correlation coefficient. For example, the direction of the ellipses indicate positive or negative correlation and thin ellipses are shown paired variables with strong linear correlation."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#beyond-visualising-variables-pairwisely",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#beyond-visualising-variables-pairwisely",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Beyond Visualising Variables Pairwisely",
+    "text": "Beyond Visualising Variables Pairwisely\nThe data"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#ternary-plot",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#ternary-plot",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Ternary Plot",
+    "text": "Ternary Plot\n\n\n\nA ternary plot (also known as ternary graph, triangle plot, simplex plot, Gibbs triangle or de Finetti diagram) is a barycentric plot on three variables which sum to a constant, usually in percentage.\nIt graphically depicts the ratios of the three variables as positions in an equilateral triangle."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data-heatmap-method",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data-heatmap-method",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Visualising and Analysing Multivariate Data: Heatmap method",
+    "text": "Visualising and Analysing Multivariate Data: Heatmap method\n\n\n\nA heat map (or heatmap) is a graphical representation of data where the individual values contained in a matrix are represented as colors.\n\n\n\n\n\n\nWhen applied to a tabular format, heatmaps are useful for cross-examining multivariate data, through placing variables in the columns and observation (or records) in row and colouring the cells within the table.\nHeatmaps are good for showing variance across multiple variables, revealing any patterns, displaying whether any variables are similar to each other, and for detecting if any correlations exist in-between them.\nIt is important to note that when the values are all positive or all negative, a colour scheme with different intensity should be used. On the other hand, if the values are in both positive and negative, then, diverging colour scheme should be used."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Visualising and Analysing Multivariate Data",
+    "text": "Visualising and Analysing Multivariate Data\nParallel Coordinates Plot Method\nParallel Coordinates plot or Parallel plot allows to compare the feature of several individual observations on a set of numeric variables.\n\n\nEach vertical bar represents a variable and usually has its own scale. (The units can even be different). Values are then plotted as series of lines connected across each axis. Similar to heatmap, interactivity should be used to complete the data exploration and analysis when using parallel coordinates plot."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#reference",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#reference",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Reference",
+    "text": "Reference\n\nRadar Chart.\nTernary plot, this and this.\nFriendly, M (2002) “Corrgrams: Exploratory Displays for Correlation Matrices” The American Statistician, Vol. 56, No. 4, pp. 316-324."
   }
 ]
