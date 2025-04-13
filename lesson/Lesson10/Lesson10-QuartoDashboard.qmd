@@ -1,0 +1,126 @@
+---
+title: "Lesson 10: Quarto Dashboard"
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems (Practice)"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "last-modified"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    show-notes: false
+    slide-number: true
+    show-slide-number: 'all'
+execute: 
+  echo: true
+  eval: true
+  warning: false
+---
+
+# Quarto dashboards
+
+A new output format for easily creating dashboards from **.qmd** files. They make it easy to create interactive dashboards using Python, R, Julia, and Observable:
+
+-   Publish a group of related data visualizations as a dashboard. Use a wide variety of components including Plotly, Leaflet, Jupyter Widgets, htmlwidgets; static graphics (Matplotlib, Seaborn, ggplot2, etc.); tabular data; value boxes; and text annotations.
+-   Flexible and easy to specify row and column-based Layouts. Components are intelligently re-sized to fill the browser and adapted for display on mobile devices.
+-   Author using any notebook editor (JupyterLab, etc.) or in plain text markdown with any text editor (VS Code, RStudio, Neovim, etc.)
+-   Dashboards can be deployed as static web pages (no special server required) or you can optionally integrate a backend Shiny Server for enhanced interactivity.
+
+## Example 1: MyNorfolk Requests
+
+![](img/qdd/example1.jpg)
+
+For live demo, click on this [link](https://grrrck.quarto.pub/mynorfolk-dash/#about).
+
+## Example 2: Labor and Delivery Dashboard
+
+![](img/qdd/example2.jpg)
+
+For live demo, click on this [link](https://mine-cetinkaya-rundel.github.io/ld-dashboard/).
+
+## Example 3:
+
+![](img/qdd/example3.jpg)
+
+For live demo, click on this [link](https://colorado.posit.co/rsc/nz-quakes/quakes.html).
+
+# Working with Quarto Dashboard
+
+To get started, create a new Quarto document, then change **format:** to *dashboard* instead of *html*.
+
+![](img/qdd/image1.jpg)
+
+# Dashboard Components
+
+-   Navigation Bar and Pages — Icon, title, and author along with links to sub-pages (if more than one page is defined).
+
+-   Sidebars, Rows & Columns, and Tabsets — Rows and columns using markdown heading (with optional attributes to control height, width, etc.). Sidebars for interactive inputs. Tabsets to further divide content.
+
+-   Cards (Plots, Tables, Value Boxes, Content) — Cards are containers for cell outputs and free form markdown text. The content of cards typically maps to cells in your notebook or source document.
+
+## Navigation Bar and Pages
+
+![](img/qdd/image2.jpg)
+
+## Sidebars: Page Level
+
+::::: columns
+::: {.column width="50%"}
+![](img/qdd/image3a.jpg){width="480"}
+:::
+
+::: {.column width="50%"}
+![](img/qdd/image3b.jpg)
+:::
+:::::
+
+## Sidebars: Global
+
+::::: columns
+::: {.column width="50%"}
+![](img/qdd/image4a.jpg){width="480"}
+:::
+
+::: {.column width="50%"}
+![](img/qdd/image4b.jpg)
+:::
+:::::
+
+## Layout: Rows
+
+::::: columns
+::: {.column width="50%"}
+![](img/qdd/image5a.jpg){width="480"}
+:::
+
+::: {.column width="50%"}
+![](img/qdd/image5b.jpg)
+:::
+:::::
+
+## Layout: Columns
+
+::::: columns
+::: {.column width="50%"}
+![](img/qdd/image6a.jpg)
+:::
+
+::: {.column width="50%"}
+![](img/qdd/image6b.jpg)
+:::
+:::::
+
+## Tabset
+
+::::: columns
+::: {.column width="50%"}
+![](img/qdd/image7a.jpg)
+:::
+
+::: {.column width="50%"}
+![](img/qdd/image7b.jpg)
+:::
+:::::
+
+## Plots
+
+Each code chunk makes a card, and can take a title
