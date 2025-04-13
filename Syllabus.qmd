@@ -59,14 +59,11 @@ You don't have to finish reading either one of them before lesson starts. Take y
 
 The grading distribution of this course is as follows:
 
--   Pre-lesson Preparation and Hands-on Exercise 20%
--   In-class Exercise and Class Participation 20%
--   Take-home Exercise 30%
+-   Pre-lesson Preparation and Hands-on Exercise 15%
+-   In-class Exercise and Class Participation 15%
+-   Take-home Exercise 40%
 -   Visual Analytics Project 30%
-    -   Project website 20%
-    -   Poster 15%
-    -   Minutes of Meeting 15%
-    -   ShinyApp 50%
+
 
 There will be no mid-term test and final examination for this course.
 
