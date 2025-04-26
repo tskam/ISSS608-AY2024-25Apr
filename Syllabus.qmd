@@ -66,13 +66,13 @@ The grading distribution of this course is as follows:
 
 ### Hands-on Exercise and In-class Exercise Grading division
 
-- D failed to submit by submission deadline.
-- C late submission beyond submission deadline.
-- B- submitted on time but completed 50% or less of the exercise.
-- B  submitted on time but completed 75% or less of the exercise.
-- B+ submitted on time and completed 100% of the exercise.
-- A- submitted on time, completed 100% of the exercise by applying appropriate design principles and explore at least three extra alternatives correctly.
-- A submitted on time, completed 100% of the exercise by applying appropriate design principles and explore at least five extra alternatives correctly.
+-   D failed to submit by submission deadline.
+-   C late submission beyond submission deadline.
+-   B- submitted on time but completed 50% or less of the exercise.
+-   B submitted on time but completed 75% or less of the exercise.
+-   B+ submitted on time and completed 100% of the exercise.
+-   A- submitted on time, completed 100% of the exercise by applying appropriate design principles and explore at least three extra alternatives correctly.
+-   A submitted on time, completed 100% of the exercise by applying appropriate design principles and explore at least five extra alternatives correctly.
 
 There will be no mid-term test and final examination for this course.
 
