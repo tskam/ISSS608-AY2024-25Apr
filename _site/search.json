@@ -2343,5 +2343,75 @@
     "title": "Git and Github",
     "section": "Blog post",
     "text": "Blog post\n\nGetting starting with git and GitHub using RStudio\ngit\nTransform a folder as git project synchronized on Github or Gitlab\nRecovering from common Git predicaments\ngit in RStudio\nSolving git(GitHub) token issue"
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html",
+    "href": "TH_EX/TH_EX1.html",
+    "title": "Take-home Exercise 1",
+    "section": "",
+    "text": "Creating data visualisation that is enligthening and truthful\n\n\n\nCreating enlightening and truthful data visualizations involves focusing on accuracy, transparency, and the ability to effectively communicate insights. It’s about presenting data in a way that is both informative and aesthetically pleasing, ensuring the audience can grasp the information quickly and accurately."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#overview",
+    "href": "TH_EX/TH_EX1.html#overview",
+    "title": "Take-home Exercise 1",
+    "section": "Overview",
+    "text": "Overview\nThis handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#setting-the-scene",
+    "href": "TH_EX/TH_EX1.html#setting-the-scene",
+    "title": "Take-home Exercise 1",
+    "section": "Setting the scene",
+    "text": "Setting the scene\nA local online media company that publishes daily content on digital platforms is planning to release an article on demographic structures and distribution of Singapore in 2024."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-task",
+    "href": "TH_EX/TH_EX1.html#the-task",
+    "title": "Take-home Exercise 1",
+    "section": "The Task",
+    "text": "The Task\nAssuming the role of the graphical editor of the media company, you are tasked to prepare at most three data visualisation for the article.\n\n\n\n\n\n\nImportant\n\n\n\nThe task will be completed in two phases:\n\nPhase 1: Designing your own data visualisation\nPhase 2: Selecting one submission provided by your classmate, critic three good design principles and three areas for further improvement. With reference to the comment, prepare the makeover version of the data visualisation."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-data",
+    "href": "TH_EX/TH_EX1.html#the-data",
+    "title": "Take-home Exercise 1",
+    "section": "The Data",
+    "text": "The Data\nTo accomplish the task, Singapore Residents by Planning Area / Subzone, Single Year of Age and Sex, June 2024 dataset shares by Department of Statistics, Singapore (DOS) should be used."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-designing-tool",
+    "href": "TH_EX/TH_EX1.html#the-designing-tool",
+    "title": "Take-home Exercise 1",
+    "section": "The Designing Tool",
+    "text": "The Designing Tool\nThe data should be processed by using appropriate tidyverse family of packages and the statistical graphics must be prepared using ggplot2 and its extensions."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-write-up",
+    "href": "TH_EX/TH_EX1.html#the-write-up",
+    "title": "Take-home Exercise 1",
+    "section": "The Write-up",
+    "text": "The Write-up\nThe write-up of the take-home exercise should include but not limited to the followings:\n\nA reproducible description of the procedures used to prepare the analytical visualisation. Please refer to the senior submission I shared below.\nA write-up of not more than 150 words per each data visualisation, describing and discussing the patterns reveal by each visualisation prepared."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#submission-date",
+    "href": "TH_EX/TH_EX1.html#submission-date",
+    "title": "Take-home Exercise 1",
+    "section": "Submission date",
+    "text": "Submission date\n\n\n\n\n\n\nImportant\n\n\n\nThere are two submission deadlines for this take-home exercise, they are:\n\nPhase 1: 4th May 2025 mid-night 12:00am\nPhase 2: 11th May 2025 mid-night 12:00am"
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#learning-from-senior",
+    "href": "TH_EX/TH_EX1.html#learning-from-senior",
+    "title": "Take-home Exercise 1",
+    "section": "Learning from senior",
+    "text": "Learning from senior\n\nKYLIE TAN JING YI\nTOA ZI YING JANET\nLEW YING ZHEN SERENA\nSENG JING YI\nJAYA GEORGE"
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#peer-learning",
+    "href": "TH_EX/TH_EX1.html#peer-learning",
+    "title": "Take-home Exercise 1",
+    "section": "Peer Learning",
+    "text": "Peer Learning"
   }
 ]
