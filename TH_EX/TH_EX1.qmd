@@ -37,7 +37,11 @@ To accomplish the task, *Singapore Residents by Planning Area / Subzone, Single 
 
 ## The Designing Tool
 
-The data should be processed by using appropriate **tidyverse** family of packages and the statistical graphics must be prepared using **ggplot2** and its extensions.
+The data should be processed by using appropriate **tidyverse** family of packages and the data visualisation must be prepared using **ggplot2** and its extensions.  
+
+::: callout-important
+No interactive data visualisation are required.
+:::
 
 ## The Write-up
 

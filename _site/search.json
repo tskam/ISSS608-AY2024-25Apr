@@ -2384,7 +2384,7 @@
     "href": "TH_EX/TH_EX1.html#the-designing-tool",
     "title": "Take-home Exercise 1",
     "section": "The Designing Tool",
-    "text": "The Designing Tool\nThe data should be processed by using appropriate tidyverse family of packages and the statistical graphics must be prepared using ggplot2 and its extensions."
+    "text": "The Designing Tool\nThe data should be processed by using appropriate tidyverse family of packages and the data visualisation must be prepared using ggplot2 and its extensions.\n\n\n\n\n\n\nImportant\n\n\n\nNo interactive data visualisation are required."
   },
   {
     "objectID": "TH_EX/TH_EX1.html#the-write-up",
