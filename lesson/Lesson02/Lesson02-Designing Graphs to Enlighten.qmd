@@ -888,6 +888,62 @@ Source: [Data Visualisation: Clarity or Aesthetics](http://dataremixed.com/2012/
 :::
 ::::::
 
+## Learning from Peers
+
+![](img2/image6.png)
+---
+
+![](img2/image5.png)
+
+---
+
+![](img2/image2a.png)
+
+---
+
+![](img2/image2.png)
+---
+
+![](img2/image1.png)
+
+---
+
+![](img2/image3.png)
+
+---
+
+![](img2/image3a.png)
+
+---
+
+![](img2/image4.png)
+
+---
+
+![](img2/image7a.png)
+
+
+---
+
+![](img2/image7b.png)
+
+---
+
+![](img2/image7.png)
+
+---
+
+![](img2/image9a.png)
+
+
+---
+
+![](img2/image9.png)
+
+---
+
+![](img2/image8.png)
+
 ## References
 
 Claus O. Wilke (2019) [Fundamentals of Data Visuaization](https://clauswilke.com/dataviz/). O'Reilly, USA.
