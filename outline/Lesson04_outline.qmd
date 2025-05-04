@@ -31,7 +31,7 @@ editor: visual
     -   [Hands-on Exercise 4: Visualising Distribution](https://r4va.netlify.app/chap09)
     -   [Hands-on Exercise 4: Visual Statistical Analysis](https://r4va.netlify.app/chap10)
     -   [Hands-on Exercise 4: Visualising Uncertainty](https://r4va.netlify.app/chap11)
-    -   [Hands-on Exercise 4: Building Funnel Plot with R](https://r4va.netlify.app/chap12)
+    -   [Hands-on Exercise 4: Building Funnel Plot with R](https://r4va.netlify.app/chap08)
 
 ## Readings on Visualising Uncertainty
 
