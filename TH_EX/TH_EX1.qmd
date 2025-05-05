@@ -113,7 +113,7 @@ There are two submission deadlines for this take-home exercise, they are:
 -   [PENG HSIAO-YUAN](https://lesteronthecouchisss608.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [RAJESH BABU SANTIGARI](https://isss608vaarajesh01.netlify.app/takehomeexercises/take_homeexercise1/take_homeexercise1)
 -   [SANDRA JACOB](https://sandrajacob-isss608.netlify.app/takehome_exercises/takehome_ex01/takehomeex01)
--   [SARIYANTI HARTIONO](https://isss608-shar.netlify.app/Take-home_Ex/Take-home_Ex01/Take-home_Ex01.html)
+-   [SARIYANTI HARTIONO](https://isss608-shar.netlify.app/take-home_ex/take-home_ex_1/take-home_ex01)
 -   [STEFANIE FELICIA](https://isss608-ay2025-april.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [TA NGUYEN THAO NGUYEN](https://isss608-cindy.netlify.app/take-home_exercise/take-home_ex01/take-home_ex01a)
 -   [TAI QIUYAN](https://isss608-ay2025-qiuyan.netlify.app/takehome_ex/takehome_ex01/takehome_ex01)
