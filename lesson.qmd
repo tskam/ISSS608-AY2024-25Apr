@@ -7,17 +7,17 @@ format: html
 editor: visual
 ---
 
-| Lesson | Date | Venue | Topic |
-|----|:---|----|:---|
-| 1 | 19/4 | SOE/SCIS2 SR B5-2 | [Introduction to Visual Analytics](outline/Lesson01_outline.html) |
-| 2 | 26/4 | SOE/SCIS2 SR B5-2 | [Designing Graphs to Enlighten](outline/Lesson02_outline.html) |
-| 3 | 3/5 | SOE/SCIS2 SR B5-2 | [Interactivity in Visual Analytics](outline/Lesson03_outline.html) |
-| 4 | 10/5 | SOE/SCIS2 SR B5-2 | [Fundamentals of Visual Analytics](outline/Lesson04_outline.html) |
-| 5 | 17/5 | SOE/SCIS2 SR B5-2 | [Visual Multivariate Analysis](outline/Lesson05_outline.html) |
-| 6 | 24/5 | SOE/SCIS2 SR B5-2 | [Designing Web-enabled Visual Analytics Application with Shiny](outline/Lesson06_outline.html) |
-| 7 | 31/5 | SOE/SCIS2 SR B5-2 | [Visualising and Analysing Time-Oriented Data](outline/Lesson07_outline.html) |
-|  | 7/6 |  | Public Holiday |
-| 8 | 14/6 | SOE/SCIS2 SR B5-2 | [Visualising and Analysing Geographic Data](outline/Lesson08_outline.html) |
-| 9 | 21/6 | SOE/SCIS2 SR B5-2 | [Visualising and Analysing Network Data](outline/Lesson09_outline.html) |
-| 10 | 28/6 | SOE/SCIS2 SR B5-2 | [Information Dashboard Design](outline/Lesson10_outline.html) |
-| 11 | 5/7 | TBC | Poster Presentation |
+| Lesson | Date | Venue | Topic | Remark |
+|-----------|:-----------------|------------------|:-----------------|---------|
+| 1 | 19/4 | SOE/SCIS2 SR B5-2 | [Introduction to Visual Analytics](outline/Lesson01_outline.html) |  |
+| 2 | 26/4 | SOE/SCIS2 SR B5-2 | [Designing Graphs to Enlighten](outline/Lesson02_outline.html) | Take-home Exercise 1 issuance |
+| 3 | 3/5 | SOE/SCIS2 SR B5-2 | [Interactivity in Visual Analytics](outline/Lesson03_outline.html) |  |
+| 4 | 10/5 | SOE/SCIS2 SR B5-2 | [Fundamentals of Visual Analytics](outline/Lesson04_outline.html) | Take-home Exercise 2, 3 and VA Project issuance |
+| 5 | 17/5 | SOE/SCIS2 SR B5-2 | [Visual Multivariate Analysis](outline/Lesson05_outline.html) |  |
+| 6 | 24/5 | SOE/SCIS2 SR B5-2 | [Designing Web-enabled Visual Analytics Application with Shiny](outline/Lesson06_outline.html) | Take-home Exercise 2 due |
+| 7 | 31/5 | SOE/SCIS2 SR B5-2 | [Visualising and Analysing Time-Oriented Data](outline/Lesson07_outline.html) |  |
+|  | 7/6 |  | Public Holiday |  |
+| 8 | 14/6 | SOE/SCIS2 SR B5-2 | [Visualising and Analysing Geographic Data](outline/Lesson08_outline.html) | Take-home Exercise 3 due |
+| 9 | 21/6 | SOE/SCIS2 SR B5-2 | [Visualising and Analysing Network Data](outline/Lesson09_outline.html) |  |
+| 10 | 28/6 | SOE/SCIS2 SR B5-2 | [Information Dashboard Design](outline/Lesson10_outline.html) |  |
+| 11 | 5/7 | TBC | Poster Presentation | VA Project due |
