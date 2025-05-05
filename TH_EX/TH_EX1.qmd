@@ -10,7 +10,7 @@ editor: visual
 ## Creating data visualisation that is enligthening and truthful
 
 Creating enlightening and truthful data visualizations involves focusing on accuracy, transparency, and the ability to effectively communicate insights. It's about presenting data in a way that is both informative and aesthetically pleasing, ensuring the audience can grasp the information quickly and accurately.
-::::
+:::
 
 ## Overview
 
@@ -27,8 +27,8 @@ Assuming the role of the graphical editor of the media company, you are tasked t
 ::: callout-important
 The task will be completed in two phases:
 
-- Phase 1: Designing your own data visualisation
-- Phase 2: Selecting one submission provided by your classmate, critic three good design principles and three areas for further improvement.  With reference to the comment, prepare the makeover version of the data visualisation.
+-   Phase 1: Designing your own data visualisation.
+-   Phase 2: Selecting one submission provided by your classmate, critic three good design principles and three areas for further improvement. With reference to the comment, prepare the makeover version of the data visualisation.
 :::
 
 ## The Data
@@ -37,7 +37,7 @@ To accomplish the task, *Singapore Residents by Planning Area / Subzone, Single 
 
 ## The Designing Tool
 
-The data should be processed by using appropriate **tidyverse** family of packages and the data visualisation must be prepared using **ggplot2** and its extensions.  
+The data should be processed by using appropriate **tidyverse** family of packages and the data visualisation must be prepared using **ggplot2** and **its extensions**.
 
 ::: callout-important
 No interactive data visualisation are required.
@@ -67,10 +67,9 @@ The specific submission instructions are as follows:
 ::: callout-important
 There are two submission deadlines for this take-home exercise, they are:
 
-- Phase 1: 4th May 2025 mid-night 12:00am
-- Phase 2: 11th May 2025 mid-night 12:00am
+-   Phase 1: 4th May 2025 mid-night ~~12:00am~~ 11:59pm.
+-   Phase 2: 11th May 2025 mid-night ~~12:00am~~ 11:59pm
 :::
-
 
 ## Learning from senior
 
@@ -82,4 +81,51 @@ There are two submission deadlines for this take-home exercise, they are:
 
 ## Peer Learning
 
-
+-   [ANDRE ONG JIA KANG](https://isss608-ay2025-aprilterm.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [CALVIN TAN SONG HAO](https://isss608-ay2024-25t3.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [CHAN HAN JIE](https://isss608-ay2024-25t3-chj.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [CHIAM SHUNZHONG DAVID](https://isss608-davidchiam.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [DO QUYNH TRANG](https://isss608-ay2425-qtd.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [ENRICO SEBASTIAN ENRICO SEBASTIAN DANUSANTOSO](https://isss608-evangelineolivia.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [EVANGELINE OLIVIA SIDIHARTO](https://isss608-evangelineolivia.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [FU YILIN](https://isss608-ay2025t2.netlify.app/Take-home_Ex/Take-home_Ex01/Take-home_Ex01.html)
+-   [GOH YI FANG](https://isss608-yfgoh.netlify.app/take-home_ex/take-home_ex1/take-home_ex01)
+-   [HAO LIU](https://isss608-ay2025-hliu.netlify.app/take_home_exercise/take_home_exercise01/take_home_exercise01)
+-   [HUANG PENGXIN](https://pengxinhuang.netlify.app/take-home_ex01/)
+-   [HUANG ZIHAN](https://isss608-hzh.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [JESSE EMMANUEL LUCAS](https://isss608-ay2025.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LAU JIA YI](https://isss608-ay2024-25apr-jylau.netlify.app/t1/takehome_ex01)
+-   [LI JIANYI](https://isss608-jianyivaa.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LI YUQUAN](https://isss608-2025-yuquan.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LIAW YING TING CELIN](https://isss608celin.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LIM KAH SIEW BELINDA](https://isss608-ay2024-25t3-belindalim.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LIU CHIH-YUAN](https://cabbage-wonderland.netlify.app/takehome_ex/takehome_ex01/takehome_ex01)
+-   [LU LINSEN](https://isss608-ay2024-25t2.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LUO YUMING](https://isss608vaa.netlify.app/take-home_exercise/take-home_ex01/take-home_ex01)
+-   [MARGA THURA](https://isss608-ay2024-2025.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [MIN HTET AUNG]()
+-   [NG JIN YAO](https://isss608-blessmebellburve.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [NG WEE TINN SHERMAINN](https://isss608-sherm.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [NGUYEN NGUYEN HA](https://summernguyenn.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [NGUYEN PHUONG HOA]()
+-   [NOR HENDRA BIN ABDUL RAHMAN](https://norhendra-isss608.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [PATRICIA TRISNO](https://isss608-ay2024-25t2-pat.netlify.app/take-home_exercise/take-home_ex01/take-home_exercise01)
+-   [PENG HSIAO-YUAN](https://lesteronthecouchisss608.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [RAJESH BABU SANTIGARI](https://isss608vaarajesh01.netlify.app/takehomeexercises/take_homeexercise1/take_homeexercise1)
+-   [SANDRA JACOB](https://sandrajacob-isss608.netlify.app/takehome_exercises/takehome_ex01/takehomeex01)
+-   [SARIYANTI HARTIONO](https://isss608-shar.netlify.app/Take-home_Ex/Take-home_Ex01/Take-home_Ex01.html)
+-   [STEFANIE FELICIA](https://isss608-ay2025-april.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [TA NGUYEN THAO NGUYEN](https://isss608-cindy.netlify.app/take-home_exercise/take-home_ex01/take-home_ex01a)
+-   [TAI QIUYAN](https://isss608-ay2025-qiuyan.netlify.app/takehome_ex/takehome_ex01/takehome_ex01)
+-   [TAI YU YING](https://whereinsightbegins.netlify.app/take-home_ex/take-home_ex01/take-homeexercise1)
+-   [TAN WENYING AUDREY](https://isss608-ay2024-25-dreytwy.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [TEO WEE SIANG ROY](https://iss608-first-session.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [VANESSA RIADI](https://isss608-vriadi.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [WANG ANQI](https://isss608-25t3-anqi.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [WANG SHENSI](https://wshensi.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [XU XINYI](https://xinyixu.netlify.app/take-home_exercise/take-home_ex01/take-home_exercise01)
+-   [YANG LU](https://isss608yanglu.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [YANG YAYONG](https://isss608-vaa-yangyayong.netlify.app/take-home_exercise/take-home_ex01/take-home_ex01)
+-   [YUAN YIHAO]()
+-   [ZHANG JINGHAN](https://isss608-visualanalytics.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [ZHANG XUERONG]()
