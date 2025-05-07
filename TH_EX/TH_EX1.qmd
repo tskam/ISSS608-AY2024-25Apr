@@ -100,7 +100,7 @@ There are two submission deadlines for this take-home exercise, they are:
 -   [LIAW YING TING CELIN](https://isss608celin.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [LIM KAH SIEW BELINDA](https://isss608-ay2024-25t3-belindalim.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [LIU CHIH-YUAN](https://cabbage-wonderland.netlify.app/takehome_ex/takehome_ex01/takehome_ex01)
--   [LU LINSEN](https://isss608-ay2024-25t2.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LU LINSEN](https://isss608-ay2024-25t2.netlify.app/take-home_ex/take-home_ex01/phase_1/take-home_ex01)
 -   [LUO YUMING](https://isss608vaa.netlify.app/take-home_exercise/take-home_ex01/take-home_ex01)
 -   [MARGA THURA](https://isss608-ay2024-2025.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [MIN HTET AUNG](https://isss608-minhtetaung.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
