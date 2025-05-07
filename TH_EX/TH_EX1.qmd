@@ -82,7 +82,7 @@ There are two submission deadlines for this take-home exercise, they are:
 ## Peer Learning
 
 -   [ANDRE ONG JIA KANG](https://isss608-ay2025-aprilterm.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
--   [CALVIN TAN SONG HAO](https://isss608-ay2024-25t3.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [CALVIN TAN SONG HAO](https://isss608-ay2024-25t3.netlify.app/take-home_ex/take-home_ex01-1/take-home_ex01-1)
 -   [CHAN HAN JIE](https://isss608-ay2024-25t3-chj.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [CHIAM SHUNZHONG DAVID](https://isss608-davidchiam.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [DO QUYNH TRANG](https://isss608-ay2425-qtd.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
