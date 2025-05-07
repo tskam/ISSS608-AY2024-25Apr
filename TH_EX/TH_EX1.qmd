@@ -126,6 +126,6 @@ There are two submission deadlines for this take-home exercise, they are:
 -   [XU XINYI](https://xinyixu.netlify.app/take-home_exercise/take-home_ex01/take-home_exercise01)
 -   [YANG LU](https://isss608yanglu.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [YANG YAYONG](https://isss608-vaa-yangyayong.netlify.app/take-home_exercise/take-home_ex01/take-home_ex01)
--   [YUAN YIHAO]()
+-   [YUAN YIHAO](https://isss-608-yihao-yuan.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [ZHANG JINGHAN](https://isss608-visualanalytics.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [ZHANG XUERONG]()
