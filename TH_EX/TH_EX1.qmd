@@ -2,7 +2,7 @@
 title: "Take-home Exercise 1"
 date: "January 20, 2025"
 date-modified: "last-modified"
-format: html
+format: docx
 editor: visual
 ---
 
