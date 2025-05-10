@@ -2160,7 +2160,7 @@
     "href": "lesson.html",
     "title": "Lesson Plan",
     "section": "",
-    "text": "Lesson\nDate\nVenue\nTopic\nRemark\n\n\n\n\n1\n19/4\nSOE/SCIS2 SR B5-2\nIntroduction to Visual Analytics\n\n\n\n2\n26/4\nSOE/SCIS2 SR B5-2\nDesigning Graphs to Enlighten\nTake-home Exercise 1 issuance\n\n\n3\n3/5\nSOE/SCIS2 SR B5-2\nInteractivity in Visual Analytics\n\n\n\n4\n10/5\nSOE/SCIS2 SR B5-2\nFundamentals of Visual Analytics\nTake-home Exercise 2, 3 and VA Project issuance\n\n\n5\n17/5\nSOE/SCIS2 SR B5-2\nVisual Multivariate Analysis\n\n\n\n6\n24/5\nSOE/SCIS2 SR B5-2\nDesigning Web-enabled Visual Analytics Application with Shiny\nTake-home Exercise 2 due\n\n\n7\n31/5\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Time-Oriented Data\n\n\n\n\n7/6\n\nPublic Holiday\n\n\n\n8\n14/6\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Geographic Data\nTake-home Exercise 3 due\n\n\n9\n21/6\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Network Data\n\n\n\n10\n28/6\nSOE/SCIS2 SR B5-2\nInformation Dashboard Design\n\n\n\n11\n5/7\nTBC\nPoster Presentation\nVA Project due"
+    "text": "Lesson\nDate\nVenue\nTopic\nRemark\n\n\n\n\n1\n19/4\nSOE/SCIS2 SR B5-2\nIntroduction to Visual Analytics\n\n\n\n2\n26/4\nSOE/SCIS2 SR B5-2\nDesigning Graphs to Enlighten\nTake-home Exercise 1 issuance\n\n\n3\n3/5\nSOE/SCIS2 SR B5-2\nInteractivity in Visual Analytics\n\n\n\n4\n10/5\nSOE/SCIS2 SR B5-2\nFundamentals of Visual Analytics\nTake-home Exercise 2, 3 and VA Project issuance\n\n\n5\n17/5\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Network Data\n\n\n\n6\n24/5\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Time-Oriented Data\n\n\n\n7\n31/5\nSOE/SCIS2 SR B5-2\nDesigning Web-enabled Visual Analytics Application with Shiny\nTake-home Exercise 2 due\n\n\n\n7/6\n\nPublic Holiday\n\n\n\n8\n14/6\nSOE/SCIS2 SR B5-2\nVisualising and Analysing Geographic Data\nTake-home Exercise 3 due\n\n\n9\n21/6\nSOE/SCIS2 SR B5-2\nVisual Multivariate Analysis\n\n\n\n10\n28/6\nSOE/SCIS2 SR B5-2\nInformation Dashboard Design\n\n\n\n11\n5/7\nTBC\nPoster Presentation\nVA Project due"
   },
   {
     "objectID": "outline/Lesson02_outline.html",
@@ -2427,5 +2427,208 @@
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "",
     "text": "Data visualisation design process\nThe Devil is in the data\nHuman perception and information processing\nComponents of a graph\nPrinciples and practical guides for data visualisation design\nData visualisation critics framework\n\n\n\nIn this lesson, I am going to share with you the basic principles and best practices of Data Visualisation Design. The discussion consists of five sections. First, I will provide an overview of data visualisation design process. Next, by using appropriate examples, I will share with you the importance of data selection and preparation in building enlightening graphs. In section three, the principles of visual perception will be introduce. In section four, the practical guides of data visualisation design will be discussed. Lastly, a framework for evaluating and criticising data visualisation design will be introduced."
+  },
+  {
+    "objectID": "VAProject.html",
+    "href": "VAProject.html",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The purpose of the project is to provide students first hand experience on building web-enabled visual analytics application by using Shiny. It aims to democratize data and analytics. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.\nA project may involve developing new methods or implementing visual analytics system to support analytic tasks in specific domains. Alternatively, a project may be in the form of application development by integrating analytical tools within a visual analytics environment. Students are encouraged to focus on research topics that are relevant to their field of study. It should address a concrete visual analytics problem and should propose a novel and creative solution.\n\n\n\nThis term the topic of Visual Analytics Project will be based on either VAST Challenge 2025 or ChinaVis Data Visualisation Competition 2025. For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge.\n\n\n\nThe project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term.\nA good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!\nEach project team are required to maintain a comprehensive Minutes of Meeting from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes(with Templates and Samples)\n\nThe Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended.\n\n\n\n\nBrainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.\nEditing and publishing project proposal on Netlify latest by the end of 8th June 2025 at 11:59pm (mid-night).\nUploading project poster on eLearn by 26th June 2025 at 11:59pm (mid-night).\nPoster presentation: 3rd July 2025, 2:00pm-3:30pm\nSubmission of final application, user guide, project poster and artifacts: 7th July 2025 by 11:59pm (mid-night)\n\n\n\n\n\n\nAt the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project version control including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\n\nEach project team are required to create the project website by using Quarto. It will be disseminated by using webserver such as Netfity.\nAs a first step, you should create a project summary at the project website that includes:\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and\nThe project proposal. This should in a webpage (remember to provide a link at the wiki).\n\n\n\n\nEach project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by 8th June 2025.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide and poster by 7th July 2025.\n\n\n\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)\nResolution = 300dpi or above\nImage dimension at 300 dpi: 7,016 x 9,933 pixels\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\n\n\n\nThe final deliverable will include:\n\nDeployment of the Web-enabled Visual Analytics Application on shinyapps.io by RStudio.\nArtifact including the ShinyApp codes, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\n\nSample UserGuide 1\nSample UserGuide 2\n\nProject poster\nMinutes of Meeting\n\nThe final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a single zip file format. If the file size is beyond the file size allocated by eLean, it can be upoaded on SMU OneDrive.\n\n\n\n\nThe visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nProject website 15%\nPoster 10%\nMinutes of Meeting 10%\nPeer Evaluation 15%\nShinyApp 50%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\n\n\nThe poster will be graded based on the following criteria:\n\nClear communication of key aspects of solution\nClear communication of design approaches\nClear communication of arguments for proposed solution\nCraft quality of the solution\n\n\n\n\n\nNote that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application\n\n\n\nSGGoldenGoose\n\n\n\n\n\nOhio City Renewal Solutions\nWealth Check Up\n\n\n\n\n\nGroup 3: Tanzania Tourism Analysis\nGroup 5: Loan Default Prediction\n\n\n\n\n\nNetwork-enabled Maritime Observations\nA Fishy Business!\nFishEye\n\n\n\n\n\nThe Alchemists\nWeather Analytics\nDecoding Chaos\n\n\n\n\n\n\nThe Big Fish: Catching Illegal Fishing Through Visual Analytics. Specially mentioned: This project won VAST Challenge 2024: Award for Comprehensive Characterization of Suspicious Behaviors."
+  },
+  {
+    "objectID": "VAProject.html#overview",
+    "href": "VAProject.html#overview",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The purpose of the project is to provide students first hand experience on building web-enabled visual analytics application by using Shiny. It aims to democratize data and analytics. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.\nA project may involve developing new methods or implementing visual analytics system to support analytic tasks in specific domains. Alternatively, a project may be in the form of application development by integrating analytical tools within a visual analytics environment. Students are encouraged to focus on research topics that are relevant to their field of study. It should address a concrete visual analytics problem and should propose a novel and creative solution."
+  },
+  {
+    "objectID": "VAProject.html#project-topic",
+    "href": "VAProject.html#project-topic",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "This term the topic of Visual Analytics Project will be based on either VAST Challenge 2025 or ChinaVis Data Visualisation Competition 2025. For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge."
+  },
+  {
+    "objectID": "VAProject.html#project-management",
+    "href": "VAProject.html#project-management",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term.\nA good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!\nEach project team are required to maintain a comprehensive Minutes of Meeting from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes(with Templates and Samples)\n\nThe Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended."
+  },
+  {
+    "objectID": "VAProject.html#project-milestone",
+    "href": "VAProject.html#project-milestone",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.\nEditing and publishing project proposal on Netlify latest by the end of 8th June 2025 at 11:59pm (mid-night).\nUploading project poster on eLearn by 26th June 2025 at 11:59pm (mid-night).\nPoster presentation: 3rd July 2025, 2:00pm-3:30pm\nSubmission of final application, user guide, project poster and artifacts: 7th July 2025 by 11:59pm (mid-night)"
+  },
+  {
+    "objectID": "VAProject.html#project-deliverables",
+    "href": "VAProject.html#project-deliverables",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "At the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project version control including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\n\nEach project team are required to create the project website by using Quarto. It will be disseminated by using webserver such as Netfity.\nAs a first step, you should create a project summary at the project website that includes:\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and\nThe project proposal. This should in a webpage (remember to provide a link at the wiki).\n\n\n\n\nEach project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by 8th June 2025.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide and poster by 7th July 2025.\n\n\n\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)\nResolution = 300dpi or above\nImage dimension at 300 dpi: 7,016 x 9,933 pixels\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\n\n\n\nThe final deliverable will include:\n\nDeployment of the Web-enabled Visual Analytics Application on shinyapps.io by RStudio.\nArtifact including the ShinyApp codes, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\n\nSample UserGuide 1\nSample UserGuide 2\n\nProject poster\nMinutes of Meeting\n\nThe final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a single zip file format. If the file size is beyond the file size allocated by eLean, it can be upoaded on SMU OneDrive."
+  },
+  {
+    "objectID": "VAProject.html#grading",
+    "href": "VAProject.html#grading",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nProject website 15%\nPoster 10%\nMinutes of Meeting 10%\nPeer Evaluation 15%\nShinyApp 50%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\n\n\nThe poster will be graded based on the following criteria:\n\nClear communication of key aspects of solution\nClear communication of design approaches\nClear communication of arguments for proposed solution\nCraft quality of the solution"
+  },
+  {
+    "objectID": "VAProject.html#sample-projects",
+    "href": "VAProject.html#sample-projects",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application\n\n\n\nSGGoldenGoose\n\n\n\n\n\nOhio City Renewal Solutions\nWealth Check Up\n\n\n\n\n\nGroup 3: Tanzania Tourism Analysis\nGroup 5: Loan Default Prediction\n\n\n\n\n\nNetwork-enabled Maritime Observations\nA Fishy Business!\nFishEye\n\n\n\n\n\nThe Alchemists\nWeather Analytics\nDecoding Chaos"
+  },
+  {
+    "objectID": "VAProject.html#ay2023-2024-current-term",
+    "href": "VAProject.html#ay2023-2024-current-term",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "Group 1\nGroup 2\nGroup 3\nGroup 4\nGroup 5\nGroup 6\nGroup 7\nGroup 8\nGroup 9"
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html",
+    "href": "TH_EX/TH_EX3.html",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "",
+    "text": "Prototyping is crucial\n\n\n\nPrototyping first may help keep you from investing far too much time for marginal gains.\nThe Art of UNIX Programming (Raymond 2003)"
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#the-task",
+    "href": "TH_EX/TH_EX3.html#the-task",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "The Task",
+    "text": "The Task\nIn this take-home exercise, you are required to select one of the module of your proposed Shiny application and complete the following tasks:\n\nTo evaluate and determine the necessary R packages needed for your Shiny application are supported in R CRAN,\nTo prepare and test the specific R codes can be run and returned the correct output as expected,\nTo determine the parameters and outputs that will be exposed on the Shiny applications, and\nTo select the appropriate Shiny UI components for exposing the parameters determine above.\n\nAll teams must consult either\n\nPrototype page of AY2022-2023 January Term Group 3: Tanzania Tourism Analysis. There are three main modules in ths application the are: Exploratory Data Analysis & Confirmatory Data Analysis, Cluster Analysis and Decision Tree Analysis, or\nPrototype page of Decoding-choas and the Take-home Exercise 4 pages of the following group members IMRAN BIN MOHD IBRAHIM, TEO SUAN ERN and WONG NGAI MUNN ZACHARY MARK\n\nEach of them were prepared by one of the member of the project team. After that they combined them into the Prototype page of their project website.\nTake-home Exercise 3 will be similar to one of the prototype module prepared above in term of content but with the following differences:\n\nYou are required to prepare the prototype module report as Take-home Exercise 3 submission. This mean, it has to be published on your own coursework page.\nYou are required to include a section called UI design for the different components of the UIs for the proposed design.\n\nFor storyboarding the UI Design, please consult Storyboard link."
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#assessment-rubic",
+    "href": "TH_EX/TH_EX3.html#assessment-rubic",
+    "title": "Take-home Exercise 2",
+    "section": "Assessment Rubic",
+    "text": "Assessment Rubic\n\nQuality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.\nQuality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.\nQuality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.\nQuality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design."
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#submission-instructions",
+    "href": "TH_EX/TH_EX3.html#submission-instructions",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\nThe specific submission instructions are as follows:\n\nThe analytical visualisation must be prepared by using R and appropriate R packages. The report must provide detail discussion and explanation of:\n\nthe data preparation process,\nthe selection of data visualisation techniques used,\nand the data visualisation design and interactivity principles and best practices implemented.\n\nThe write-up of the take-home exercise must be in Quarto html document format and publish on Netlify."
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#submission-date",
+    "href": "TH_EX/TH_EX3.html#submission-date",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Submission date",
+    "text": "Submission date\nIn order to allocate enough time to integrate individual modules into the Shiny application, my humble advise is to complete Take-home Exercise 3 ltest by 11:59pm mid-night, 15th June 2025. Please note that this is a soft deadline. Project groups are free to adjust the prototyping deadline according to your project timelines.\n\n\n\n\n\n\nWarning\n\n\n\nStudents are strongly recommended to complete Take-home Exercise 3 ahead of the submission deadline. This will allow you to have more time to focus on the building of the Shiny application and to iterate the usability of the application."
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#kickstarter",
+    "href": "TH_EX/TH_EX3.html#kickstarter",
+    "title": "Take-home Exercise 2",
+    "section": "KickStarter",
+    "text": "KickStarter"
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#learning-from-senior",
+    "href": "TH_EX/TH_EX3.html#learning-from-senior",
+    "title": "Take-home Exercise 2",
+    "section": "Learning from Senior",
+    "text": "Learning from Senior\n\nISSS608 2016-17 T3 Assign GUAN YIFEI. Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2016-17 T3 Assign ZHANG YANRONG. Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan\nISSS608 2021-22 April Term Assignment 6: Raunak Kapur\n\nAY2022-23 April Term\n\nONG CHAE HUI\nKWA KAH BOON\nFONG BAO XIAN\nHAILEY CHEONG SZE-YENN\n\nAY2023-24 April Term\n\nKristine Joy Paas\nSeng Jing Yi"
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#reference",
+    "href": "TH_EX/TH_EX3.html#reference",
+    "title": "Take-home Exercise 2",
+    "section": "Reference",
+    "text": "Reference\n\nAnalysis Without Data: Teaching Students to Tackle the VAST Challenge"
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html",
+    "href": "TH_EX/TH_EX2.html",
+    "title": "Take-home Exercise 2",
+    "section": "",
+    "text": "In this take-home exercise, you are required to select one of the topic below and provide solutions to the challenge:\n\nIn Mini-Challenge 1, students will be provided a knowledge graph of containing recording artists, albums, collaborations, concerts, influences, and more. The goal will be to develop visual analytics approaches to trace the rise of one artist and predict who will be next to break out.\nIn Mini-Challenge 2, students will take on the theme of conflict over societal change directly. Two opposing groups representing the fishing and tourism industries are vying for economic development funding and accusing a local government board of bias. Students will be asked to reconstruct a true timeline with data that comes from both sides.\nIn Mini-Challenge 3, students will be provided a knowledge graph created from transcripts of boat radio communications and asked to identify people, their roles, and the events and locations they talk about to predict when and where an event will take place.\n\n\n\n\n\n\n\nImportant\n\n\n\n\nYou only need to attempt either one out of the three Mini Cases\nThe data should be processed by using appropriate tidyverse family of packages and the Visual Analytics tools must be prepared by using appropriate R packages."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#overview",
+    "href": "TH_EX/TH_EX2.html#overview",
+    "title": "Take-home Exercise 2: Be Tradewise or Otherwise",
+    "section": "",
+    "text": "Since Mr. Donald Trump took office as the President of the United States on January 20, 2025, one of the most closely watched topics has been global trade.\nAs a visual analytics novice, you are eager to apply newly acquired techniques to explore and analyze the changing trends and patterns of Singapore’s international trade since 2015."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#the-task",
+    "href": "TH_EX/TH_EX2.html#the-task",
+    "title": "Take-home Exercise 2",
+    "section": "",
+    "text": "In this take-home exercise, you are required to select one of the topic below and provide solutions to the challenge:\n\nIn Mini-Challenge 1, students will be provided a knowledge graph of containing recording artists, albums, collaborations, concerts, influences, and more. The goal will be to develop visual analytics approaches to trace the rise of one artist and predict who will be next to break out.\nIn Mini-Challenge 2, students will take on the theme of conflict over societal change directly. Two opposing groups representing the fishing and tourism industries are vying for economic development funding and accusing a local government board of bias. Students will be asked to reconstruct a true timeline with data that comes from both sides.\nIn Mini-Challenge 3, students will be provided a knowledge graph created from transcripts of boat radio communications and asked to identify people, their roles, and the events and locations they talk about to predict when and where an event will take place.\n\n\n\n\n\n\n\nImportant\n\n\n\n\nYou only need to attempt either one out of the three Mini Cases\nThe data should be processed by using appropriate tidyverse family of packages and the Visual Analytics tools must be prepared by using appropriate R packages."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#submission-instructions",
+    "href": "TH_EX/TH_EX2.html#submission-instructions",
+    "title": "Take-home Exercise 2",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\n\n\n\n\n\n\nImportant\n\n\n\nThe specific submission instructions are as follows:\n\nThe write-up of the take-home exercise must be in Quarto html document format. You are required to publish the write-up on Netlify.\nRender the write-up in MS Word format and upload the docx file onto eLearn."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#submission-date",
+    "href": "TH_EX/TH_EX2.html#submission-date",
+    "title": "Take-home Exercise 2",
+    "section": "Submission date",
+    "text": "Submission date\nYour completed take-home exercise is due on 15th June 2025, by 11:59 mid-night."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#peer-learning",
+    "href": "TH_EX/TH_EX2.html#peer-learning",
+    "title": "Take-home Exercise 2: Be Tradewise or Otherwise",
+    "section": "Peer Learning",
+    "text": "Peer Learning\n\nANDREA YEO SI HAN\nBRIGITTA KAREN TSAI\nBRYAN CHANG TZE KIN\nCHANG FANG-YU\nCHEN PENG-WEI\nCHEW GEK TENG VIVIAN\nCHU SHAN-HUI CATHY\nCHUA JIA PENG\nDEW STELLA CHAN PUI YING\nDHREETI SHAH\nDING HONG-YAN\nEE FOOK MING\nENRICO LIMBERG\nFAN JING\nHUA XIN\nHUANG JO-HSUAN\nHUANG TZU-TING\nJUSTIN LIM ZHENG HAN\nKIM JEOUNGHYUN\nLAI MEIHAO\nLENG YI XIU\nLIN XINYUE\nLIU BINGBING\nLIU JEREMY JUNPENG\nMOO JIA RONG\nNGUYEN BAO THU PHUONG\nOU YIMING\nPWINT PHOO THAW\nSATHVIKA SUBRAMANIAN\nSEI SAR HLA KYI\nSHANMUGAPRIYA RAJASEKARAN\nSHERYL ANN TAN YI-SHI\nSHREYA AGARWAL\nWANG XINGYUN\nWONG ZI QI\nXIE HAOYANG\nYEE JUN YIT\nYONG KHOI YIN KENNETH\nZANELLE LEE WENFANG\nZHANG XIAOHAN"
+  },
+  {
+    "objectID": "VAProject.html#ay2023-2024-april-term",
+    "href": "VAProject.html#ay2023-2024-april-term",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The Big Fish: Catching Illegal Fishing Through Visual Analytics. Specially mentioned: This project won VAST Challenge 2024: Award for Comprehensive Characterization of Suspicious Behaviors."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#assessment-rubric",
+    "href": "TH_EX/TH_EX2.html#assessment-rubric",
+    "title": "Take-home Exercise 2",
+    "section": "Assessment Rubric",
+    "text": "Assessment Rubric\n\nQuality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.\nQuality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.\nQuality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.\nQuality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#kickstarter",
+    "href": "TH_EX/TH_EX2.html#kickstarter",
+    "title": "Take-home Exercise 2",
+    "section": "KickStarter",
+    "text": "KickStarter"
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#learning-from-senior",
+    "href": "TH_EX/TH_EX2.html#learning-from-senior",
+    "title": "Take-home Exercise 2",
+    "section": "Learning from Senior",
+    "text": "Learning from Senior\n\nISSS608 2016-17 T3 Assign GUAN YIFEI. Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2016-17 T3 Assign ZHANG YANRONG. Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan\nISSS608 2021-22 April Term Assignment 6: Raunak Kapur\n\nAY2022-23 April Term\n\nONG CHAE HUI\nKWA KAH BOON\nFONG BAO XIAN\nHAILEY CHEONG SZE-YENN\n\nAY2023-24 April Term\n\nKristine Joy Paas\nSeng Jing Yi"
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#reference",
+    "href": "TH_EX/TH_EX2.html#reference",
+    "title": "Take-home Exercise 2",
+    "section": "Reference",
+    "text": "Reference\n\nAnalysis Without Data: Teaching Students to Tackle the VAST Challenge"
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#peer-learning",
+    "href": "TH_EX/TH_EX3.html#peer-learning",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Peer Learning",
+    "text": "Peer Learning"
   }
 ]

@@ -1,0 +1,61 @@
+---
+title: "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application"
+date: "May 5, 2025"
+date-modified: "last-modified"
+format: html
+editor: visual
+---
+
+::: callout-important
+## Prototyping is crucial
+
+Prototyping first may help keep you from investing far too much time for marginal gains.
+
+*The Art of UNIX Programming (Raymond 2003)*
+:::
+
+## The Task
+
+In this take-home exercise, you are required to select one of the module of your proposed Shiny application and complete the following tasks:
+
+-   To evaluate and determine the necessary R packages needed for your Shiny application are supported in R CRAN,
+-   To prepare and test the specific R codes can be run and returned the correct output as expected,
+-   To determine the parameters and outputs that will be exposed on the Shiny applications, and
+-   To select the appropriate Shiny UI components for exposing the parameters determine above.
+
+All teams must consult either
+
+-   [Prototype](https://habaritanzania.netlify.app/) page of [AY2022-2023 January Term Group 3: Tanzania Tourism Analysis](https://thehabaritanzania.netlify.app/). There are three main modules in ths application the are: [Exploratory Data Analysis](https://habaritanzania.netlify.app/eda/eda) & [Confirmatory Data Analysis](https://habaritanzania.netlify.app/eda/cda), [Cluster Analysis](https://habaritanzania.netlify.app/analysis/clustering) and [Decision Tree Analysis](https://habaritanzania.netlify.app/analysis/decision_tree), or
+-   **Prototype** page of [Decoding-choas](https://decoding-chaos.netlify.app/) and the Take-home Exercise 4 pages of the following group members [IMRAN BIN MOHD IBRAHIM](https://imranmi-isss608-jan24.netlify.app/), [TEO SUAN ERN](https://isss608-ay2024-suanern.netlify.app/) and [WONG NGAI MUNN ZACHARY MARK](https://isss608-ay2023-24t1-zach.netlify.app/)
+
+Each of them were prepared by one of the member of the project team. After that they combined them into the Prototype page of their project website.
+
+Take-home Exercise 3 will be similar to one of the prototype module prepared above in term of content but with the following differences:
+
+-   You are required to prepare the prototype module report as Take-home Exercise 3 submission. This mean, it has to be published on your own coursework page.
+-   You are required to include a section called UI design for the different components of the UIs for the proposed design.
+
+For storyboarding the UI Design, please consult [Storyboard](https://giniceseah.netlify.app/posts/2021-07-31-storyboard/) link.
+
+## Submission Instructions
+
+This is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.
+
+The specific submission instructions are as follows:
+
+-   The analytical visualisation must be prepared by using **R and appropriate R packages**. The report must provide detail discussion and explanation of:
+    -   the data preparation process,
+    -   the selection of data visualisation techniques used,
+    -   and the data visualisation design and interactivity principles and best practices implemented.
+-   The write-up of the take-home exercise must be in **Quarto html document** format and publish on **Netlify**.
+
+## Submission date
+
+In order to allocate enough time to integrate individual modules into the Shiny application, my humble advise is to complete Take-home Exercise 3 ltest by **11:59pm mid-night, 15th June 2025**. Please note that this is a soft deadline. Project groups are free to adjust the prototyping deadline according to your project timelines.
+
+::: callout-warning
+Students are strongly recommended to complete Take-home Exercise 3 ahead of the submission deadline. This will allow you to have more time to focus on the building of the Shiny application and to iterate the usability of the application.
+:::
+
+## Peer Learning
+

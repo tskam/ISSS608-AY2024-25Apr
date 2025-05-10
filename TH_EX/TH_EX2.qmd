@@ -1,0 +1,67 @@
+---
+title: "Take-home Exercise 2"
+date: "May 5, 2025"
+date-modified: "last-modified"
+format: html
+editor: visual
+---
+
+## The Task
+
+In this take-home exercise, you are required to select **one** of the topic below and provide solutions to the challenge:
+
+-   [In Mini-Challenge 1](https://vast-challenge.github.io/2025/MC1.html), students will be provided a knowledge graph of containing recording artists, albums, collaborations, concerts, influences, and more. The goal will be to develop visual analytics approaches to trace the rise of one artist and predict who will be next to break out.
+-   [In Mini-Challenge 2](https://vast-challenge.github.io/2025/MC2.html), students will take on the theme of conflict over societal change directly. Two opposing groups representing the fishing and tourism industries are vying for economic development funding and accusing a local government board of bias. Students will be asked to reconstruct a true timeline with data that comes from both sides.
+-   [In Mini-Challenge 3](https://vast-challenge.github.io/2025/MC3.html), students will be provided a knowledge graph created from transcripts of boat radio communications and asked to identify people, their roles, and the events and locations they talk about to predict when and where an event will take place.
+
+::: callout-important
+-   You only need to attempt either **one out of the three Mini Cases**
+-   The data should be processed by using appropriate **tidyverse** family of packages and the Visual Analytics tools must be prepared by using appropriate R packages.
+:::
+
+## Assessment Rubric
+
+-   Quality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.
+-   Quality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.
+-   Quality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.
+-   Quality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design.
+
+## Submission Instructions
+
+This is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.
+
+::: callout-important
+The specific submission instructions are as follows:
+
+-   The write-up of the take-home exercise must be in **Quarto html document** format. You are required to publish the write-up on [**Netlify**](https://www.netlify.com/).
+-   Render the write-up in MS Word format and upload the **docx** file onto eLearn.
+:::
+
+## Submission date
+
+Your completed take-home exercise is due on **15th June 2025, by 11:59 mid-night**.
+
+## KickStarter
+
+## Learning from Senior
+
+-   [ISSS608 2016-17 T3 Assign GUAN YIFEI](https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_GUAN_YIFEI). Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.
+-   [ISSS608 2016-17 T3 Assign ZHANG YANRONG](https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_ZHANG_YANRONG). Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.
+-   [ISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan](https://isss608-jordan-va.netlify.app/th_ex6/th_ex6.html)
+-   [ISSS608 2021-22 April Term Assignment 6: Raunak Kapur](https://isss608-raunakkapur.netlify.app/th_ex/the6)
+
+**AY2022-23 April Term**
+
+-   [ONG CHAE HUI](https://smu-isss608-vaa.netlify.app/take-home_ex/take-home_ex03/take-home_ex03#overview)
+-   [KWA KAH BOON](https://cosmic-boon.netlify.app/take-home_ex/take-home_ex03/take-home_ex3)
+-   [FONG BAO XIAN](https://fongbx-isss608-visual-analytics.netlify.app/take-home%20ex/take-home_ex03/take-home_ex03)
+-   [HAILEY CHEONG SZE-YENN](https://isss608-ay2023-haileycsy.netlify.app/take-home_ex/take-home_ex03/take-home_ex03)
+
+**AY2023-24 April Term**
+
+-   [Kristine Joy Paas](https://isss608-kjcpaas.netlify.app/take-home_exs/ex3/take-home_ex3)
+-   [Seng Jing Yi](https://jingyi-vaa.netlify.app/take-home_ex/take-home_ex03/take-home_ex03_eda)
+
+## Reference
+
+-   [Analysis Without Data: Teaching Students to Tackle the VAST Challenge](https://par.nsf.gov/servlets/purl/10394301)
