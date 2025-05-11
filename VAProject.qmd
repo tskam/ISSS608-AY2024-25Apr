@@ -16,7 +16,7 @@ A project may involve developing new methods or implementing visual analytics sy
 
 ## Project Topic
 
-This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2025](https://vast-challenge.github.io/2025/index.html) or [ChinaVis Data Visualisation Competition 2025](https://chinavis.org/2025/zh/challenge). For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose **one** of the Challenge and build a Shiny Application to answer the questions of the Challenge.  For ChinaVis Data Visualisation Competition, students should select one of the topic of **Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge**.
+This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2025](https://vast-challenge.github.io/2025/index.html) or [ChinaVis Data Visualisation Competition 2025](https://chinavis.org/2025/zh/challenge). For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose **one** of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of **Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge**.
 
 ## Project Management
 
@@ -38,8 +38,8 @@ The Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting
 -   Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
 -   Editing and publishing project proposal on Netlify latest by the end of **8th June 2025 at 11:59pm (mid-night)**.
 -   Uploading project poster on eLearn by **26th June 2025 at 11:59pm (mid-night)**.
--   Poster presentation: **3rd July 2025, 2:00pm-3:30pm**
--   Submission of final application, user guide, project poster and artifacts: **7th July 2025 by 11:59pm (mid-night)**
+-   Poster presentation: **2nd July 2025, 2:00pm-3:30pm**
+-   Submission of final application, user guide, project poster and artifacts: **6th July 2025 by 11:59pm (mid-night)**
 
 ## Project Deliverables
 
