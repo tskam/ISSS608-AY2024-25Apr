@@ -95,7 +95,7 @@ There are two submission deadlines for this take-home exercise, they are:
 -   [HUANG ZIHAN](https://isss608-hzh.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [JESSE EMMANUEL LUCAS](https://isss608-ay2025.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [LAU JIA YI](https://isss608-ay2024-25apr-jylau.netlify.app/t1/takehome_ex01)
--   [LI JIANYI](https://isss608-jianyivaa.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [LI JIANYI](https://isss608-jianyivaa.netlify.app/take-home_ex/take-home_ex01/take-home_ex01a)
 -   [LI YUQUAN](https://isss608-2025-yuquan.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [LIAW YING TING CELIN](https://isss608celin.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [LIM KAH SIEW BELINDA](https://isss608-ay2024-25t3-belindalim.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
