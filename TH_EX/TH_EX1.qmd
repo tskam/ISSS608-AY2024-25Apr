@@ -2,7 +2,7 @@
 title: "Take-home Exercise 1"
 date: "January 20, 2025"
 date-modified: "last-modified"
-format: docx
+format: html
 editor: visual
 ---
 
@@ -107,7 +107,7 @@ There are two submission deadlines for this take-home exercise, they are:
 -   [NG JIN YAO](https://isss608-blessmebellburve.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [NG WEE TINN SHERMAINN](https://isss608-sherm.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [NGUYEN NGUYEN HA](https://summernguyenn.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
--   [NGUYEN PHUONG HOA](https://isss608-ay2024-25t.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [NGUYEN PHUONG HOA](https://isss608-ay2024-25t.netlify.app/take-home_ex/take-home_ex01/take-home_ex01(1))
 -   [NOR HENDRA BIN ABDUL RAHMAN](https://norhendra-isss608.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [PATRICIA TRISNO](https://isss608-ay2024-25t2-pat.netlify.app/take-home_exercise/take-home_ex01/take-home_exercise01)
 -   [PENG HSIAO-YUAN](https://lesteronthecouchisss608.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
