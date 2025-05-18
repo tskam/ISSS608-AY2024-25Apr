@@ -2608,7 +2608,7 @@
     "href": "TH_EX/TH_EX2.html#kickstarter",
     "title": "Take-home Exercise 2",
     "section": "KickStarter",
-    "text": "KickStarter"
+    "text": "KickStarter\n\nMini case 1\nMini case 2\nMini case 3"
   },
   {
     "objectID": "TH_EX/TH_EX2.html#learning-from-senior",
@@ -2630,5 +2630,61 @@
     "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
     "section": "Peer Learning",
     "text": "Peer Learning"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html",
+    "href": "TH_EX/MC1-kickstarter.html",
+    "title": "MC1 Kickstarter",
+    "section": "",
+    "text": "By the end of this handson exercise, you will be able to:\n\nimport Mini case 1 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#overview",
+    "href": "TH_EX/MC1-kickstarter.html#overview",
+    "title": "MC1 Kickstarter",
+    "section": "",
+    "text": "By the end of this handson exercise, you will be able to:\n\nimport Mini case 1 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#getting-started",
+    "href": "TH_EX/MC1-kickstarter.html#getting-started",
+    "title": "MC1 Kickstarter",
+    "section": "Getting Started",
+    "text": "Getting Started\nFor the purpose of this exercise, four R packages will be used. They are tidyverse, jsonlite, tidygraph and ggraph.\n\n\n\n\n\n\nNote\n\n\n\nYou are required to install the R packages above, if necessary, before continue to the next step.\n\n\nIn the code chunk below, p_load() of pacman package is used to load the R packages into R environemnt.\n\npacman::p_load(tidyverse, jsonlite,\n               tidygraph, ggraph)"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#importing-kownledge-graph-data",
+    "href": "TH_EX/MC1-kickstarter.html#importing-kownledge-graph-data",
+    "title": "MC1 Kickstarter",
+    "section": "Importing Kownledge Graph Data",
+    "text": "Importing Kownledge Graph Data\nFor the purpose of this exercise, MC1_graph.json file will be used. Before getting started, you should have the data set in the data sub-folder.\nIn the code chunk below, fromJSON() of jsonlite package is used to import MC1_graph.json file into R and save the output object\n\nkg &lt;- fromJSON(\"data/MC1_graph.json\")\n\n\nInspect structure\nBefore preparing the data, it is always a good practice to examine the structure of kg object.\nIn the code chunk below str() is used to reveal the structure of kg object.\n\nstr(kg, max.level = 1)\n\nList of 5\n $ directed  : logi TRUE\n $ multigraph: logi TRUE\n $ graph     :List of 2\n $ nodes     :'data.frame': 17412 obs. of  10 variables:\n $ links     :'data.frame': 37857 obs. of  4 variables:"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#initial-eda",
+    "href": "TH_EX/MC1-kickstarter.html#initial-eda",
+    "title": "MC1 Kickstarter",
+    "section": "Initial EDA",
+    "text": "Initial EDA\n\nggplot(data = edges_tbl,\n       aes(y = `Edge Type`)) +\n  geom_bar()\n\n\n\n\n\n\n\n\n\nggplot(data = nodes_tbl,\n       aes(y = `Node Type`)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#creating-knowledge-graph",
+    "href": "TH_EX/MC1-kickstarter.html#creating-knowledge-graph",
+    "title": "MC1 Kickstarter",
+    "section": "Creating Knowledge Graph",
+    "text": "Creating Knowledge Graph\n\nMapping from node id to row index\nBefore we can go ahead to build the tidygraph object, it is important for us to ensures each id from the node list is mapped to the correct row number. This requirement can be achive by using the code chunk below.\n\nid_map &lt;- tibble(id = nodes_tbl$id,\n                 index = seq_len(\n                   nrow(nodes_tbl)))\n\n\n\nMap source and target IDs to row indices\nNext, we will map the source and the target IDs to row indices by using the code chunk below.\n\nedges_tbl &lt;- edges_tbl %&gt;%\n  left_join(id_map, by = c(\"source\" = \"id\")) %&gt;%\n  rename(from = index) %&gt;%\n  left_join(id_map, by = c(\"target\" = \"id\")) %&gt;%\n  rename(to = index)\n\n\n\n\n\n\n\nNote\n\n\n\nTo better understand the changes before and after the process, it is to take a screenshot of edges_tbl before and after this process and examine the differences.\n\n\n\n\nFilter out any unmatched (invalid) edges\nLastly, the code chunk below will be used to exclude the unmatch edges.\n\nedges_tbl &lt;- edges_tbl %&gt;%\n  filter(!is.na(from), !is.na(to))\n\n\n\nCreating tidygraph\nLastly, tbl_graph() is used to create tidygraph’s graph object by using the code chunk below.\n\ngraph &lt;- tbl_graph(nodes = nodes_tbl, \n                   edges = edges_tbl, \n                   directed = kg$directed)\n\nYou might want to confirm the output object is indeed in tidygraph format by using the code chunk below.\n\nclass(graph)\n\n[1] \"tbl_graph\" \"igraph\""
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#visualising-the-knowledge-graph",
+    "href": "TH_EX/MC1-kickstarter.html#visualising-the-knowledge-graph",
+    "title": "MC1 Kickstarter",
+    "section": "Visualising the knowledge graph",
+    "text": "Visualising the knowledge graph\nIn this section, we will use ggraph’s functions to visualise and analyse the graph object.\n\n\n\n\n\n\nWarning\n\n\n\nThe two examples below are not model answers, they are examples to show you how to use the mantra of Overview first, details on demand of visual investigation.\n\n\nSeveral of the ggraph layouts involve randomisation. In order to ensure reproducibility, it is necessary to set the seed value before plotting by using the code chunk below.\n\nset.seed(1234)\n\n\nVisualising the whole graph\nIn the code chunk below, ggraph functions are used to visualise the whole graph.\n\nggraph(graph, layout = \"fr\") +\n  geom_edge_link(alpha = 0.3, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `Node Type`), \n                  size = 4) +\n  geom_node_text(aes(label = name), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()\n\n\n\n\n\n\n\n\nNotice that the whole graph is very messy and we can hardy discover any useful patterns. This is always the case in graph visualisation and analysis. In order to gain meaningful visual discovery, it is always useful for us to looking into the details, for example by plotting sub-graphs.\n\n\nVisualising the sub-graph\nIn this section, we are interested to create a sub-graph base on MemberOf value in Edge Type column of the edges data frame.\n\nFiltering edges to only “MemberOf”\n\ngraph_memberof &lt;- graph %&gt;%\n  activate(edges) %&gt;%\n  filter(`Edge Type` == \"MemberOf\")\n\n\n\nExtracting only connected nodes (i.e., used in these edges)\n\nused_node_indices &lt;- graph_memberof %&gt;%\n  activate(edges) %&gt;%\n  as_tibble() %&gt;%\n  select(from, to) %&gt;%\n  unlist() %&gt;%\n  unique()\n\n\n\nKeeping only those nodes\n\ngraph_memberof &lt;- graph_memberof %&gt;%\n  activate(nodes) %&gt;%\n  mutate(row_id = row_number()) %&gt;%\n  filter(row_id %in% used_node_indices) %&gt;%\n  select(-row_id)  # optional cleanup\n\n\n\nPlotting the sub-graph\n\nggraph(graph_memberof, \n       layout = \"fr\") +\n  geom_edge_link(alpha = 0.5, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `Node Type`), \n                  size = 1) +\n  geom_node_text(aes(label = name), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()\n\n\n\n\n\n\n\n\nNotice that the sub-graph above is very clear and the relationship between musical group and person can be visualise easily."
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#extracting-the-edges-and-nodes-tables",
+    "href": "TH_EX/MC1-kickstarter.html#extracting-the-edges-and-nodes-tables",
+    "title": "MC1 Kickstarter",
+    "section": "Extracting the edges and nodes tables",
+    "text": "Extracting the edges and nodes tables\nNext, as_tibble() of tibble package package is used to extract the nodes and links tibble data frames from kg object into two separate tibble data frames called nodes_tbl and edges_tbl respectively.\n\nnodes_tbl &lt;- as_tibble(kg$nodes)\nedges_tbl &lt;- as_tibble(kg$links) \n\n\nInitial EDA\nIt is time for us to apply appropriate EDA methods to examine the data.\nIn this code chunk below, ggplot2 functions are used the reveal the frequency distribution of Edge Type field of edges_tbl.\n\nggplot(data = edges_tbl,\n       aes(y = `Edge Type`)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nOn the other hands, code chunk below uses ggplot2 functions to reveal the frequency distribution of Node Type field of nodes_tbl.\n\nggplot(data = nodes_tbl,\n       aes(y = `Node Type`)) +\n  geom_bar()"
   }
 ]

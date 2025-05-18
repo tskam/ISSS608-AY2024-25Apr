@@ -43,6 +43,10 @@ Your completed take-home exercise is due on **1st June 2025, by 11:59 mid-night*
 
 ## KickStarter
 
+- [Mini case 1]()
+- [Mini case 2]()
+- [Mini case 3]()
+
 ## Learning from Senior
 
 -   [ISSS608 2016-17 T3 Assign GUAN YIFEI](https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_GUAN_YIFEI). Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.
