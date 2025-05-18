@@ -43,7 +43,7 @@ Your completed take-home exercise is due on **1st June 2025, by 11:59 mid-night*
 
 ## KickStarter
 
-- [Mini case 1]()
+- [Mini case 1](MC1-kickstarter.html)
 - [Mini case 2]()
 - [Mini case 3]()
 
