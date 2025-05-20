@@ -1,73 +1,227 @@
 [
   {
-    "objectID": "TH_EX/TH_EX1.html",
-    "href": "TH_EX/TH_EX1.html",
-    "title": "Take-home Exercise 1",
+    "objectID": "VAProject.html",
+    "href": "VAProject.html",
+    "title": "Visual Analytics Project",
     "section": "",
-    "text": "Creating data visualisation that is enligthening and truthful\n\n\n\nCreating enlightening and truthful data visualizations involves focusing on accuracy, transparency, and the ability to effectively communicate insights. It’s about presenting data in a way that is both informative and aesthetically pleasing, ensuring the audience can grasp the information quickly and accurately."
+    "text": "The purpose of the project is to provide students first hand experience on building web-enabled visual analytics application by using Shiny. It aims to democratize data and analytics. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.\nA project may involve developing new methods or implementing visual analytics system to support analytic tasks in specific domains. Alternatively, a project may be in the form of application development by integrating analytical tools within a visual analytics environment. Students are encouraged to focus on research topics that are relevant to their field of study. It should address a concrete visual analytics problem and should propose a novel and creative solution.\n\n\n\nThis term the topic of Visual Analytics Project will be based on either VAST Challenge 2025 or ChinaVis Data Visualisation Competition 2025. For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge.\n\n\n\nThe project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term.\nA good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!\nEach project team are required to maintain a comprehensive Minutes of Meeting from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes(with Templates and Samples)\n\nThe Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended.\n\n\n\n\nBrainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.\nEditing and publishing project proposal on Netlify latest by the end of 8th June 2025 at 11:59pm (mid-night).\nUploading project poster on eLearn by 26th June 2025 at 11:59pm (mid-night).\nPoster presentation: 2nd July 2025, 2:00pm-3:30pm\nSubmission of final application, user guide, project poster and artifacts: 6th July 2025 by 11:59pm (mid-night)\n\n\n\n\n\n\nAt the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project version control including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\n\nEach project team are required to create the project website by using Quarto. It will be disseminated by using webserver such as Netfity.\nAs a first step, you should create a project summary at the project website that includes:\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and\nThe project proposal. This should in a webpage (remember to provide a link at the wiki).\n\n\n\n\nEach project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by 8th June 2025.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide and poster by 7th July 2025.\n\n\n\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)\nResolution = 300dpi or above\nImage dimension at 300 dpi: 7,016 x 9,933 pixels\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\n\n\n\nThe final deliverable will include:\n\nDeployment of the Web-enabled Visual Analytics Application on shinyapps.io by RStudio.\nArtifact including the ShinyApp codes, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\n\nSample UserGuide 1\nSample UserGuide 2\n\nProject poster\nMinutes of Meeting\n\nThe final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a single zip file format. If the file size is beyond the file size allocated by eLean, it can be upoaded on SMU OneDrive.\n\n\n\n\nThe visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nProject website 15%\nPoster 10%\nMinutes of Meeting 10%\nPeer Evaluation 15%\nShinyApp 50%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\n\n\nThe poster will be graded based on the following criteria:\n\nClear communication of key aspects of solution\nClear communication of design approaches\nClear communication of arguments for proposed solution\nCraft quality of the solution\n\n\n\n\n\nNote that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application\n\n\n\nSGGoldenGoose\n\n\n\n\n\nOhio City Renewal Solutions\nWealth Check Up\n\n\n\n\n\nGroup 3: Tanzania Tourism Analysis\nGroup 5: Loan Default Prediction\n\n\n\n\n\nNetwork-enabled Maritime Observations\nA Fishy Business!\nFishEye\n\n\n\n\n\nThe Alchemists\nWeather Analytics\nDecoding Chaos\n\n\n\n\n\n\nThe Big Fish: Catching Illegal Fishing Through Visual Analytics. Specially mentioned: This project won VAST Challenge 2024: Award for Comprehensive Characterization of Suspicious Behaviors."
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#overview",
-    "href": "TH_EX/TH_EX1.html#overview",
-    "title": "Take-home Exercise 1",
-    "section": "Overview",
-    "text": "Overview\nThis handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise."
+    "objectID": "VAProject.html#overview",
+    "href": "VAProject.html#overview",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The purpose of the project is to provide students first hand experience on building web-enabled visual analytics application by using Shiny. It aims to democratize data and analytics. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.\nA project may involve developing new methods or implementing visual analytics system to support analytic tasks in specific domains. Alternatively, a project may be in the form of application development by integrating analytical tools within a visual analytics environment. Students are encouraged to focus on research topics that are relevant to their field of study. It should address a concrete visual analytics problem and should propose a novel and creative solution."
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#setting-the-scene",
-    "href": "TH_EX/TH_EX1.html#setting-the-scene",
-    "title": "Take-home Exercise 1",
-    "section": "Setting the scene",
-    "text": "Setting the scene\nA local online media company that publishes daily content on digital platforms is planning to release an article on demographic structures and distribution of Singapore in 2024."
+    "objectID": "VAProject.html#project-topic",
+    "href": "VAProject.html#project-topic",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "This term the topic of Visual Analytics Project will be based on either VAST Challenge 2025 or ChinaVis Data Visualisation Competition 2025. For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge."
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#the-task",
-    "href": "TH_EX/TH_EX1.html#the-task",
-    "title": "Take-home Exercise 1",
-    "section": "The Task",
-    "text": "The Task\nAssuming the role of the graphical editor of the media company, you are tasked to prepare at most three data visualisation for the article.\n\n\n\n\n\n\nImportant\n\n\n\nThe task will be completed in two phases:\n\nPhase 1: Designing your own data visualisation.\nPhase 2: Selecting one submission provided by your classmate, critic three good design principles and three areas for further improvement. With reference to the comment, prepare the makeover version of the data visualisation."
+    "objectID": "VAProject.html#project-management",
+    "href": "VAProject.html#project-management",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term.\nA good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!\nEach project team are required to maintain a comprehensive Minutes of Meeting from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes(with Templates and Samples)\n\nThe Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended."
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#the-data",
-    "href": "TH_EX/TH_EX1.html#the-data",
-    "title": "Take-home Exercise 1",
-    "section": "The Data",
-    "text": "The Data\nTo accomplish the task, Singapore Residents by Planning Area / Subzone, Single Year of Age and Sex, June 2024 dataset shares by Department of Statistics, Singapore (DOS) should be used."
+    "objectID": "VAProject.html#project-milestone",
+    "href": "VAProject.html#project-milestone",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.\nEditing and publishing project proposal on Netlify latest by the end of 8th June 2025 at 11:59pm (mid-night).\nUploading project poster on eLearn by 26th June 2025 at 11:59pm (mid-night).\nPoster presentation: 2nd July 2025, 2:00pm-3:30pm\nSubmission of final application, user guide, project poster and artifacts: 6th July 2025 by 11:59pm (mid-night)"
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#the-designing-tool",
-    "href": "TH_EX/TH_EX1.html#the-designing-tool",
-    "title": "Take-home Exercise 1",
-    "section": "The Designing Tool",
-    "text": "The Designing Tool\nThe data should be processed by using appropriate tidyverse family of packages and the data visualisation must be prepared using ggplot2 and its extensions.\n\n\n\n\n\n\nImportant\n\n\n\nNo interactive data visualisation are required."
+    "objectID": "VAProject.html#project-deliverables",
+    "href": "VAProject.html#project-deliverables",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "At the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project version control including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\n\nEach project team are required to create the project website by using Quarto. It will be disseminated by using webserver such as Netfity.\nAs a first step, you should create a project summary at the project website that includes:\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and\nThe project proposal. This should in a webpage (remember to provide a link at the wiki).\n\n\n\n\nEach project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by 8th June 2025.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide and poster by 7th July 2025.\n\n\n\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)\nResolution = 300dpi or above\nImage dimension at 300 dpi: 7,016 x 9,933 pixels\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\n\n\n\nThe final deliverable will include:\n\nDeployment of the Web-enabled Visual Analytics Application on shinyapps.io by RStudio.\nArtifact including the ShinyApp codes, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\n\nSample UserGuide 1\nSample UserGuide 2\n\nProject poster\nMinutes of Meeting\n\nThe final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a single zip file format. If the file size is beyond the file size allocated by eLean, it can be upoaded on SMU OneDrive."
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#the-write-up",
-    "href": "TH_EX/TH_EX1.html#the-write-up",
-    "title": "Take-home Exercise 1",
-    "section": "The Write-up",
-    "text": "The Write-up\nThe write-up of the take-home exercise should include but not limited to the followings:\n\nA reproducible description of the procedures used to prepare the analytical visualisation. Please refer to the senior submission I shared below.\nA write-up of not more than 150 words per each data visualisation, describing and discussing the patterns reveal by each visualisation prepared."
+    "objectID": "VAProject.html#grading",
+    "href": "VAProject.html#grading",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nProject website 15%\nPoster 10%\nMinutes of Meeting 10%\nPeer Evaluation 15%\nShinyApp 50%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\n\n\nThe poster will be graded based on the following criteria:\n\nClear communication of key aspects of solution\nClear communication of design approaches\nClear communication of arguments for proposed solution\nCraft quality of the solution"
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#submission-date",
-    "href": "TH_EX/TH_EX1.html#submission-date",
-    "title": "Take-home Exercise 1",
+    "objectID": "VAProject.html#sample-projects",
+    "href": "VAProject.html#sample-projects",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application\n\n\n\nSGGoldenGoose\n\n\n\n\n\nOhio City Renewal Solutions\nWealth Check Up\n\n\n\n\n\nGroup 3: Tanzania Tourism Analysis\nGroup 5: Loan Default Prediction\n\n\n\n\n\nNetwork-enabled Maritime Observations\nA Fishy Business!\nFishEye\n\n\n\n\n\nThe Alchemists\nWeather Analytics\nDecoding Chaos"
+  },
+  {
+    "objectID": "VAProject.html#ay2023-2024-april-term",
+    "href": "VAProject.html#ay2023-2024-april-term",
+    "title": "Visual Analytics Project",
+    "section": "",
+    "text": "The Big Fish: Catching Illegal Fishing Through Visual Analytics. Specially mentioned: This project won VAST Challenge 2024: Award for Comprehensive Characterization of Suspicious Behaviors."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html",
+    "href": "TH_EX/TH_EX2.html",
+    "title": "Take-home Exercise 2",
+    "section": "",
+    "text": "In this take-home exercise, you are required to select one of the topic below and provide solutions to the challenge:\n\nIn Mini-Challenge 1, students will be provided a knowledge graph of containing recording artists, albums, collaborations, concerts, influences, and more. The goal will be to develop visual analytics approaches to trace the rise of one artist and predict who will be next to break out.\nIn Mini-Challenge 2, students will take on the theme of conflict over societal change directly. Two opposing groups representing the fishing and tourism industries are vying for economic development funding and accusing a local government board of bias. Students will be asked to reconstruct a true timeline with data that comes from both sides.\nIn Mini-Challenge 3, students will be provided a knowledge graph created from transcripts of boat radio communications and asked to identify people, their roles, and the events and locations they talk about to predict when and where an event will take place.\n\n\n\n\n\n\n\nImportant\n\n\n\n\nYou only need to attempt either one out of the three Mini Cases\nThe data should be processed by using appropriate tidyverse family of packages and the Visual Analytics tools must be prepared by using appropriate R packages."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#the-task",
+    "href": "TH_EX/TH_EX2.html#the-task",
+    "title": "Take-home Exercise 2",
+    "section": "",
+    "text": "In this take-home exercise, you are required to select one of the topic below and provide solutions to the challenge:\n\nIn Mini-Challenge 1, students will be provided a knowledge graph of containing recording artists, albums, collaborations, concerts, influences, and more. The goal will be to develop visual analytics approaches to trace the rise of one artist and predict who will be next to break out.\nIn Mini-Challenge 2, students will take on the theme of conflict over societal change directly. Two opposing groups representing the fishing and tourism industries are vying for economic development funding and accusing a local government board of bias. Students will be asked to reconstruct a true timeline with data that comes from both sides.\nIn Mini-Challenge 3, students will be provided a knowledge graph created from transcripts of boat radio communications and asked to identify people, their roles, and the events and locations they talk about to predict when and where an event will take place.\n\n\n\n\n\n\n\nImportant\n\n\n\n\nYou only need to attempt either one out of the three Mini Cases\nThe data should be processed by using appropriate tidyverse family of packages and the Visual Analytics tools must be prepared by using appropriate R packages."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#assessment-rubric",
+    "href": "TH_EX/TH_EX2.html#assessment-rubric",
+    "title": "Take-home Exercise 2",
+    "section": "Assessment Rubric",
+    "text": "Assessment Rubric\n\nQuality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.\nQuality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.\nQuality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.\nQuality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#submission-instructions",
+    "href": "TH_EX/TH_EX2.html#submission-instructions",
+    "title": "Take-home Exercise 2",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\n\n\n\n\n\n\nImportant\n\n\n\nThe specific submission instructions are as follows:\n\nThe write-up of the take-home exercise must be in Quarto html document format. You are required to publish the write-up on Netlify.\nRender the write-up in MS Word format and upload the docx file onto eLearn."
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#submission-date",
+    "href": "TH_EX/TH_EX2.html#submission-date",
+    "title": "Take-home Exercise 2",
     "section": "Submission date",
-    "text": "Submission date\n\n\n\n\n\n\nImportant\n\n\n\nThere are two submission deadlines for this take-home exercise, they are:\n\nPhase 1: 4th May 2025 mid-night 12:00am 11:59pm.\nPhase 2: 11th May 2025 mid-night 12:00am 11:59pm"
+    "text": "Submission date\nYour completed take-home exercise is due on 1st June 2025, by 11:59 mid-night."
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#learning-from-senior",
-    "href": "TH_EX/TH_EX1.html#learning-from-senior",
-    "title": "Take-home Exercise 1",
-    "section": "Learning from senior",
-    "text": "Learning from senior\n\nKYLIE TAN JING YI\nTOA ZI YING JANET\nLEW YING ZHEN SERENA\nSENG JING YI\nJAYA GEORGE"
+    "objectID": "TH_EX/TH_EX2.html#kickstarter",
+    "href": "TH_EX/TH_EX2.html#kickstarter",
+    "title": "Take-home Exercise 2",
+    "section": "KickStarter",
+    "text": "KickStarter\n\nMini case 1\nMini case 2\nMini case 3"
   },
   {
-    "objectID": "TH_EX/TH_EX1.html#peer-learning",
-    "href": "TH_EX/TH_EX1.html#peer-learning",
-    "title": "Take-home Exercise 1",
-    "section": "Peer Learning",
-    "text": "Peer Learning\n\nANDRE ONG JIA KANG\nCALVIN TAN SONG HAO\nCHAN HAN JIE\nCHIAM SHUNZHONG DAVID\nDO QUYNH TRANG\nENRICO SEBASTIAN ENRICO SEBASTIAN DANUSANTOSO\nEVANGELINE OLIVIA SIDIHARTO\nFU YILIN\nGOH YI FANG\nHAO LIU\nHUANG PENGXIN\nHUANG ZIHAN\nJESSE EMMANUEL LUCAS\nLAU JIA YI\nLI JIANYI\nLI YUQUAN\nLIAW YING TING CELIN\nLIM KAH SIEW BELINDA\nLIU CHIH-YUAN\nLU LINSEN\nLUO YUMING\nMARGA THURA\nMIN HTET AUNG  Specially highlighted: 3.2 Age Pyramid of Top 24 Planning Areas.\nNG JIN YAO\nNG WEE TINN SHERMAINN\nNGUYEN NGUYEN HA\nNGUYEN PHUONG HOA\nNOR HENDRA BIN ABDUL RAHMAN\nPATRICIA TRISNO\nPENG HSIAO-YUAN\nRAJESH BABU SANTIGARI\nSANDRA JACOB\nSARIYANTI HARTIONO\nSTEFANIE FELICIA\nTA NGUYEN THAO NGUYEN\nTAI QIUYAN\nTAI YU YING\nTAN WENYING AUDREY  Special mentioned: Excellence design efforts 7.1 Population Pyramid and innovative idea 8. Daily Article\nTEO WEE SIANG ROY\nVANESSA RIADI\nWANG ANQI\nWANG SHENSI\nXU XINYI\nYANG LU\nYANG YAYONG\nYUAN YIHAO\nZHANG JINGHAN\nZHANG XUERONG"
+    "objectID": "TH_EX/TH_EX2.html#learning-from-senior",
+    "href": "TH_EX/TH_EX2.html#learning-from-senior",
+    "title": "Take-home Exercise 2",
+    "section": "Learning from Senior",
+    "text": "Learning from Senior\n\nISSS608 2016-17 T3 Assign GUAN YIFEI. Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2016-17 T3 Assign ZHANG YANRONG. Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan\nISSS608 2021-22 April Term Assignment 6: Raunak Kapur\n\nAY2022-23 April Term\n\nONG CHAE HUI\nKWA KAH BOON\nFONG BAO XIAN\nHAILEY CHEONG SZE-YENN\n\nAY2023-24 April Term\n\nKristine Joy Paas\nSeng Jing Yi"
+  },
+  {
+    "objectID": "TH_EX/TH_EX2.html#reference",
+    "href": "TH_EX/TH_EX2.html#reference",
+    "title": "Take-home Exercise 2",
+    "section": "Reference",
+    "text": "Reference\n\nAnalysis Without Data: Teaching Students to Tackle the VAST Challenge"
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html",
+    "href": "TH_EX/MC3-kickstarter.html",
+    "title": "MC3 Kickstarter",
+    "section": "",
+    "text": "By the end of this hands-on exercise, you will be able to:\n\nimport Mini Case 3 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html#overview",
+    "href": "TH_EX/MC3-kickstarter.html#overview",
+    "title": "MC3 Kickstarter",
+    "section": "",
+    "text": "By the end of this hands-on exercise, you will be able to:\n\nimport Mini Case 3 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html#getting-started",
+    "href": "TH_EX/MC3-kickstarter.html#getting-started",
+    "title": "MC3 Kickstarter",
+    "section": "Getting Started",
+    "text": "Getting Started\nFor the purpose of this exercise, five R packages will be used. They are tidyverse, jsonlite, tidygraph, ggraph and SmartEDA.\n\n\n\n\n\n\nNote\n\n\n\nYou are required to install the R packages above, if necessary, before continue to the next step.\n\n\nIn the code chunk below, p_load() of pacman package is used to load the R packages into R environemnt.\n\npacman::p_load(tidyverse, jsonlite,\n               tidygraph, ggraph,\n               SmartEDA)"
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html#importing-knowledge-graph-data",
+    "href": "TH_EX/MC3-kickstarter.html#importing-knowledge-graph-data",
+    "title": "MC3 Kickstarter",
+    "section": "Importing Knowledge Graph Data",
+    "text": "Importing Knowledge Graph Data\nFor the purpose of this exercise, mc3.json file will be used. Before getting started, you should have the data set in the data sub-folder.\nIn the code chunk below, fromJSON() of jsonlite package is used to import mc3.json file into R and save the output object\n\nMC3 &lt;- fromJSON(\"data/MC3_graph.json\")\nMC3_schema &lt;- fromJSON(\"data/MC3_schema.json\")\n\n\nInspecting knowledge graph structure\nBefore preparing the data, it is always a good practice to examine the structure of mc3 knowledge graph.\nIn the code chunk below glimpse() is used to reveal the structure of mc3 knowledge graph.\n\nglimpse(MC3)\n\nList of 5\n $ directed  : logi TRUE\n $ multigraph: logi FALSE\n $ graph     :List of 4\n  ..$ mode        : chr \"static\"\n  ..$ edge_default: Named list()\n  ..$ node_default: Named list()\n  ..$ name        : chr \"VAST_MC3_Knowledge_Graph\"\n $ nodes     :'data.frame': 1159 obs. of  31 variables:\n  ..$ type             : chr [1:1159] \"Entity\" \"Entity\" \"Entity\" \"Entity\" ...\n  ..$ label            : chr [1:1159] \"Sam\" \"Kelly\" \"Nadia Conti\" \"Elise\" ...\n  ..$ name             : chr [1:1159] \"Sam\" \"Kelly\" \"Nadia Conti\" \"Elise\" ...\n  ..$ sub_type         : chr [1:1159] \"Person\" \"Person\" \"Person\" \"Person\" ...\n  ..$ id               : chr [1:1159] \"Sam\" \"Kelly\" \"Nadia Conti\" \"Elise\" ...\n  ..$ timestamp        : chr [1:1159] NA NA NA NA ...\n  ..$ monitoring_type  : chr [1:1159] NA NA NA NA ...\n  ..$ findings         : chr [1:1159] NA NA NA NA ...\n  ..$ content          : chr [1:1159] NA NA NA NA ...\n  ..$ assessment_type  : chr [1:1159] NA NA NA NA ...\n  ..$ results          : chr [1:1159] NA NA NA NA ...\n  ..$ movement_type    : chr [1:1159] NA NA NA NA ...\n  ..$ destination      : chr [1:1159] NA NA NA NA ...\n  ..$ enforcement_type : chr [1:1159] NA NA NA NA ...\n  ..$ outcome          : chr [1:1159] NA NA NA NA ...\n  ..$ activity_type    : chr [1:1159] NA NA NA NA ...\n  ..$ participants     : int [1:1159] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ thing_collected  :'data.frame':   1159 obs. of  2 variables:\n  .. ..$ type: chr [1:1159] NA NA NA NA ...\n  .. ..$ name: chr [1:1159] NA NA NA NA ...\n  ..$ reference        : chr [1:1159] NA NA NA NA ...\n  ..$ date             : chr [1:1159] NA NA NA NA ...\n  ..$ time             : chr [1:1159] NA NA NA NA ...\n  ..$ friendship_type  : chr [1:1159] NA NA NA NA ...\n  ..$ permission_type  : chr [1:1159] NA NA NA NA ...\n  ..$ start_date       : chr [1:1159] NA NA NA NA ...\n  ..$ end_date         : chr [1:1159] NA NA NA NA ...\n  ..$ report_type      : chr [1:1159] NA NA NA NA ...\n  ..$ submission_date  : chr [1:1159] NA NA NA NA ...\n  ..$ jurisdiction_type: chr [1:1159] NA NA NA NA ...\n  ..$ authority_level  : chr [1:1159] NA NA NA NA ...\n  ..$ coordination_type: chr [1:1159] NA NA NA NA ...\n  ..$ operational_role : chr [1:1159] NA NA NA NA ...\n $ edges     :'data.frame': 3226 obs. of  5 variables:\n  ..$ id         : chr [1:3226] \"2\" \"3\" \"5\" \"3013\" ...\n  ..$ is_inferred: logi [1:3226] TRUE FALSE TRUE TRUE TRUE TRUE ...\n  ..$ source     : chr [1:3226] \"Sam\" \"Sam\" \"Sam\" \"Sam\" ...\n  ..$ target     : chr [1:3226] \"Relationship_Suspicious_217\" \"Event_Communication_370\" \"Event_Assessment_600\" \"Relationship_Colleagues_430\" ...\n  ..$ type       : chr [1:3226] NA \"sent\" NA NA ...\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNotice that Industry field is in list data type. In general, this data type is not acceptable by tbl_graph() of tidygraph. In order to avoid error arise when building tidygraph object, it is wiser to exclude this field from the edges data table. However, it might be still useful in subsequent analysis."
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html#extracting-the-edges-and-nodes-tables",
+    "href": "TH_EX/MC3-kickstarter.html#extracting-the-edges-and-nodes-tables",
+    "title": "MC3 Kickstarter",
+    "section": "Extracting the edges and nodes tables",
+    "text": "Extracting the edges and nodes tables\nNext, as_tibble() of tibble package package is used to extract the nodes and links tibble data frames from mc3 tibble dataframe into two separate tibble dataframes called mc3_nodes and mc3_edges respectively.\n\nmc3_nodes &lt;- as_tibble(MC3$nodes)\nmc3_edges &lt;- as_tibble(MC3$edges)\n\n\nInitial EDA\nIt is time for us to apply appropriate EDA methods to examine the data.\nIn the code chunk below, ExpCatViz() of SmartEDA package is used to reveal the frequency distribution of all categorical fields in mc3_nodes tibble dataframe.\n\nExpCatViz(data=mc3_nodes,\n          col=\"lightblue\")\n\n[[1]]\n\n\n\n\n\n\n\n\n\n\n[[2]]\n\n\n\n\n\n\n\n\n\n\n[[3]]\n\n\n\n\n\n\n\n\n\n\n[[4]]\n\n\n\n\n\n\n\n\n\n\n[[5]]\n\n\n\n\n\n\n\n\n\n\n[[6]]\n\n\n\n\n\n\n\n\n\n\n[[7]]\n\n\n\n\n\n\n\n\n\n\n[[8]]\n\n\n\n\n\n\n\n\n\n\n[[9]]\n\n\n\n\n\n\n\n\n\n\n[[10]]\n\n\n\n\n\n\n\n\n\n\n[[11]]\n\n\n\n\n\n\n\n\n\n\n[[12]]\n\n\n\n\n\n\n\n\n\n\n[[13]]\n\n\n\n\n\n\n\n\n\n\n[[14]]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhat useful discovery can you obtained from the visualisation above?\n\n\nOn the other hands, code chunk below uses ExpCATViz() of SmartEDA package to reveal the frequency distribution of all categorical fields in mc3_edges tibble dataframe.\n\nExpCatViz(data=mc3_edges,\n          col=\"lightblue\")\n\n[[1]]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhat useful discovery can you obtained from the visualisation above?"
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html#data-cleaning-and-wrangling",
+    "href": "TH_EX/MC3-kickstarter.html#data-cleaning-and-wrangling",
+    "title": "MC3 Kickstarter",
+    "section": "Data Cleaning and Wrangling",
+    "text": "Data Cleaning and Wrangling\n\nCleaning and wrangling nodes\nCode chunk below performs the following data cleaning tasks:\n\nconvert values in id field into character data type,\nexclude records with id value are na,\nexclude records with similar id values,\nexclude thing_collected field, and\nsave the cleaned tibble dataframe into a new tibble datatable called mc3_nodes_cleaned.\n\n\nmc3_nodes_cleaned &lt;- mc3_nodes %&gt;%\n  mutate(id = as.character(id)) %&gt;%\n  filter(!is.na(id)) %&gt;%\n  distinct(id, .keep_all = TRUE) %&gt;%\n  select(-thing_collected)\n\n\n\nCleaning and wrangling edges\nNext, the code chunk below will be used to:\n\nrename source and target fields to from_id and to_id respectively,\nconvert values in from_id and to_id fields to character data type,\nexclude values in from_id and to_id which not found in the id field of mc3_nodes_cleaned,\nexclude records whereby from_id and/or to_id values are missing, and\nsave the cleaned tibble dataframe and called it mc3_edges_cleaned.\n\n\nmc3_edges_cleaned &lt;- mc3_edges %&gt;%\n  rename(from_id = source, \n         to_id = target) %&gt;%\n  mutate(across(c(from_id, to_id), \n                as.character)) %&gt;%\n  filter(from_id %in% mc3_nodes_cleaned$id, \n         to_id %in% mc3_nodes_cleaned$id) %&gt;%\n  filter(!is.na(from_id), !is.na(to_id))\n\nNext, code chunk below will be used to create mapping of character id in mc3_nodes_cleaned to row index\n\nnode_index_lookup &lt;- mc3_nodes_cleaned %&gt;%\n  mutate(.row_id = row_number()) %&gt;%\n  select(id, .row_id)\n\nNext, the code chunk below will be used to join and convert from_id and to_id to integer indices. At the same time we also drop rows with unmatched nodes.\n\nmc3_edges_indexed &lt;- mc3_edges_cleaned %&gt;%\n  left_join(node_index_lookup, \n            by = c(\"from_id\" = \"id\")) %&gt;%\n  rename(from = .row_id) %&gt;%\n  left_join(node_index_lookup, \n            by = c(\"to_id\" = \"id\")) %&gt;%\n  rename(to = .row_id) %&gt;%\n  select(from, to, is_inferred, type) %&gt;%\n  filter(!is.na(from) & !is.na(to))  \n\nNext the code chunk below is used to subset nodes to only those referenced by edges.\n\nused_node_indices &lt;- sort(\n  unique(c(mc3_edges_indexed$from, \n           mc3_edges_indexed$to)))\n\nmc3_nodes_final &lt;- mc3_nodes_cleaned %&gt;%\n  slice(used_node_indices) %&gt;%\n  mutate(new_index = row_number())\n\nWe will then use the code chunk below to rebuild lookup from old index to new index.\n\nold_to_new_index &lt;- tibble(\n  old_index = used_node_indices,\n  new_index = seq_along(\n    used_node_indices))\n\nLastly, the code chunk below will be used to update edge indices to match new node table.\n\nmc3_edges_final &lt;- mc3_edges_indexed %&gt;%\n  left_join(old_to_new_index, \n            by = c(\"from\" = \"old_index\")) %&gt;%\n  rename(from_new = new_index) %&gt;%\n  left_join(old_to_new_index, \n            by = c(\"to\" = \"old_index\")) %&gt;%\n  rename(to_new = new_index) %&gt;%\n  select(from = from_new, to = to_new, \n         is_inferred, type)"
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html#building-the-tidygraph-object",
+    "href": "TH_EX/MC3-kickstarter.html#building-the-tidygraph-object",
+    "title": "MC3 Kickstarter",
+    "section": "Building the tidygraph object",
+    "text": "Building the tidygraph object\nNow we are ready to build the tidygraph object by using the code chunk below.\n\nmc3_graph &lt;- tbl_graph(\n  nodes = mc3_nodes_final,\n  edges = mc3_edges_final,\n  directed = TRUE\n)\n\nAfter the tidygraph object is created, it is always a good practice to examine the object by using str().\n\nstr(mc3_graph)\n\nClasses 'tbl_graph', 'igraph'  hidden list of 10\n $ : num 1159\n $ : logi TRUE\n $ : num [1:3226] 0 0 0 0 0 0 0 1 1 1 ...\n $ : num [1:3226] 1137 356 746 894 875 ...\n $ : NULL\n $ : NULL\n $ : NULL\n $ : NULL\n $ :List of 4\n  ..$ : num [1:3] 1 0 1\n  ..$ : Named list()\n  ..$ :List of 31\n  .. ..$ type             : chr [1:1159] \"Entity\" \"Entity\" \"Entity\" \"Entity\" ...\n  .. ..$ label            : chr [1:1159] \"Sam\" \"Kelly\" \"Nadia Conti\" \"Elise\" ...\n  .. ..$ name             : chr [1:1159] \"Sam\" \"Kelly\" \"Nadia Conti\" \"Elise\" ...\n  .. ..$ sub_type         : chr [1:1159] \"Person\" \"Person\" \"Person\" \"Person\" ...\n  .. ..$ id               : chr [1:1159] \"Sam\" \"Kelly\" \"Nadia Conti\" \"Elise\" ...\n  .. ..$ timestamp        : chr [1:1159] NA NA NA NA ...\n  .. ..$ monitoring_type  : chr [1:1159] NA NA NA NA ...\n  .. ..$ findings         : chr [1:1159] NA NA NA NA ...\n  .. ..$ content          : chr [1:1159] NA NA NA NA ...\n  .. ..$ assessment_type  : chr [1:1159] NA NA NA NA ...\n  .. ..$ results          : chr [1:1159] NA NA NA NA ...\n  .. ..$ movement_type    : chr [1:1159] NA NA NA NA ...\n  .. ..$ destination      : chr [1:1159] NA NA NA NA ...\n  .. ..$ enforcement_type : chr [1:1159] NA NA NA NA ...\n  .. ..$ outcome          : chr [1:1159] NA NA NA NA ...\n  .. ..$ activity_type    : chr [1:1159] NA NA NA NA ...\n  .. ..$ participants     : int [1:1159] NA NA NA NA NA NA NA NA NA NA ...\n  .. ..$ reference        : chr [1:1159] NA NA NA NA ...\n  .. ..$ date             : chr [1:1159] NA NA NA NA ...\n  .. ..$ time             : chr [1:1159] NA NA NA NA ...\n  .. ..$ friendship_type  : chr [1:1159] NA NA NA NA ...\n  .. ..$ permission_type  : chr [1:1159] NA NA NA NA ...\n  .. ..$ start_date       : chr [1:1159] NA NA NA NA ...\n  .. ..$ end_date         : chr [1:1159] NA NA NA NA ...\n  .. ..$ report_type      : chr [1:1159] NA NA NA NA ...\n  .. ..$ submission_date  : chr [1:1159] NA NA NA NA ...\n  .. ..$ jurisdiction_type: chr [1:1159] NA NA NA NA ...\n  .. ..$ authority_level  : chr [1:1159] NA NA NA NA ...\n  .. ..$ coordination_type: chr [1:1159] NA NA NA NA ...\n  .. ..$ operational_role : chr [1:1159] NA NA NA NA ...\n  .. ..$ new_index        : int [1:1159] 1 2 3 4 5 6 7 8 9 10 ...\n  ..$ :List of 2\n  .. ..$ is_inferred: logi [1:3226] TRUE FALSE TRUE TRUE TRUE TRUE ...\n  .. ..$ type       : chr [1:3226] NA \"sent\" NA NA ...\n $ :&lt;environment: 0x000002835e7a4a20&gt; \n - attr(*, \"active\")= chr \"nodes\""
+  },
+  {
+    "objectID": "TH_EX/MC3-kickstarter.html#visualising-the-knowledge-graph",
+    "href": "TH_EX/MC3-kickstarter.html#visualising-the-knowledge-graph",
+    "title": "MC3 Kickstarter",
+    "section": "Visualising the knowledge graph",
+    "text": "Visualising the knowledge graph\nSeveral of the ggraph layouts involve randomisation. In order to ensure reproducibility, it is necessary to set the seed value before plotting by using the code chunk below.\n\nset.seed(1234)\n\nIn the code chunk below, ggraph functions are used to create the whole graph.\n\nggraph(mc3_graph, \n       layout = \"fr\") +\n  geom_edge_link(alpha = 0.3, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `type`), \n                  size = 4) +\n  geom_node_text(aes(label = type), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThe example below is not model answers, It is used to show you how to use the mantra of Overview first, details on demand of visual investigation."
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html",
+    "href": "TH_EX/MC1-kickstarter.html",
+    "title": "MC1 Kickstarter",
+    "section": "",
+    "text": "By the end of this handson exercise, you will be able to:\n\nimport Mini case 1 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#overview",
+    "href": "TH_EX/MC1-kickstarter.html#overview",
+    "title": "MC1 Kickstarter",
+    "section": "",
+    "text": "By the end of this handson exercise, you will be able to:\n\nimport Mini case 1 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#getting-started",
+    "href": "TH_EX/MC1-kickstarter.html#getting-started",
+    "title": "MC1 Kickstarter",
+    "section": "Getting Started",
+    "text": "Getting Started\nFor the purpose of this exercise, four R packages will be used. They are tidyverse, jsonlite, tidygraph and ggraph.\n\n\n\n\n\n\nNote\n\n\n\nYou are required to install the R packages above, if necessary, before continue to the next step.\n\n\nIn the code chunk below, p_load() of pacman package is used to load the R packages into R environemnt.\n\npacman::p_load(tidyverse, jsonlite,\n               tidygraph, ggraph)"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#importing-kownledge-graph-data",
+    "href": "TH_EX/MC1-kickstarter.html#importing-kownledge-graph-data",
+    "title": "MC1 Kickstarter",
+    "section": "Importing Kownledge Graph Data",
+    "text": "Importing Kownledge Graph Data\nFor the purpose of this exercise, MC1_graph.json file will be used. Before getting started, you should have the data set in the data sub-folder.\nIn the code chunk below, fromJSON() of jsonlite package is used to import MC1_graph.json file into R and save the output object\n\nkg &lt;- fromJSON(\"data/MC1_graph.json\")\n\n\nInspect structure\nBefore preparing the data, it is always a good practice to examine the structure of kg object.\nIn the code chunk below str() is used to reveal the structure of kg object.\n\nstr(kg, max.level = 1)\n\nList of 5\n $ directed  : logi TRUE\n $ multigraph: logi TRUE\n $ graph     :List of 2\n $ nodes     :'data.frame': 17412 obs. of  10 variables:\n $ links     :'data.frame': 37857 obs. of  4 variables:"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#extracting-the-edges-and-nodes-tables",
+    "href": "TH_EX/MC1-kickstarter.html#extracting-the-edges-and-nodes-tables",
+    "title": "MC1 Kickstarter",
+    "section": "Extracting the edges and nodes tables",
+    "text": "Extracting the edges and nodes tables\nNext, as_tibble() of tibble package package is used to extract the nodes and links tibble data frames from kg object into two separate tibble data frames called nodes_tbl and edges_tbl respectively.\n\nnodes_tbl &lt;- as_tibble(kg$nodes)\nedges_tbl &lt;- as_tibble(kg$links) \n\n\nInitial EDA\nIt is time for us to apply appropriate EDA methods to examine the data.\nIn this code chunk below, ggplot2 functions are used the reveal the frequency distribution of Edge Type field of edges_tbl.\n\nggplot(data = edges_tbl,\n       aes(y = `Edge Type`)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nOn the other hands, code chunk below uses ggplot2 functions to reveal the frequency distribution of Node Type field of nodes_tbl.\n\nggplot(data = nodes_tbl,\n       aes(y = `Node Type`)) +\n  geom_bar()"
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#creating-knowledge-graph",
+    "href": "TH_EX/MC1-kickstarter.html#creating-knowledge-graph",
+    "title": "MC1 Kickstarter",
+    "section": "Creating Knowledge Graph",
+    "text": "Creating Knowledge Graph\n\nMapping from node id to row index\nBefore we can go ahead to build the tidygraph object, it is important for us to ensures each id from the node list is mapped to the correct row number. This requirement can be achive by using the code chunk below.\n\nid_map &lt;- tibble(id = nodes_tbl$id,\n                 index = seq_len(\n                   nrow(nodes_tbl)))\n\n\n\nMap source and target IDs to row indices\nNext, we will map the source and the target IDs to row indices by using the code chunk below.\n\nedges_tbl &lt;- edges_tbl %&gt;%\n  left_join(id_map, by = c(\"source\" = \"id\")) %&gt;%\n  rename(from = index) %&gt;%\n  left_join(id_map, by = c(\"target\" = \"id\")) %&gt;%\n  rename(to = index)\n\n\n\n\n\n\n\nNote\n\n\n\nTo better understand the changes before and after the process, it is to take a screenshot of edges_tbl before and after this process and examine the differences.\n\n\n\n\nFilter out any unmatched (invalid) edges\nLastly, the code chunk below will be used to exclude the unmatch edges.\n\nedges_tbl &lt;- edges_tbl %&gt;%\n  filter(!is.na(from), !is.na(to))\n\n\n\nCreating tidygraph\nLastly, tbl_graph() is used to create tidygraph’s graph object by using the code chunk below.\n\ngraph &lt;- tbl_graph(nodes = nodes_tbl, \n                   edges = edges_tbl, \n                   directed = kg$directed)\n\nYou might want to confirm the output object is indeed in tidygraph format by using the code chunk below.\n\nclass(graph)\n\n[1] \"tbl_graph\" \"igraph\""
+  },
+  {
+    "objectID": "TH_EX/MC1-kickstarter.html#visualising-the-knowledge-graph",
+    "href": "TH_EX/MC1-kickstarter.html#visualising-the-knowledge-graph",
+    "title": "MC1 Kickstarter",
+    "section": "Visualising the knowledge graph",
+    "text": "Visualising the knowledge graph\nIn this section, we will use ggraph’s functions to visualise and analyse the graph object.\n\n\n\n\n\n\nWarning\n\n\n\nThe two examples below are not model answers, they are examples to show you how to use the mantra of Overview first, details on demand of visual investigation.\n\n\nSeveral of the ggraph layouts involve randomisation. In order to ensure reproducibility, it is necessary to set the seed value before plotting by using the code chunk below.\n\nset.seed(1234)\n\n\nVisualising the whole graph\nIn the code chunk below, ggraph functions are used to visualise the whole graph.\n\nggraph(graph, layout = \"fr\") +\n  geom_edge_link(alpha = 0.3, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `Node Type`), \n                  size = 4) +\n  geom_node_text(aes(label = name), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()\n\n\n\n\n\n\n\n\nNotice that the whole graph is very messy and we can hardy discover any useful patterns. This is always the case in graph visualisation and analysis. In order to gain meaningful visual discovery, it is always useful for us to looking into the details, for example by plotting sub-graphs.\n\n\nVisualising the sub-graph\nIn this section, we are interested to create a sub-graph base on MemberOf value in Edge Type column of the edges data frame.\n\nFiltering edges to only “MemberOf”\n\ngraph_memberof &lt;- graph %&gt;%\n  activate(edges) %&gt;%\n  filter(`Edge Type` == \"MemberOf\")\n\n\n\nExtracting only connected nodes (i.e., used in these edges)\n\nused_node_indices &lt;- graph_memberof %&gt;%\n  activate(edges) %&gt;%\n  as_tibble() %&gt;%\n  select(from, to) %&gt;%\n  unlist() %&gt;%\n  unique()\n\n\n\nKeeping only those nodes\n\ngraph_memberof &lt;- graph_memberof %&gt;%\n  activate(nodes) %&gt;%\n  mutate(row_id = row_number()) %&gt;%\n  filter(row_id %in% used_node_indices) %&gt;%\n  select(-row_id)  # optional cleanup\n\n\n\nPlotting the sub-graph\n\nggraph(graph_memberof, \n       layout = \"fr\") +\n  geom_edge_link(alpha = 0.5, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `Node Type`), \n                  size = 1) +\n  geom_node_text(aes(label = name), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()\n\n\n\n\n\n\n\n\nNotice that the sub-graph above is very clear and the relationship between musical group and person can be visualise easily."
   },
   {
     "objectID": "Syllabus.html",
@@ -1473,8 +1627,8 @@
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#what-will-you-learn-from-this-lesson",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#what-will-you-learn-from-this-lesson",
     "title": "Lesson 2: Designing Graphs to Enlighten",
-    "section": "",
-    "text": "Data visualisation design process\nThe Devil is in the data\nHuman perception and information processing\nComponents of a graph\nPrinciples and practical guides for data visualisation design\nData visualisation critics framework\n\n\n\nIn this lesson, I am going to share with you the basic principles and best practices of Data Visualisation Design. The discussion consists of five sections. First, I will provide an overview of data visualisation design process. Next, by using appropriate examples, I will share with you the importance of data selection and preparation in building enlightening graphs. In section three, the principles of visual perception will be introduce. In section four, the practical guides of data visualisation design will be discussed. Lastly, a framework for evaluating and criticising data visualisation design will be introduced."
+    "section": "What will you learn from this lesson?",
+    "text": "What will you learn from this lesson?\n\n\nData visualisation design process\nThe Devil is in the data\nHuman perception and information processing\nComponents of a graph\nPrinciples and practical guides for data visualisation design\nData visualisation critics framework\n\n\n\nIn this lesson, I am going to share with you the basic principles and best practices of Data Visualisation Design. The discussion consists of five sections. First, I will provide an overview of data visualisation design process. Next, by using appropriate examples, I will share with you the importance of data selection and preparation in building enlightening graphs. In section three, the principles of visual perception will be introduce. In section four, the practical guides of data visualisation design will be discussed. Lastly, a framework for evaluating and criticising data visualisation design will be introduced."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#building-block-of-visual-analytics",
@@ -1502,7 +1656,7 @@
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#the-devil-is-in-the-data",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "The Devil is in the Data",
-    "text": "The Devil is in the Data\n\n\nClean and tidy data are needed to build truthful data visualisation. But beside clean and tidy data, there are at least two considerations related to data require our attention.\n\n\n\nNumbers Worth Knowing\nNot all numerical data are continuous!\n\n\nFirst, it is important to note that not all numerical data are continuous. There are two types of numerical data. They are discrete and continuous. Discrete data can only assume specific values that you cannot subdivide. Typically, you count discrete values, and the results are in frequency count or in per cent . For example, display size should be classified as discrete (i.e. nominal or ordinal scales) instead of continuous., a mean of 15.81 in monitor is no meaning. Continuous data can assume any numeric value and can be meaningfully split into smaller parts. Consequently, they have valid fractional and decimal values. In fact, continuous variables have an infinite number of potential values between any two points. Generally, you measure them using a scale.\n\n\n\n\nVisualising the Right Data\n\nThere are more than one way to present the data.\n\n\n\nSecondly, there are more than one way to present the data. It is not unusual by presenting derived data reveal more aha surprises than the raw data.\n\n\n\n\nVisualising the Right Data\n\nDerived values reveal more interesting patterns than absolute values.\n\n\n\n\n\n\n\n\n\nThe data visualisation on the left is a dual y-axis bar graph. The y-axis on the left shows revenue and the y-axis on right shows customers. From the graph, you can see how both the monthly revenue and number of customers are growing for this company.\nThe data visualisation on the right shows the differences between the month-to-month % change of revenue and customers. By showing the data in percent change, the data visualisation allows us to discover that the month-to-month customers and revenue growth rate are reducing in the financial year.\n\n\n\n\nVisualising the Right Data\n\nDerived values reveal more interesting patterns than absolute values.\n\n\n\nBy deriving revenue per customer and plot them as a line graph, the data visualisation allows us to tell a more compelling data story. In the figure, we can see that revenue per customer has decreased significantly during the year, even though the monthly revenue has risen steadily. The important take away from this case study is that select the right data to prepare the data visualisation and be mindful that the raw data might not always be the right choice."
+    "text": "The Devil is in the Data\n\n\nClean and tidy data are needed to build truthful data visualisation. But beside clean and tidy data, there are at least two considerations related to data require our attention."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#graphical-integrity-show-me-the-truth",
@@ -1516,28 +1670,28 @@
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#graphical-integrity-show-me-the-truth-1",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Graphical Integrity: Show Me the Truth",
-    "text": "Graphical Integrity: Show Me the Truth\n\nSnapshot can be misleading!\n\n\n\n\n\n\n\n\nSource: Cairo, Alberto (2019) How Charts Lie, W.W. Norton & Company, USA. pg 168.\n\n\nDonald Trump liked to claim that the job market was a “disaster” before he was sworn in but recovered right after, and he used charts that cropped the horizontal axis in a convenient place.\nBut if we go back in time and mark the point when Trump became president, we’ll see that there’s no remarkable change in the trajectory and slope of the line. Jobs began recovering in 2010."
+    "text": "Graphical Integrity: Show Me the Truth\nSnapshot can be misleading!\n\n\n\n\n\n\n\nSource: Cairo, Alberto (2019) How Charts Lie, W.W. Norton & Company, USA. pg 168.\n\n\nDonald Trump liked to claim that the job market was a “disaster” before he was sworn in but recovered right after, and he used charts that cropped the horizontal axis in a convenient place.\nBut if we go back in time and mark the point when Trump became president, we’ll see that there’s no remarkable change in the trajectory and slope of the line. Jobs began recovering in 2010."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#graphical-integrity-show-me-the-truth-2",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#graphical-integrity-show-me-the-truth-2",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Graphical Integrity: Show Me the Truth",
-    "text": "Graphical Integrity: Show Me the Truth\n\nDo not miss-out what had happened in between."
+    "text": "Graphical Integrity: Show Me the Truth\nDo not miss-out what had happened in between."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#human-perception-and-information-processing",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#human-perception-and-information-processing",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Human Perception and Information Processing",
-    "text": "Human Perception and Information Processing\n\n\n\nPre-attentive Processing\n\nA limited set of visual properties are processed preattentively (without need for focusing attention).\nThis is important for design of visualizations\n\nWhat can be perceived immediately?\nWhich properties are good discriminators?\nWhat can mislead viewers?\n\n\n\n\n\nHow Visual Sensing Works?\n\n\n\n\n\n\nFact 1:\n\n\n\nWe see what we know and expect.\n\n\n\n\n\n\nHow Visual Sensing Works?\n\n\n\n\n\n\nFact 2:\n\n\n\nWe do not attend to everything we see.\n\n\n\n\n\n\nHow Visual Sensing Works?\n\n\n\n\n\n\nFact 3:\n\n\n\nWe don’t remember everything we see.\n\n\n\n\n\n\nHow Visual Sensing Works?\n\n\n\n\n\n\nFact 3:\n\n\n\nWe don’t remember everything we see.\n\n\n\n\n\n\nHow Visual Sensing Works?\nHow Many 3’s?\n\n\n\n\nHow Visual Sensing Works?\nNow you see them!\n\n\nAs you can see, by applying pre-attentive principle, we can count the number 3 easily now.\n\n\n\n\nApplication of pre-attentive principle in data visualisation design\n\n\n\n\n\n\n\n\nIn last Saturday class, I had shown the reference line feature of Tableau. By understanding the principle of pre-attentive, reference line feature is useful for providing context to the data visualisation."
+    "text": "Human Perception and Information Processing"
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#application-of-pre-attentive-principle-in-data-visualisation-design-1",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#application-of-pre-attentive-principle-in-data-visualisation-design-1",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Application of pre-attentive principle in data visualisation design",
-    "text": "Application of pre-attentive principle in data visualisation design\n\n\n\n\n\n\n\n\nIn the data visualisation of the right, bright red is use to show the month running at a lot. This is another example whereby pre-attentive principle is put go used."
+    "text": "Application of pre-attentive principle in data visualisation design\n\n\n\n\n\n\n\nIn the data visualisation of the right, bright red is use to show the month running at a lot. This is another example whereby pre-attentive principle is put go used."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#components-of-a-graph",
@@ -1565,21 +1719,21 @@
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#design-principles-for-effective-visual-presentation",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Design principles for effective visual presentation",
-    "text": "Design principles for effective visual presentation\n\n\nGuides for Encoding Values in Graph\nJunkCharts\nPractical Guides for Using Colour in Charts\nData-ink\n\n\n\n\nDesign principles for effective visual presentation\n\n\nGuides for Encoding Values in Graph\nJunkCharts\nPractical Guides for Using Colour in Charts\nData-ink\n\n\n\n\n\nGeneral Guide: Show the Data Clearly\n\n\nThe pie and donut charts in panels (a) and (b) make it difficult to see the order of magnitude of some of the segments. The eye needs to compare areas, bent lengths (of the contour), or angles, – graphical attributes that are not easily decoded. The donut chart even omits the angles. The mosaic plot in panel (c) only relies on areas; again, it is hard to tell the order of magnitude. It is better to use lengths with a common baseline or positions on a common scale, such as in a bar chart or dot plot (see Cleveland-McGill effectiveness ranking in Law 3). The bar chart in panel (d), however, introduces a fake dimension, which is unnecessary and makes it hard to decode the numerical values from the height of the bars. Panels (e) and (f) are appropriately simple and show the data clearly. They also order the data by magnitude to aid comparison even further. The dot plot in panel (f) uses minimal amount of ink and draws the eye to the position of the dots; it is the most effective way of displaying these data.\n\n\n\n\nGuides for Encoding Values in Graph\n\n\n\n\n\n\nGuide 1:\n\n\n\nAvoid using point alone to display time-series data.\n\n\n\n\n\n\nGuides for Encoding Values in Graph\n\n\n\n\n\n\nGuide 2:\n\n\n\nAvoid using points to represent discrete values\n\n\n\n\n\n\nGuides for Encoding Values in Graph\n\n\n\n\n\n\nGuide 3:\n\n\n\nBars don’t work unless the quantative scale begins at zero\n\n\n\n\n\n\nGuide for Encoding Values in Graph\n\n\n\n\n\n\nGuide 4:\n\n\n\nAvoid pie chart if possible because our eyes are not good in reading areas\n\n\n\n\nReference: JunkCharts\n\n\n\n\nGuide for Encoding Values in Graph\n\n\n\n\n\n\nGuide 5:\n\n\n\nAvoid pie chart if you are comparing changes over time\n\n\n\n\n\n\n\n\n\n:scale 80%"
+    "text": "Design principles for effective visual presentation\n\n\nGuides for Encoding Values in Graph\nJunkCharts\nPractical Guides for Using Colour in Charts\nData-ink"
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#design-principles-for-effective-visual-presentation-2",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#design-principles-for-effective-visual-presentation-2",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Design principles for effective visual presentation",
-    "text": "Design principles for effective visual presentation\n\n\nGuides for Encoding Values in Graph\nChartjunk\nPractical Guides for Using Colour in Charts\nData-ink\n\n\n\nChartjunk refers to all visual elements in charts and graphs that are not necessary to comprehend the information represented on the graph, or that distract the viewer from this information.\nIt was first introduced by Edward Tufte in his 1983 book The Visual Display of Quantitative Information.\nThere is an interesting blog called Junk Charts by Kaiser Fung. The blog link is available on the last slide.\n\n\n\nChartJunk I\n\nAvoid using unnecessary colour shading for the bar.\n\n\nIn this data visualisation, it is very obvious that the different intensity colours shading used on the bars and background are not map to any meaningful variables. These are junk that should be avoid in our graphs.\n\n\n\n\n\nChartJunk II\n\nAvoid colourful or wallpaper background.\n\n\nIn this data visualisation, the background patterns make it impossible for us to read the words in the legend. Likewise the watermarks used as the background of the graph is redudant. Again, these are junk that we should be avoided.\n\n\n\n\n\nChartJunk III\n\nAvoid using 3D effects in graphics.\n\n\nIt is very common for us to see 3D bar chart was used to present frequency distribution of a categorical variable like the data visualisation on the left of the slide. In fact, the fancy 3D bar chart is less effective to read as compared to the simple bar chart on the right of the slide. The key take away is avoid using 3D object to display univariate data.\n\n\n\n\n\nChartJunk IV\n\nAvoid using misleading graphical representation.\n\n\nIn this data visualisation, there is no way for us to know what is the sales volume represented by one potato because their ratio varies from one year to another.\n\n\n\n\n\nChartJunk V\n\nAvoid using artistic design which is difficult to visualise.\n\n\nAlthough the visualisation is very appealing visually. However, it is not functional because the curve 3D bar chart make it very difficult to do a proper comparison.\n\n\n\n\n\nChartJunk VI\n\nDesigning graph to enlighten people – not to entertain them.\n\n\nThis is another good example of JunkChart. In this data visualisation, the author distorts the sequence of the age-cohort intentionally in order to show the ladder-like view. But this design easily lead to misinterpretation by the graph users."
+    "text": "Design principles for effective visual presentation\n\n\nGuides for Encoding Values in Graph\nChartjunk\nPractical Guides for Using Colour in Charts\nData-ink\n\n\n\nChartjunk refers to all visual elements in charts and graphs that are not necessary to comprehend the information represented on the graph, or that distract the viewer from this information.\nIt was first introduced by Edward Tufte in his 1983 book The Visual Display of Quantitative Information.\nThere is an interesting blog called Junk Charts by Kaiser Fung. The blog link is available on the last slide."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#design-principles-for-effective-visual-presentation-3",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#design-principles-for-effective-visual-presentation-3",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Design principles for effective visual presentation",
-    "text": "Design principles for effective visual presentation\n\n\nGuides for Encoding Values in Graph\nJunkCharts\nPractical Guides for Using Colour in Charts\nData-ink\n\n\n\nIn this topic, I am going to share with the practical guides for using colour in data visualisation.\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 1:\n\n\n\nIf you want different objects of the same colour in a graph to look the same, make sure that the background- the colour that surrounds them – is consistent.\n\n\n\n\nThe guide practice If you want different objects of the same colour in a graph to look the same, make sure that the background- the colour that surrounds them – is consistent. We should avoid using background with different colour intensity.\n\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 2:\n\n\n\nIf you want objects in a graph to be easily seen, use a background colour that constrasts sufficiently with the object.\n\n\n\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 3:\n\n\n\nUse color only when needed to serve a particular communication goal.\n\n\n\n\nThe power of pre-attentive processing.\n\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 4:\n\n\n\nUse different colours when they correspond to differences of meaning in the data.\n\n\n\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 5:\n\n\n\nUse soft, natural colours to display most information and bright and/or dark colours to highlight information that requires greater attention.\n\n\n\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 6:\n\n\n\nWhen using colour to encode a sequential range of quantitative values, stick with a single hue (or a small set of closely related hues) and vary intensity from pale colours for low values to increasingly darker and brighter colours for high values.\n\n\n\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 7:\n\n\n\nNon-data components of a graph should be displayed just visibly enough to perform their role, but not more so, for excessive salience could cause them to distract attention from the data.\n\n\n\n\n\n\nPractical Guides for Using Colour in Charts\n\n\n\n\n\n\nGuide 8:\n\n\n\nTo guarantee that most people who are colourblind can distinguish groups of data that are colour coded, avoid using a combination of red and green in the same display."
+    "text": "Design principles for effective visual presentation\n\n\nGuides for Encoding Values in Graph\nJunkCharts\nPractical Guides for Using Colour in Charts\nData-ink\n\n\n\nIn this topic, I am going to share with the practical guides for using colour in data visualisation."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#design-principles-for-effective-visual-presentation-4",
@@ -1593,35 +1747,42 @@
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#data-ink",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Data-ink",
-    "text": "Data-ink\n\n\n\nReduce the non data-ink\n\nRemoved unnecessary non data-ink\nDe-emphasise or regularise the remaining non data-ink\n\nEnhance the data-ink\n\nRemove unnecessary data-ink\nEmphasise the remaining data-ink\n\n\n\n\n\n\n\nThe term, ‘data-ink’, is defined as the total ink on a graph that represents data. Tufte claims that good graphical representations maximize data-ink and erase as much non-data-ink as possible. Thus, he defines the data-ink ratio is the proportion of a graphic’s ink devoted to the non-redundant display of data-information. It should equal to (1 - the proportion of graphics that can be erased without loss of data-information).\n\n\n\nPractical used of data-ink\n\nShouting to emphasize what’s interesting\n\n\n\n\n\nWhat should the relative lengths of the axis be?\n\nShould not manipulate the aspect ratio to intentionally exaggerate or downplay the rate of change.\nStick to the convention of making your graphs wider than being tall.\n\n\n\n\n\nWhen can you eliminate tick mark?\n\nTick marks are superfluous on categorical scale.\n\n\n\n\n\nWhen you shouldn’t eliminate tick mark?\n\nTick marks are necessary on continuous scale.\n\n\n\n\n\nHow many tick marks should you use?\n\nThere is no exact number that works best in all circumstances, and the size of the graph is a factor that must considered: the longer the scale line, the more tick marks it should contain.\n\n\n\n\n\nWhen can you eliminate legends?\n\n\n\nIn this graph, a legend is used to indicate product types.\n\n\n\nIn this graph, product types are labeled directly."
+    "text": "Data-ink\n\n\n\nReduce the non data-ink\n\nRemoved unnecessary non data-ink\nDe-emphasise or regularise the remaining non data-ink\n\nEnhance the data-ink\n\nRemove unnecessary data-ink\nEmphasise the remaining data-ink\n\n\n\n\n\n\nThe term, ‘data-ink’, is defined as the total ink on a graph that represents data. Tufte claims that good graphical representations maximize data-ink and erase as much non-data-ink as possible. Thus, he defines the data-ink ratio is the proportion of a graphic’s ink devoted to the non-redundant display of data-information. It should equal to (1 - the proportion of graphics that can be erased without loss of data-information)."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#an-enligthening-data-visualisation-will-be-incomplete-without-a-well-worded-title",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#an-enligthening-data-visualisation-will-be-incomplete-without-a-well-worded-title",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "An enligthening data visualisation will be incomplete without a well worded title",
-    "text": "An enligthening data visualisation will be incomplete without a well worded title\n\n\nSource: The truth about weekend working, Financial Times, January 23 2020.\n\nMore example can be found here\n\n\n\n\nUsing Annotation to tell data story\n\n\nSource: The truth about weekend working, Financial Times, January 23 2020.\n\n\n\n\nGraphical Integrity: Show Me the Truth\n\nDon’t lie to yourself (or to others) with charts"
+    "text": "An enligthening data visualisation will be incomplete without a well worded title\n\n\nSource: The truth about weekend working, Financial Times, January 23 2020.\n\nMore example can be found here"
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#graph-typography",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#graph-typography",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Graph typography",
-    "text": "Graph typography\n\nAvoid using artistic fonts\n\n\n\n\nGraph Labeling\n\nOrientation of label should be reader friendly"
+    "text": "Graph typography\nAvoid using artistic fonts"
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#three-bugs-of-charts-interpretation",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#three-bugs-of-charts-interpretation",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Three Bugs of Charts Interpretation",
-    "text": "Three Bugs of Charts Interpretation\n\n\nThe Patternicity bug: We detect interating patterns, regardless of whether or not they are real.\nThe Storytelling bug: We immediately come up with a coherent explanation for those patterns.\nThe Confirmation bug: We start seeing all further information we receive, even the one that conflicts with our explanation, in a way that confirmed it. We refuse to give our explanation up, no matter what.\n\n\n\n\nThree Bugs example\n\n\nSource: Spurious Correlation\n\n\n\n\nStop the Fallacy of Visual Storytelling\n\n\nSource: Franz H. Messerli (2012) Chocolate Consumption, Cognitive Function, and Nobel Laureates, The New England Journal of Medicine."
+    "text": "Three Bugs of Charts Interpretation\n\n\nThe Patternicity bug: We detect interating patterns, regardless of whether or not they are real.\nThe Storytelling bug: We immediately come up with a coherent explanation for those patterns.\nThe Confirmation bug: We start seeing all further information we receive, even the one that conflicts with our explanation, in a way that confirmed it. We refuse to give our explanation up, no matter what."
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#data-visualization-clarity-or-aesthetics",
     "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#data-visualization-clarity-or-aesthetics",
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Data Visualization: Clarity or Aesthetics?",
-    "text": "Data Visualization: Clarity or Aesthetics?\n\n\n\n\n\n\n\n\nSource: Data Visualisation: Clarity or Aesthetics\n\n\n\nA Tale of Four Quadrants\n\n\n\n\nQuadrant IV – Confusing yet Beautiful\n\n\n\n\nWhy is it “beautiful”?\n\nWell placed & aligned title & lead-in.\nAttention to detail with font selection.\nInclusion of image.\n\nWhy is it “confusing”?\n\nY-axis starts at 10K (column height misleading).\n3D effect makes it difficult to gage heights.\nTitle & lead-in aren’t helpful.\n\n\n\n\n\n\n\n\n\n\nQuadrant III – Confusing and Ugly\n\n\n\n\nWhy is it “ugly”?\n\nHorrible font & color choice.\nGrid lines are too dark & distracting.\nFormat of axes (vertical x-axis labels, number format of y-axis).\n\nWhy is it “confusing”?\n\nY-axis starts at 10K (column height misleading).\n3D effect makes it difficult to gage heights.\nNo lead-in or call-outs to provide context.\n\n\n\n\n\n\n\n\n\n\nQuadrant II – Clear but Ugly\n\n\n\n\nWhy is it “ugly”?\n\nPoor color (puke yellow?) and font (Comic Sans?) choices.\nSlightly pixelated – poor attention to image quality detail.\nChart details – axis orientation, grid lines, outline.\n\nWhy is it “clear”?\n\nThe y-axis starts at 0 and the 2D columns are easy to gage.\nFor the first time, we see call-outs of relevant events on the timeline.\nThis time the lead-in paragraph is actually informative.\n\n\n\n\n\n\n\n\n\n\nQuadrant I – Clear and Beautiful\n\n\n\n\nWhy is it “beautiful”?\n\nGood font & color choices throughout.\nSoft gridlines don’t distract.\nAll elements well aligned and spaced.\nHigh res images are “useful” chartjunk.\n\nWhy is it “clear”?\n\nThe y-axis starts at 0 and the 2D columns are easy to gage.\nCall-outs with images aid cognition.\nImproved title & lead-in verbiage provide further elucidation.\nFor the first time, a photo credit and data source are included."
+    "text": "Data Visualization: Clarity or Aesthetics?\n\n\n\n\n\n\n\nSource: Data Visualisation: Clarity or Aesthetics"
+  },
+  {
+    "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#learning-from-peers",
+    "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#learning-from-peers",
+    "title": "Lesson 2: Designing Graphs to Enlighten",
+    "section": "Learning from Peers",
+    "text": "Learning from Peers"
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#references",
@@ -2415,279 +2576,6 @@
     "text": "Tableau Tips and Tricks\n\nRelationships, Joins and Unions in Tableau 2020.2, this Youtube video explains selected data management features introduced in Tableau 2020.2. (updated on 8th Feb 2021)."
   },
   {
-    "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#learning-from-peers",
-    "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html#learning-from-peers",
-    "title": "Lesson 2: Designing Graphs to Enlighten",
-    "section": "Learning from Peers",
-    "text": "Learning from Peers"
-  },
-  {
-    "objectID": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html",
-    "href": "lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html",
-    "title": "Lesson 2: Designing Graphs to Enlighten",
-    "section": "",
-    "text": "Data visualisation design process\nThe Devil is in the data\nHuman perception and information processing\nComponents of a graph\nPrinciples and practical guides for data visualisation design\nData visualisation critics framework\n\n\n\nIn this lesson, I am going to share with you the basic principles and best practices of Data Visualisation Design. The discussion consists of five sections. First, I will provide an overview of data visualisation design process. Next, by using appropriate examples, I will share with you the importance of data selection and preparation in building enlightening graphs. In section three, the principles of visual perception will be introduce. In section four, the practical guides of data visualisation design will be discussed. Lastly, a framework for evaluating and criticising data visualisation design will be introduced."
-  },
-  {
-    "objectID": "VAProject.html",
-    "href": "VAProject.html",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "The purpose of the project is to provide students first hand experience on building web-enabled visual analytics application by using Shiny. It aims to democratize data and analytics. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.\nA project may involve developing new methods or implementing visual analytics system to support analytic tasks in specific domains. Alternatively, a project may be in the form of application development by integrating analytical tools within a visual analytics environment. Students are encouraged to focus on research topics that are relevant to their field of study. It should address a concrete visual analytics problem and should propose a novel and creative solution.\n\n\n\nThis term the topic of Visual Analytics Project will be based on either VAST Challenge 2025 or ChinaVis Data Visualisation Competition 2025. For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge.\n\n\n\nThe project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term.\nA good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!\nEach project team are required to maintain a comprehensive Minutes of Meeting from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes(with Templates and Samples)\n\nThe Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended.\n\n\n\n\nBrainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.\nEditing and publishing project proposal on Netlify latest by the end of 8th June 2025 at 11:59pm (mid-night).\nUploading project poster on eLearn by 26th June 2025 at 11:59pm (mid-night).\nPoster presentation: 2nd July 2025, 2:00pm-3:30pm\nSubmission of final application, user guide, project poster and artifacts: 6th July 2025 by 11:59pm (mid-night)\n\n\n\n\n\n\nAt the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project version control including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\n\nEach project team are required to create the project website by using Quarto. It will be disseminated by using webserver such as Netfity.\nAs a first step, you should create a project summary at the project website that includes:\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and\nThe project proposal. This should in a webpage (remember to provide a link at the wiki).\n\n\n\n\nEach project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by 8th June 2025.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide and poster by 7th July 2025.\n\n\n\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)\nResolution = 300dpi or above\nImage dimension at 300 dpi: 7,016 x 9,933 pixels\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\n\n\n\nThe final deliverable will include:\n\nDeployment of the Web-enabled Visual Analytics Application on shinyapps.io by RStudio.\nArtifact including the ShinyApp codes, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\n\nSample UserGuide 1\nSample UserGuide 2\n\nProject poster\nMinutes of Meeting\n\nThe final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a single zip file format. If the file size is beyond the file size allocated by eLean, it can be upoaded on SMU OneDrive.\n\n\n\n\nThe visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nProject website 15%\nPoster 10%\nMinutes of Meeting 10%\nPeer Evaluation 15%\nShinyApp 50%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\n\n\nThe poster will be graded based on the following criteria:\n\nClear communication of key aspects of solution\nClear communication of design approaches\nClear communication of arguments for proposed solution\nCraft quality of the solution\n\n\n\n\n\nNote that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application\n\n\n\nSGGoldenGoose\n\n\n\n\n\nOhio City Renewal Solutions\nWealth Check Up\n\n\n\n\n\nGroup 3: Tanzania Tourism Analysis\nGroup 5: Loan Default Prediction\n\n\n\n\n\nNetwork-enabled Maritime Observations\nA Fishy Business!\nFishEye\n\n\n\n\n\nThe Alchemists\nWeather Analytics\nDecoding Chaos\n\n\n\n\n\n\nThe Big Fish: Catching Illegal Fishing Through Visual Analytics. Specially mentioned: This project won VAST Challenge 2024: Award for Comprehensive Characterization of Suspicious Behaviors."
-  },
-  {
-    "objectID": "VAProject.html#overview",
-    "href": "VAProject.html#overview",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "The purpose of the project is to provide students first hand experience on building web-enabled visual analytics application by using Shiny. It aims to democratize data and analytics. Hence, the application focuses and emphasises on interactivity and effective integration of techniques from data analytics and data visualization.\nA project may involve developing new methods or implementing visual analytics system to support analytic tasks in specific domains. Alternatively, a project may be in the form of application development by integrating analytical tools within a visual analytics environment. Students are encouraged to focus on research topics that are relevant to their field of study. It should address a concrete visual analytics problem and should propose a novel and creative solution."
-  },
-  {
-    "objectID": "VAProject.html#project-topic",
-    "href": "VAProject.html#project-topic",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "This term the topic of Visual Analytics Project will be based on either VAST Challenge 2025 or ChinaVis Data Visualisation Competition 2025. For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose one of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge."
-  },
-  {
-    "objectID": "VAProject.html#project-management",
-    "href": "VAProject.html#project-management",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "The project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term.\nA good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!\nEach project team are required to maintain a comprehensive Minutes of Meeting from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes(with Templates and Samples)\n\nThe Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended."
-  },
-  {
-    "objectID": "VAProject.html#project-milestone",
-    "href": "VAProject.html#project-milestone",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.\nEditing and publishing project proposal on Netlify latest by the end of 8th June 2025 at 11:59pm (mid-night).\nUploading project poster on eLearn by 26th June 2025 at 11:59pm (mid-night).\nPoster presentation: 2nd July 2025, 2:00pm-3:30pm\nSubmission of final application, user guide, project poster and artifacts: 6th July 2025 by 11:59pm (mid-night)"
-  },
-  {
-    "objectID": "VAProject.html#project-deliverables",
-    "href": "VAProject.html#project-deliverables",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "At the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project version control including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\n\nEach project team are required to create the project website by using Quarto. It will be disseminated by using webserver such as Netfity.\nAs a first step, you should create a project summary at the project website that includes:\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and\nThe project proposal. This should in a webpage (remember to provide a link at the wiki).\n\n\n\n\nEach project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by 8th June 2025.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide and poster by 7th July 2025.\n\n\n\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)\nResolution = 300dpi or above\nImage dimension at 300 dpi: 7,016 x 9,933 pixels\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\n\n\n\nThe final deliverable will include:\n\nDeployment of the Web-enabled Visual Analytics Application on shinyapps.io by RStudio.\nArtifact including the ShinyApp codes, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\n\nSample UserGuide 1\nSample UserGuide 2\n\nProject poster\nMinutes of Meeting\n\nThe final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a single zip file format. If the file size is beyond the file size allocated by eLean, it can be upoaded on SMU OneDrive."
-  },
-  {
-    "objectID": "VAProject.html#grading",
-    "href": "VAProject.html#grading",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "The visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nProject website 15%\nPoster 10%\nMinutes of Meeting 10%\nPeer Evaluation 15%\nShinyApp 50%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\n\n\nThe poster will be graded based on the following criteria:\n\nClear communication of key aspects of solution\nClear communication of design approaches\nClear communication of arguments for proposed solution\nCraft quality of the solution"
-  },
-  {
-    "objectID": "VAProject.html#sample-projects",
-    "href": "VAProject.html#sample-projects",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application\n\n\n\nSGGoldenGoose\n\n\n\n\n\nOhio City Renewal Solutions\nWealth Check Up\n\n\n\n\n\nGroup 3: Tanzania Tourism Analysis\nGroup 5: Loan Default Prediction\n\n\n\n\n\nNetwork-enabled Maritime Observations\nA Fishy Business!\nFishEye\n\n\n\n\n\nThe Alchemists\nWeather Analytics\nDecoding Chaos"
-  },
-  {
-    "objectID": "VAProject.html#ay2023-2024-current-term",
-    "href": "VAProject.html#ay2023-2024-current-term",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "Group 1\nGroup 2\nGroup 3\nGroup 4\nGroup 5\nGroup 6\nGroup 7\nGroup 8\nGroup 9"
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html",
-    "href": "TH_EX/TH_EX3.html",
-    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
-    "section": "",
-    "text": "Prototyping is crucial\n\n\n\nPrototyping first may help keep you from investing far too much time for marginal gains.\nThe Art of UNIX Programming (Raymond 2003)"
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#the-task",
-    "href": "TH_EX/TH_EX3.html#the-task",
-    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
-    "section": "The Task",
-    "text": "The Task\nIn this take-home exercise, you are required to select one of the module of your proposed Shiny application and complete the following tasks:\n\nTo evaluate and determine the necessary R packages needed for your Shiny application are supported in R CRAN,\nTo prepare and test the specific R codes can be run and returned the correct output as expected,\nTo determine the parameters and outputs that will be exposed on the Shiny applications, and\nTo select the appropriate Shiny UI components for exposing the parameters determine above.\n\nAll teams must consult either\n\nPrototype page of AY2022-2023 January Term Group 3: Tanzania Tourism Analysis. There are three main modules in ths application the are: Exploratory Data Analysis & Confirmatory Data Analysis, Cluster Analysis and Decision Tree Analysis, or\nPrototype page of Decoding-choas and the Take-home Exercise 4 pages of the following group members IMRAN BIN MOHD IBRAHIM, TEO SUAN ERN and WONG NGAI MUNN ZACHARY MARK\n\nEach of them were prepared by one of the member of the project team. After that they combined them into the Prototype page of their project website.\nTake-home Exercise 3 will be similar to one of the prototype module prepared above in term of content but with the following differences:\n\nYou are required to prepare the prototype module report as Take-home Exercise 3 submission. This mean, it has to be published on your own coursework page.\nYou are required to include a section called UI design for the different components of the UIs for the proposed design.\n\nFor storyboarding the UI Design, please consult Storyboard link."
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#assessment-rubic",
-    "href": "TH_EX/TH_EX3.html#assessment-rubic",
-    "title": "Take-home Exercise 2",
-    "section": "Assessment Rubic",
-    "text": "Assessment Rubic\n\nQuality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.\nQuality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.\nQuality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.\nQuality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design."
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#submission-instructions",
-    "href": "TH_EX/TH_EX3.html#submission-instructions",
-    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
-    "section": "Submission Instructions",
-    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\nThe specific submission instructions are as follows:\n\nThe analytical visualisation must be prepared by using R and appropriate R packages. The report must provide detail discussion and explanation of:\n\nthe data preparation process,\nthe selection of data visualisation techniques used,\nand the data visualisation design and interactivity principles and best practices implemented.\n\nThe write-up of the take-home exercise must be in Quarto html document format and publish on Netlify."
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#submission-date",
-    "href": "TH_EX/TH_EX3.html#submission-date",
-    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
-    "section": "Submission date",
-    "text": "Submission date\nIn order to allocate enough time to integrate individual modules into the Shiny application, my humble advise is to complete Take-home Exercise 3 ltest by 11:59pm mid-night, 15th June 2025. Please note that this is a soft deadline. Project groups are free to adjust the prototyping deadline according to your project timelines.\n\n\n\n\n\n\nWarning\n\n\n\nStudents are strongly recommended to complete Take-home Exercise 3 ahead of the submission deadline. This will allow you to have more time to focus on the building of the Shiny application and to iterate the usability of the application."
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#kickstarter",
-    "href": "TH_EX/TH_EX3.html#kickstarter",
-    "title": "Take-home Exercise 2",
-    "section": "KickStarter",
-    "text": "KickStarter"
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#learning-from-senior",
-    "href": "TH_EX/TH_EX3.html#learning-from-senior",
-    "title": "Take-home Exercise 2",
-    "section": "Learning from Senior",
-    "text": "Learning from Senior\n\nISSS608 2016-17 T3 Assign GUAN YIFEI. Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2016-17 T3 Assign ZHANG YANRONG. Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan\nISSS608 2021-22 April Term Assignment 6: Raunak Kapur\n\nAY2022-23 April Term\n\nONG CHAE HUI\nKWA KAH BOON\nFONG BAO XIAN\nHAILEY CHEONG SZE-YENN\n\nAY2023-24 April Term\n\nKristine Joy Paas\nSeng Jing Yi"
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#reference",
-    "href": "TH_EX/TH_EX3.html#reference",
-    "title": "Take-home Exercise 2",
-    "section": "Reference",
-    "text": "Reference\n\nAnalysis Without Data: Teaching Students to Tackle the VAST Challenge"
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html",
-    "href": "TH_EX/TH_EX2.html",
-    "title": "Take-home Exercise 2",
-    "section": "",
-    "text": "In this take-home exercise, you are required to select one of the topic below and provide solutions to the challenge:\n\nIn Mini-Challenge 1, students will be provided a knowledge graph of containing recording artists, albums, collaborations, concerts, influences, and more. The goal will be to develop visual analytics approaches to trace the rise of one artist and predict who will be next to break out.\nIn Mini-Challenge 2, students will take on the theme of conflict over societal change directly. Two opposing groups representing the fishing and tourism industries are vying for economic development funding and accusing a local government board of bias. Students will be asked to reconstruct a true timeline with data that comes from both sides.\nIn Mini-Challenge 3, students will be provided a knowledge graph created from transcripts of boat radio communications and asked to identify people, their roles, and the events and locations they talk about to predict when and where an event will take place.\n\n\n\n\n\n\n\nImportant\n\n\n\n\nYou only need to attempt either one out of the three Mini Cases\nThe data should be processed by using appropriate tidyverse family of packages and the Visual Analytics tools must be prepared by using appropriate R packages."
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#overview",
-    "href": "TH_EX/TH_EX2.html#overview",
-    "title": "Take-home Exercise 2: Be Tradewise or Otherwise",
-    "section": "",
-    "text": "Since Mr. Donald Trump took office as the President of the United States on January 20, 2025, one of the most closely watched topics has been global trade.\nAs a visual analytics novice, you are eager to apply newly acquired techniques to explore and analyze the changing trends and patterns of Singapore’s international trade since 2015."
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#the-task",
-    "href": "TH_EX/TH_EX2.html#the-task",
-    "title": "Take-home Exercise 2",
-    "section": "",
-    "text": "In this take-home exercise, you are required to select one of the topic below and provide solutions to the challenge:\n\nIn Mini-Challenge 1, students will be provided a knowledge graph of containing recording artists, albums, collaborations, concerts, influences, and more. The goal will be to develop visual analytics approaches to trace the rise of one artist and predict who will be next to break out.\nIn Mini-Challenge 2, students will take on the theme of conflict over societal change directly. Two opposing groups representing the fishing and tourism industries are vying for economic development funding and accusing a local government board of bias. Students will be asked to reconstruct a true timeline with data that comes from both sides.\nIn Mini-Challenge 3, students will be provided a knowledge graph created from transcripts of boat radio communications and asked to identify people, their roles, and the events and locations they talk about to predict when and where an event will take place.\n\n\n\n\n\n\n\nImportant\n\n\n\n\nYou only need to attempt either one out of the three Mini Cases\nThe data should be processed by using appropriate tidyverse family of packages and the Visual Analytics tools must be prepared by using appropriate R packages."
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#submission-instructions",
-    "href": "TH_EX/TH_EX2.html#submission-instructions",
-    "title": "Take-home Exercise 2",
-    "section": "Submission Instructions",
-    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\n\n\n\n\n\n\nImportant\n\n\n\nThe specific submission instructions are as follows:\n\nThe write-up of the take-home exercise must be in Quarto html document format. You are required to publish the write-up on Netlify.\nRender the write-up in MS Word format and upload the docx file onto eLearn."
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#submission-date",
-    "href": "TH_EX/TH_EX2.html#submission-date",
-    "title": "Take-home Exercise 2",
-    "section": "Submission date",
-    "text": "Submission date\nYour completed take-home exercise is due on 1st June 2025, by 11:59 mid-night."
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#peer-learning",
-    "href": "TH_EX/TH_EX2.html#peer-learning",
-    "title": "Take-home Exercise 2: Be Tradewise or Otherwise",
-    "section": "Peer Learning",
-    "text": "Peer Learning\n\nANDREA YEO SI HAN\nBRIGITTA KAREN TSAI\nBRYAN CHANG TZE KIN\nCHANG FANG-YU\nCHEN PENG-WEI\nCHEW GEK TENG VIVIAN\nCHU SHAN-HUI CATHY\nCHUA JIA PENG\nDEW STELLA CHAN PUI YING\nDHREETI SHAH\nDING HONG-YAN\nEE FOOK MING\nENRICO LIMBERG\nFAN JING\nHUA XIN\nHUANG JO-HSUAN\nHUANG TZU-TING\nJUSTIN LIM ZHENG HAN\nKIM JEOUNGHYUN\nLAI MEIHAO\nLENG YI XIU\nLIN XINYUE\nLIU BINGBING\nLIU JEREMY JUNPENG\nMOO JIA RONG\nNGUYEN BAO THU PHUONG\nOU YIMING\nPWINT PHOO THAW\nSATHVIKA SUBRAMANIAN\nSEI SAR HLA KYI\nSHANMUGAPRIYA RAJASEKARAN\nSHERYL ANN TAN YI-SHI\nSHREYA AGARWAL\nWANG XINGYUN\nWONG ZI QI\nXIE HAOYANG\nYEE JUN YIT\nYONG KHOI YIN KENNETH\nZANELLE LEE WENFANG\nZHANG XIAOHAN"
-  },
-  {
-    "objectID": "VAProject.html#ay2023-2024-april-term",
-    "href": "VAProject.html#ay2023-2024-april-term",
-    "title": "Visual Analytics Project",
-    "section": "",
-    "text": "The Big Fish: Catching Illegal Fishing Through Visual Analytics. Specially mentioned: This project won VAST Challenge 2024: Award for Comprehensive Characterization of Suspicious Behaviors."
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#assessment-rubric",
-    "href": "TH_EX/TH_EX2.html#assessment-rubric",
-    "title": "Take-home Exercise 2",
-    "section": "Assessment Rubric",
-    "text": "Assessment Rubric\n\nQuality of Visual Storytelling (30%): Ability to provide visually-driven discussions and answers on the tasks and questions chosen.\nQuality of Data Visualisation (30%): Appropriateness, functional and aesthetics of the data visualisation used.\nQuality of Data Preparation and Wrangling (20%): Appropriateness and proficiency of using tidyverse and other related R packages to prepare and wrangle the data.\nQuality of Reproducibility (20%): Completeness and comprehensiveness of documenting the data visualisation process including and not limited to data import, data preparation, data wrangling, data integration and data visualisation design."
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#kickstarter",
-    "href": "TH_EX/TH_EX2.html#kickstarter",
-    "title": "Take-home Exercise 2",
-    "section": "KickStarter",
-    "text": "KickStarter\n\nMini case 1\nMini case 2\nMini case 3"
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#learning-from-senior",
-    "href": "TH_EX/TH_EX2.html#learning-from-senior",
-    "title": "Take-home Exercise 2",
-    "section": "Learning from Senior",
-    "text": "Learning from Senior\n\nISSS608 2016-17 T3 Assign GUAN YIFEI. Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2016-17 T3 Assign ZHANG YANRONG. Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.\nISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan\nISSS608 2021-22 April Term Assignment 6: Raunak Kapur\n\nAY2022-23 April Term\n\nONG CHAE HUI\nKWA KAH BOON\nFONG BAO XIAN\nHAILEY CHEONG SZE-YENN\n\nAY2023-24 April Term\n\nKristine Joy Paas\nSeng Jing Yi"
-  },
-  {
-    "objectID": "TH_EX/TH_EX2.html#reference",
-    "href": "TH_EX/TH_EX2.html#reference",
-    "title": "Take-home Exercise 2",
-    "section": "Reference",
-    "text": "Reference\n\nAnalysis Without Data: Teaching Students to Tackle the VAST Challenge"
-  },
-  {
-    "objectID": "TH_EX/TH_EX3.html#peer-learning",
-    "href": "TH_EX/TH_EX3.html#peer-learning",
-    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
-    "section": "Peer Learning",
-    "text": "Peer Learning"
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html",
-    "href": "TH_EX/MC1-kickstarter.html",
-    "title": "MC1 Kickstarter",
-    "section": "",
-    "text": "By the end of this handson exercise, you will be able to:\n\nimport Mini case 1 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html#overview",
-    "href": "TH_EX/MC1-kickstarter.html#overview",
-    "title": "MC1 Kickstarter",
-    "section": "",
-    "text": "By the end of this handson exercise, you will be able to:\n\nimport Mini case 1 data file R object,\nsplit the knowledge graph into nodes and edges tibble data frames,\ntidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,\ncreate a tidygrpah object by using the tidied nides and edges, and\nvisualise the tidygraph"
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html#getting-started",
-    "href": "TH_EX/MC1-kickstarter.html#getting-started",
-    "title": "MC1 Kickstarter",
-    "section": "Getting Started",
-    "text": "Getting Started\nFor the purpose of this exercise, four R packages will be used. They are tidyverse, jsonlite, tidygraph and ggraph.\n\n\n\n\n\n\nNote\n\n\n\nYou are required to install the R packages above, if necessary, before continue to the next step.\n\n\nIn the code chunk below, p_load() of pacman package is used to load the R packages into R environemnt.\n\npacman::p_load(tidyverse, jsonlite,\n               tidygraph, ggraph)"
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html#importing-kownledge-graph-data",
-    "href": "TH_EX/MC1-kickstarter.html#importing-kownledge-graph-data",
-    "title": "MC1 Kickstarter",
-    "section": "Importing Kownledge Graph Data",
-    "text": "Importing Kownledge Graph Data\nFor the purpose of this exercise, MC1_graph.json file will be used. Before getting started, you should have the data set in the data sub-folder.\nIn the code chunk below, fromJSON() of jsonlite package is used to import MC1_graph.json file into R and save the output object\n\nkg &lt;- fromJSON(\"data/MC1_graph.json\")\n\n\nInspect structure\nBefore preparing the data, it is always a good practice to examine the structure of kg object.\nIn the code chunk below str() is used to reveal the structure of kg object.\n\nstr(kg, max.level = 1)\n\nList of 5\n $ directed  : logi TRUE\n $ multigraph: logi TRUE\n $ graph     :List of 2\n $ nodes     :'data.frame': 17412 obs. of  10 variables:\n $ links     :'data.frame': 37857 obs. of  4 variables:"
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html#initial-eda",
-    "href": "TH_EX/MC1-kickstarter.html#initial-eda",
-    "title": "MC1 Kickstarter",
-    "section": "Initial EDA",
-    "text": "Initial EDA\n\nggplot(data = edges_tbl,\n       aes(y = `Edge Type`)) +\n  geom_bar()\n\n\n\n\n\n\n\n\n\nggplot(data = nodes_tbl,\n       aes(y = `Node Type`)) +\n  geom_bar()"
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html#creating-knowledge-graph",
-    "href": "TH_EX/MC1-kickstarter.html#creating-knowledge-graph",
-    "title": "MC1 Kickstarter",
-    "section": "Creating Knowledge Graph",
-    "text": "Creating Knowledge Graph\n\nMapping from node id to row index\nBefore we can go ahead to build the tidygraph object, it is important for us to ensures each id from the node list is mapped to the correct row number. This requirement can be achive by using the code chunk below.\n\nid_map &lt;- tibble(id = nodes_tbl$id,\n                 index = seq_len(\n                   nrow(nodes_tbl)))\n\n\n\nMap source and target IDs to row indices\nNext, we will map the source and the target IDs to row indices by using the code chunk below.\n\nedges_tbl &lt;- edges_tbl %&gt;%\n  left_join(id_map, by = c(\"source\" = \"id\")) %&gt;%\n  rename(from = index) %&gt;%\n  left_join(id_map, by = c(\"target\" = \"id\")) %&gt;%\n  rename(to = index)\n\n\n\n\n\n\n\nNote\n\n\n\nTo better understand the changes before and after the process, it is to take a screenshot of edges_tbl before and after this process and examine the differences.\n\n\n\n\nFilter out any unmatched (invalid) edges\nLastly, the code chunk below will be used to exclude the unmatch edges.\n\nedges_tbl &lt;- edges_tbl %&gt;%\n  filter(!is.na(from), !is.na(to))\n\n\n\nCreating tidygraph\nLastly, tbl_graph() is used to create tidygraph’s graph object by using the code chunk below.\n\ngraph &lt;- tbl_graph(nodes = nodes_tbl, \n                   edges = edges_tbl, \n                   directed = kg$directed)\n\nYou might want to confirm the output object is indeed in tidygraph format by using the code chunk below.\n\nclass(graph)\n\n[1] \"tbl_graph\" \"igraph\""
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html#visualising-the-knowledge-graph",
-    "href": "TH_EX/MC1-kickstarter.html#visualising-the-knowledge-graph",
-    "title": "MC1 Kickstarter",
-    "section": "Visualising the knowledge graph",
-    "text": "Visualising the knowledge graph\nIn this section, we will use ggraph’s functions to visualise and analyse the graph object.\n\n\n\n\n\n\nWarning\n\n\n\nThe two examples below are not model answers, they are examples to show you how to use the mantra of Overview first, details on demand of visual investigation.\n\n\nSeveral of the ggraph layouts involve randomisation. In order to ensure reproducibility, it is necessary to set the seed value before plotting by using the code chunk below.\n\nset.seed(1234)\n\n\nVisualising the whole graph\nIn the code chunk below, ggraph functions are used to visualise the whole graph.\n\nggraph(graph, layout = \"fr\") +\n  geom_edge_link(alpha = 0.3, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `Node Type`), \n                  size = 4) +\n  geom_node_text(aes(label = name), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()\n\n\n\n\n\n\n\n\nNotice that the whole graph is very messy and we can hardy discover any useful patterns. This is always the case in graph visualisation and analysis. In order to gain meaningful visual discovery, it is always useful for us to looking into the details, for example by plotting sub-graphs.\n\n\nVisualising the sub-graph\nIn this section, we are interested to create a sub-graph base on MemberOf value in Edge Type column of the edges data frame.\n\nFiltering edges to only “MemberOf”\n\ngraph_memberof &lt;- graph %&gt;%\n  activate(edges) %&gt;%\n  filter(`Edge Type` == \"MemberOf\")\n\n\n\nExtracting only connected nodes (i.e., used in these edges)\n\nused_node_indices &lt;- graph_memberof %&gt;%\n  activate(edges) %&gt;%\n  as_tibble() %&gt;%\n  select(from, to) %&gt;%\n  unlist() %&gt;%\n  unique()\n\n\n\nKeeping only those nodes\n\ngraph_memberof &lt;- graph_memberof %&gt;%\n  activate(nodes) %&gt;%\n  mutate(row_id = row_number()) %&gt;%\n  filter(row_id %in% used_node_indices) %&gt;%\n  select(-row_id)  # optional cleanup\n\n\n\nPlotting the sub-graph\n\nggraph(graph_memberof, \n       layout = \"fr\") +\n  geom_edge_link(alpha = 0.5, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `Node Type`), \n                  size = 1) +\n  geom_node_text(aes(label = name), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()\n\n\n\n\n\n\n\n\nNotice that the sub-graph above is very clear and the relationship between musical group and person can be visualise easily."
-  },
-  {
-    "objectID": "TH_EX/MC1-kickstarter.html#extracting-the-edges-and-nodes-tables",
-    "href": "TH_EX/MC1-kickstarter.html#extracting-the-edges-and-nodes-tables",
-    "title": "MC1 Kickstarter",
-    "section": "Extracting the edges and nodes tables",
-    "text": "Extracting the edges and nodes tables\nNext, as_tibble() of tibble package package is used to extract the nodes and links tibble data frames from kg object into two separate tibble data frames called nodes_tbl and edges_tbl respectively.\n\nnodes_tbl &lt;- as_tibble(kg$nodes)\nedges_tbl &lt;- as_tibble(kg$links) \n\n\nInitial EDA\nIt is time for us to apply appropriate EDA methods to examine the data.\nIn this code chunk below, ggplot2 functions are used the reveal the frequency distribution of Edge Type field of edges_tbl.\n\nggplot(data = edges_tbl,\n       aes(y = `Edge Type`)) +\n  geom_bar()\n\n\n\n\n\n\n\n\nOn the other hands, code chunk below uses ggplot2 functions to reveal the frequency distribution of Node Type field of nodes_tbl.\n\nggplot(data = nodes_tbl,\n       aes(y = `Node Type`)) +\n  geom_bar()"
-  },
-  {
     "objectID": "TH_EX/MC2-kickstarter.html",
     "href": "TH_EX/MC2-kickstarter.html",
     "title": "MC2 Kickstarter",
@@ -2709,11 +2597,11 @@
     "text": "Getting Started\nFor the purpose of this exercise, five R packages will be used. They are tidyverse, jsonlite, tidygraph, ggraph and SmartEDA.\n\n\n\n\n\n\nNote\n\n\n\nYou are required to install the R packages above, if necessary, before continue to the next step.\n\n\nIn the code chunk below, p_load() of pacman package is used to load the R packages into R environemnt.\n\npacman::p_load(tidyverse, jsonlite,\n               tidygraph, ggraph,\n               SmartEDA)"
   },
   {
-    "objectID": "TH_EX/MC2-kickstarter.html#importing-kownledge-graph-data",
-    "href": "TH_EX/MC2-kickstarter.html#importing-kownledge-graph-data",
+    "objectID": "TH_EX/MC2-kickstarter.html#importing-knowledge-graph-data",
+    "href": "TH_EX/MC2-kickstarter.html#importing-knowledge-graph-data",
     "title": "MC2 Kickstarter",
-    "section": "Importing Kownledge Graph Data",
-    "text": "Importing Kownledge Graph Data\nFor the purpose of this exercise, FILAH.json file will be used. Before getting started, you should have the data set in the data sub-folder.\nIn the code chunk below, fromJSON() of jsonlite package is used to import FILAH.json file into R and save the output object\n\nfilah &lt;- fromJSON(\"data/FILAH.json\")\n\n\nInspect structure\nBefore preparing the data, it is always a good practice to examine the structure of filah object.\nIn the code chunk below glimpse() is used to reveal the structure of filah object.\n\nglimpse(filah)\n\nList of 5\n $ directed  : logi TRUE\n $ multigraph: logi TRUE\n $ graph     : Named list()\n $ nodes     :'data.frame': 396 obs. of  17 variables:\n  ..$ type       : chr [1:396] \"meeting\" \"meeting\" \"meeting\" \"meeting\" ...\n  ..$ date       : chr [1:396] \"Meeting 1\" \"Meeting 2\" \"Meeting 3\" \"Meeting 4\" ...\n  ..$ label      : chr [1:396] \"Meeting 1\" \"Meeting 2\" \"Meeting 3\" \"Meeting 4\" ...\n  ..$ id         : chr [1:396] \"Meeting_1\" \"Meeting_2\" \"Meeting_3\" \"Meeting_4\" ...\n  ..$ name       : chr [1:396] NA NA NA NA ...\n  ..$ role       : chr [1:396] NA NA NA NA ...\n  ..$ short_topic: chr [1:396] NA NA NA NA ...\n  ..$ long_topic : chr [1:396] NA NA NA NA ...\n  ..$ short_title: chr [1:396] NA NA NA NA ...\n  ..$ long_title : chr [1:396] NA NA NA NA ...\n  ..$ plan_type  : chr [1:396] NA NA NA NA ...\n  ..$ lat        : num [1:396] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ lon        : num [1:396] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ zone       : chr [1:396] NA NA NA NA ...\n  ..$ zone_detail: chr [1:396] NA NA NA NA ...\n  ..$ start      : chr [1:396] NA NA NA NA ...\n  ..$ end        : chr [1:396] NA NA NA NA ...\n $ links     :'data.frame': 765 obs. of  9 variables:\n  ..$ role     : chr [1:765] \"part_of\" \"part_of\" \"part_of\" \"part_of\" ...\n  ..$ source   : chr [1:765] \"Meeting_1\" \"Meeting_1\" \"Meeting_1\" \"Meeting_1\" ...\n  ..$ target   : chr [1:765] \"fish_vacuum_Meeting_1_Introduction_Discussion\" \"fish_vacuum_Meeting_1_Introduction\" \"seafood_festival_Meeting_1_Discussion\" \"seafood_festival_Meeting_1_Feasibility\" ...\n  ..$ key      : int [1:765] 0 0 0 0 0 0 0 0 0 0 ...\n  ..$ sentiment: num [1:765] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ reason   : chr [1:765] NA NA NA NA ...\n  ..$ industry :List of 765\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. .. [list output truncated]\n  ..$ status   : chr [1:765] NA NA NA NA ...\n  ..$ time     : chr [1:765] NA NA NA NA ...\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNotice that Industry field is in list data type. This data type is potentially rejected by tbl_graph() of tidygraph."
+    "section": "Importing Knowledge Graph Data",
+    "text": "Importing Knowledge Graph Data\nFor the purpose of this exercise, FILAH.json file will be used. Before getting started, you should have the data set in the data sub-folder.\nIn the code chunk below, fromJSON() of jsonlite package is used to import FILAH.json file into R and save the output object\n\nfilah &lt;- fromJSON(\"data/FILAH.json\")\n\n\nInspecting knowledge graph structure\nBefore preparing the data, it is always a good practice to examine the structure of filah knowledge graph.\nIn the code chunk below glimpse() is used to reveal the structure of filah knowledge graph.\n\nglimpse(filah)\n\nList of 5\n $ directed  : logi TRUE\n $ multigraph: logi TRUE\n $ graph     : Named list()\n $ nodes     :'data.frame': 396 obs. of  17 variables:\n  ..$ type       : chr [1:396] \"meeting\" \"meeting\" \"meeting\" \"meeting\" ...\n  ..$ date       : chr [1:396] \"Meeting 1\" \"Meeting 2\" \"Meeting 3\" \"Meeting 4\" ...\n  ..$ label      : chr [1:396] \"Meeting 1\" \"Meeting 2\" \"Meeting 3\" \"Meeting 4\" ...\n  ..$ id         : chr [1:396] \"Meeting_1\" \"Meeting_2\" \"Meeting_3\" \"Meeting_4\" ...\n  ..$ name       : chr [1:396] NA NA NA NA ...\n  ..$ role       : chr [1:396] NA NA NA NA ...\n  ..$ short_topic: chr [1:396] NA NA NA NA ...\n  ..$ long_topic : chr [1:396] NA NA NA NA ...\n  ..$ short_title: chr [1:396] NA NA NA NA ...\n  ..$ long_title : chr [1:396] NA NA NA NA ...\n  ..$ plan_type  : chr [1:396] NA NA NA NA ...\n  ..$ lat        : num [1:396] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ lon        : num [1:396] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ zone       : chr [1:396] NA NA NA NA ...\n  ..$ zone_detail: chr [1:396] NA NA NA NA ...\n  ..$ start      : chr [1:396] NA NA NA NA ...\n  ..$ end        : chr [1:396] NA NA NA NA ...\n $ links     :'data.frame': 765 obs. of  9 variables:\n  ..$ role     : chr [1:765] \"part_of\" \"part_of\" \"part_of\" \"part_of\" ...\n  ..$ source   : chr [1:765] \"Meeting_1\" \"Meeting_1\" \"Meeting_1\" \"Meeting_1\" ...\n  ..$ target   : chr [1:765] \"fish_vacuum_Meeting_1_Introduction_Discussion\" \"fish_vacuum_Meeting_1_Introduction\" \"seafood_festival_Meeting_1_Discussion\" \"seafood_festival_Meeting_1_Feasibility\" ...\n  ..$ key      : int [1:765] 0 0 0 0 0 0 0 0 0 0 ...\n  ..$ sentiment: num [1:765] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ reason   : chr [1:765] NA NA NA NA ...\n  ..$ industry :List of 765\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. .. [list output truncated]\n  ..$ status   : chr [1:765] NA NA NA NA ...\n  ..$ time     : chr [1:765] NA NA NA NA ...\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNotice that Industry field is in list data type. In general, this data type is not acceptable by tbl_graph() of tidygraph. In order to avoid error arise when building tidygraph object, it is wiser to exclude this field from the edges data table. However, it might be still useful in subsequent analysis."
   },
   {
     "objectID": "TH_EX/MC2-kickstarter.html#extracting-the-edges-and-nodes-tables",
@@ -2737,10 +2625,108 @@
     "text": "Visualising the knowledge graph\nIn this section, we will use ggraph’s functions to visualise and analyse the graph object.\n\n\n\n\n\n\nWarning\n\n\n\nThe example below is not model answers, It is used to show you how to use the mantra of Overview first, details on demand of visual investigation.\n\n\n\nVisualising the whole graph\nSeveral of the ggraph layouts involve randomisation. In order to ensure reproducibility, it is necessary to set the seed value before plotting by using the code chunk below.\n\nset.seed(1234)\n\nIn the code chunk below, ggraph functions are used to create the whole graph.\n\nggraph(filah_graph, \n       layout = \"fr\") +\n  geom_edge_link(alpha = 0.3, \n                 colour = \"gray\") +\n  geom_node_point(aes(color = `type`), \n                  size = 4) +\n  geom_node_text(aes(label = type), \n                 repel = TRUE, \n                 size = 2.5) +\n  theme_void()"
   },
   {
-    "objectID": "TH_EX/MC2-kickstarter.html#importing-knowledge-graph-data",
-    "href": "TH_EX/MC2-kickstarter.html#importing-knowledge-graph-data",
-    "title": "MC2 Kickstarter",
-    "section": "Importing Knowledge Graph Data",
-    "text": "Importing Knowledge Graph Data\nFor the purpose of this exercise, FILAH.json file will be used. Before getting started, you should have the data set in the data sub-folder.\nIn the code chunk below, fromJSON() of jsonlite package is used to import FILAH.json file into R and save the output object\n\nfilah &lt;- fromJSON(\"data/FILAH.json\")\n\n\nInspecting knowledge graph structure\nBefore preparing the data, it is always a good practice to examine the structure of filah knowledge graph.\nIn the code chunk below glimpse() is used to reveal the structure of filah knowledge graph.\n\nglimpse(filah)\n\nList of 5\n $ directed  : logi TRUE\n $ multigraph: logi TRUE\n $ graph     : Named list()\n $ nodes     :'data.frame': 396 obs. of  17 variables:\n  ..$ type       : chr [1:396] \"meeting\" \"meeting\" \"meeting\" \"meeting\" ...\n  ..$ date       : chr [1:396] \"Meeting 1\" \"Meeting 2\" \"Meeting 3\" \"Meeting 4\" ...\n  ..$ label      : chr [1:396] \"Meeting 1\" \"Meeting 2\" \"Meeting 3\" \"Meeting 4\" ...\n  ..$ id         : chr [1:396] \"Meeting_1\" \"Meeting_2\" \"Meeting_3\" \"Meeting_4\" ...\n  ..$ name       : chr [1:396] NA NA NA NA ...\n  ..$ role       : chr [1:396] NA NA NA NA ...\n  ..$ short_topic: chr [1:396] NA NA NA NA ...\n  ..$ long_topic : chr [1:396] NA NA NA NA ...\n  ..$ short_title: chr [1:396] NA NA NA NA ...\n  ..$ long_title : chr [1:396] NA NA NA NA ...\n  ..$ plan_type  : chr [1:396] NA NA NA NA ...\n  ..$ lat        : num [1:396] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ lon        : num [1:396] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ zone       : chr [1:396] NA NA NA NA ...\n  ..$ zone_detail: chr [1:396] NA NA NA NA ...\n  ..$ start      : chr [1:396] NA NA NA NA ...\n  ..$ end        : chr [1:396] NA NA NA NA ...\n $ links     :'data.frame': 765 obs. of  9 variables:\n  ..$ role     : chr [1:765] \"part_of\" \"part_of\" \"part_of\" \"part_of\" ...\n  ..$ source   : chr [1:765] \"Meeting_1\" \"Meeting_1\" \"Meeting_1\" \"Meeting_1\" ...\n  ..$ target   : chr [1:765] \"fish_vacuum_Meeting_1_Introduction_Discussion\" \"fish_vacuum_Meeting_1_Introduction\" \"seafood_festival_Meeting_1_Discussion\" \"seafood_festival_Meeting_1_Feasibility\" ...\n  ..$ key      : int [1:765] 0 0 0 0 0 0 0 0 0 0 ...\n  ..$ sentiment: num [1:765] NA NA NA NA NA NA NA NA NA NA ...\n  ..$ reason   : chr [1:765] NA NA NA NA ...\n  ..$ industry :List of 765\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. ..$ : NULL\n  .. .. [list output truncated]\n  ..$ status   : chr [1:765] NA NA NA NA ...\n  ..$ time     : chr [1:765] NA NA NA NA ...\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNotice that Industry field is in list data type. In general, this data type is not acceptable by tbl_graph() of tidygraph. In order to avoid error arise when building tidygraph object, it is wiser to exclude this field from the edges data table. However, it might be still useful in subsequent analysis."
+    "objectID": "TH_EX/TH_EX1.html",
+    "href": "TH_EX/TH_EX1.html",
+    "title": "Take-home Exercise 1",
+    "section": "",
+    "text": "Creating data visualisation that is enligthening and truthful\n\n\n\nCreating enlightening and truthful data visualizations involves focusing on accuracy, transparency, and the ability to effectively communicate insights. It’s about presenting data in a way that is both informative and aesthetically pleasing, ensuring the audience can grasp the information quickly and accurately."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#overview",
+    "href": "TH_EX/TH_EX1.html#overview",
+    "title": "Take-home Exercise 1",
+    "section": "Overview",
+    "text": "Overview\nThis handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#setting-the-scene",
+    "href": "TH_EX/TH_EX1.html#setting-the-scene",
+    "title": "Take-home Exercise 1",
+    "section": "Setting the scene",
+    "text": "Setting the scene\nA local online media company that publishes daily content on digital platforms is planning to release an article on demographic structures and distribution of Singapore in 2024."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-task",
+    "href": "TH_EX/TH_EX1.html#the-task",
+    "title": "Take-home Exercise 1",
+    "section": "The Task",
+    "text": "The Task\nAssuming the role of the graphical editor of the media company, you are tasked to prepare at most three data visualisation for the article.\n\n\n\n\n\n\nImportant\n\n\n\nThe task will be completed in two phases:\n\nPhase 1: Designing your own data visualisation.\nPhase 2: Selecting one submission provided by your classmate, critic three good design principles and three areas for further improvement. With reference to the comment, prepare the makeover version of the data visualisation."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-data",
+    "href": "TH_EX/TH_EX1.html#the-data",
+    "title": "Take-home Exercise 1",
+    "section": "The Data",
+    "text": "The Data\nTo accomplish the task, Singapore Residents by Planning Area / Subzone, Single Year of Age and Sex, June 2024 dataset shares by Department of Statistics, Singapore (DOS) should be used."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-designing-tool",
+    "href": "TH_EX/TH_EX1.html#the-designing-tool",
+    "title": "Take-home Exercise 1",
+    "section": "The Designing Tool",
+    "text": "The Designing Tool\nThe data should be processed by using appropriate tidyverse family of packages and the data visualisation must be prepared using ggplot2 and its extensions.\n\n\n\n\n\n\nImportant\n\n\n\nNo interactive data visualisation are required."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#the-write-up",
+    "href": "TH_EX/TH_EX1.html#the-write-up",
+    "title": "Take-home Exercise 1",
+    "section": "The Write-up",
+    "text": "The Write-up\nThe write-up of the take-home exercise should include but not limited to the followings:\n\nA reproducible description of the procedures used to prepare the analytical visualisation. Please refer to the senior submission I shared below.\nA write-up of not more than 150 words per each data visualisation, describing and discussing the patterns reveal by each visualisation prepared."
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#submission-date",
+    "href": "TH_EX/TH_EX1.html#submission-date",
+    "title": "Take-home Exercise 1",
+    "section": "Submission date",
+    "text": "Submission date\n\n\n\n\n\n\nImportant\n\n\n\nThere are two submission deadlines for this take-home exercise, they are:\n\nPhase 1: 4th May 2025 mid-night 12:00am 11:59pm.\nPhase 2: 11th May 2025 mid-night 12:00am 11:59pm"
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#learning-from-senior",
+    "href": "TH_EX/TH_EX1.html#learning-from-senior",
+    "title": "Take-home Exercise 1",
+    "section": "Learning from senior",
+    "text": "Learning from senior\n\nKYLIE TAN JING YI\nTOA ZI YING JANET\nLEW YING ZHEN SERENA\nSENG JING YI\nJAYA GEORGE"
+  },
+  {
+    "objectID": "TH_EX/TH_EX1.html#peer-learning",
+    "href": "TH_EX/TH_EX1.html#peer-learning",
+    "title": "Take-home Exercise 1",
+    "section": "Peer Learning",
+    "text": "Peer Learning\n\nANDRE ONG JIA KANG\nCALVIN TAN SONG HAO\nCHAN HAN JIE\nCHIAM SHUNZHONG DAVID\nDO QUYNH TRANG\nENRICO SEBASTIAN ENRICO SEBASTIAN DANUSANTOSO\nEVANGELINE OLIVIA SIDIHARTO\nFU YILIN\nGOH YI FANG\nHAO LIU\nHUANG PENGXIN\nHUANG ZIHAN\nJESSE EMMANUEL LUCAS\nLAU JIA YI\nLI JIANYI\nLI YUQUAN\nLIAW YING TING CELIN\nLIM KAH SIEW BELINDA\nLIU CHIH-YUAN\nLU LINSEN\nLUO YUMING\nMARGA THURA\nMIN HTET AUNG  Specially highlighted: 3.2 Age Pyramid of Top 24 Planning Areas.\nNG JIN YAO\nNG WEE TINN SHERMAINN\nNGUYEN NGUYEN HA\nNGUYEN PHUONG HOA\nNOR HENDRA BIN ABDUL RAHMAN\nPATRICIA TRISNO\nPENG HSIAO-YUAN\nRAJESH BABU SANTIGARI\nSANDRA JACOB\nSARIYANTI HARTIONO\nSTEFANIE FELICIA\nTA NGUYEN THAO NGUYEN\nTAI QIUYAN\nTAI YU YING\nTAN WENYING AUDREY  Special mentioned: Excellence design efforts 7.1 Population Pyramid and innovative idea 8. Daily Article\nTEO WEE SIANG ROY\nVANESSA RIADI\nWANG ANQI\nWANG SHENSI\nXU XINYI\nYANG LU\nYANG YAYONG\nYUAN YIHAO\nZHANG JINGHAN\nZHANG XUERONG"
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html",
+    "href": "TH_EX/TH_EX3.html",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "",
+    "text": "Prototyping is crucial\n\n\n\nPrototyping first may help keep you from investing far too much time for marginal gains.\nThe Art of UNIX Programming (Raymond 2003)"
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#the-task",
+    "href": "TH_EX/TH_EX3.html#the-task",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "The Task",
+    "text": "The Task\nIn this take-home exercise, you are required to select one of the module of your proposed Shiny application and complete the following tasks:\n\nTo evaluate and determine the necessary R packages needed for your Shiny application are supported in R CRAN,\nTo prepare and test the specific R codes can be run and returned the correct output as expected,\nTo determine the parameters and outputs that will be exposed on the Shiny applications, and\nTo select the appropriate Shiny UI components for exposing the parameters determine above.\n\nAll teams must consult either\n\nPrototype page of AY2022-2023 January Term Group 3: Tanzania Tourism Analysis. There are three main modules in ths application the are: Exploratory Data Analysis & Confirmatory Data Analysis, Cluster Analysis and Decision Tree Analysis, or\nPrototype page of Decoding-choas and the Take-home Exercise 4 pages of the following group members IMRAN BIN MOHD IBRAHIM, TEO SUAN ERN and WONG NGAI MUNN ZACHARY MARK\n\nEach of them were prepared by one of the member of the project team. After that they combined them into the Prototype page of their project website.\nTake-home Exercise 3 will be similar to one of the prototype module prepared above in term of content but with the following differences:\n\nYou are required to prepare the prototype module report as Take-home Exercise 3 submission. This mean, it has to be published on your own coursework page.\nYou are required to include a section called UI design for the different components of the UIs for the proposed design.\n\nFor storyboarding the UI Design, please consult Storyboard link."
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#submission-instructions",
+    "href": "TH_EX/TH_EX3.html#submission-instructions",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.\nThe specific submission instructions are as follows:\n\nThe analytical visualisation must be prepared by using R and appropriate R packages. The report must provide detail discussion and explanation of:\n\nthe data preparation process,\nthe selection of data visualisation techniques used,\nand the data visualisation design and interactivity principles and best practices implemented.\n\nThe write-up of the take-home exercise must be in Quarto html document format and publish on Netlify."
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#submission-date",
+    "href": "TH_EX/TH_EX3.html#submission-date",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Submission date",
+    "text": "Submission date\nIn order to allocate enough time to integrate individual modules into the Shiny application, my humble advise is to complete Take-home Exercise 3 ltest by 11:59pm mid-night, 15th June 2025. Please note that this is a soft deadline. Project groups are free to adjust the prototyping deadline according to your project timelines.\n\n\n\n\n\n\nWarning\n\n\n\nStudents are strongly recommended to complete Take-home Exercise 3 ahead of the submission deadline. This will allow you to have more time to focus on the building of the Shiny application and to iterate the usability of the application."
+  },
+  {
+    "objectID": "TH_EX/TH_EX3.html#peer-learning",
+    "href": "TH_EX/TH_EX3.html#peer-learning",
+    "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
+    "section": "Peer Learning",
+    "text": "Peer Learning"
   }
 ]

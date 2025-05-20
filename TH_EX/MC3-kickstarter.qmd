@@ -1,0 +1,244 @@
+---
+title: "MC3 Kickstarter"
+format: html
+toc: true
+toc-depth: 4
+date: "May 12, 2025"
+date-modified: "last-modified"
+execute: 
+  eval: true
+  echo: true
+  freeze: true
+  warning: false
+---
+
+## Overview
+
+By the end of this hands-on exercise, you will be able to:
+
+-   import Mini Case 3 data file R object,
+-   split the knowledge graph into nodes and edges tibble data frames,
+-   tidy nodes and edges tibble data frames for conforming to the requirements of tidygraph,
+-   create a tidygrpah object by using the tidied nides and edges, and
+-   visualise the tidygraph
+
+## Getting Started
+
+For the purpose of this exercise, five R packages will be used. They are tidyverse, jsonlite, tidygraph, ggraph and SmartEDA.
+
+::: callout-note
+You are required to install the R packages above, if necessary, before continue to the next step.
+:::
+
+In the code chunk below, `p_load()` of **pacman** package is used to load the R packages into R environemnt.
+
+```{r}
+pacman::p_load(tidyverse, jsonlite,
+               tidygraph, ggraph,
+               SmartEDA)
+```
+
+## Importing Knowledge Graph Data
+
+For the purpose of this exercise, *mc3.json* file will be used. Before getting started, you should have the data set in the **data** sub-folder.
+
+In the code chunk below, `fromJSON()` of **jsonlite** package is used to import *mc3.json* file into R and save the output object
+
+```{r}
+MC3 <- fromJSON("data/MC3_graph.json")
+MC3_schema <- fromJSON("data/MC3_schema.json")
+```
+
+### Inspecting knowledge graph structure
+
+Before preparing the data, it is always a good practice to examine the structure of *mc3* knowledge graph.
+
+In the code chunk below `glimpse()` is used to reveal the structure of *mc3* knowledge graph.
+
+```{r}
+glimpse(MC3)
+```
+
+::: callout-warning
+Notice that *Industry* field is in list data type. In general, this data type is not acceptable by `tbl_graph()` of **tidygraph**. In order to avoid error arise when building tidygraph object, it is wiser to exclude this field from the edges data table. However, it might be still useful in subsequent analysis.
+:::
+
+## Extracting the edges and nodes tables
+
+Next, `as_tibble()` of **tibble** package package is used to extract the nodes and links tibble data frames from *mc3* tibble dataframe into two separate tibble dataframes called *mc3_nodes* and *mc3_edges* respectively.
+
+```{r}
+mc3_nodes <- as_tibble(MC3$nodes)
+mc3_edges <- as_tibble(MC3$edges)
+```
+
+### Initial EDA
+
+It is time for us to apply appropriate EDA methods to examine the data.
+
+In the code chunk below, `ExpCatViz()` of SmartEDA package is used to reveal the frequency distribution of all categorical fields in *mc3_nodes* tibble dataframe.
+
+```{r}
+ExpCatViz(data=mc3_nodes,
+          col="lightblue")
+```
+
+::: callout-note
+What useful discovery can you obtained from the visualisation above?
+:::
+
+On the other hands, code chunk below uses `ExpCATViz()` of SmartEDA package to reveal the frequency distribution of all categorical fields in *mc3_edges* tibble dataframe.
+
+```{r}
+ExpCatViz(data=mc3_edges,
+          col="lightblue")
+```
+
+::: callout-note
+What useful discovery can you obtained from the visualisation above?
+:::
+
+## Data Cleaning and Wrangling
+
+### Cleaning and wrangling nodes
+
+Code chunk below performs the following data cleaning tasks:
+
+- convert values in id field into character data type,
+- exclude records with `id` value are na, 
+- exclude records with similar id values, 
+- exclude `thing_collected` field, and
+- save the cleaned tibble dataframe into a new tibble datatable called `mc3_nodes_cleaned`.
+
+
+```{r}
+mc3_nodes_cleaned <- mc3_nodes %>%
+  mutate(id = as.character(id)) %>%
+  filter(!is.na(id)) %>%
+  distinct(id, .keep_all = TRUE) %>%
+  select(-thing_collected)
+```
+
+### Cleaning and wrangling edges
+
+Next, the code chunk below will be used to:
+
+- rename source and target fields to from_id and to_id respectively,
+- convert values in from_id and to_id fields to character data type,
+- exclude values in from_id and to_id which not found in the id field of mc3_nodes_cleaned,
+- exclude records whereby from_id and/or to_id values are missing, and
+- save the cleaned tibble dataframe and called it mc3_edges_cleaned.
+
+```{r}
+mc3_edges_cleaned <- mc3_edges %>%
+  rename(from_id = source, 
+         to_id = target) %>%
+  mutate(across(c(from_id, to_id), 
+                as.character)) %>%
+  filter(from_id %in% mc3_nodes_cleaned$id, 
+         to_id %in% mc3_nodes_cleaned$id) %>%
+  filter(!is.na(from_id), !is.na(to_id))
+```
+
+Next, code chunk below will be used to create mapping of character id in `mc3_nodes_cleaned` to row index
+
+```{r}
+node_index_lookup <- mc3_nodes_cleaned %>%
+  mutate(.row_id = row_number()) %>%
+  select(id, .row_id)
+```
+
+Next, the code chunk below will be used to join and convert `from_id` and `to_id` to integer indices.  At the same time we also drop rows with unmatched nodes.
+
+```{r}
+mc3_edges_indexed <- mc3_edges_cleaned %>%
+  left_join(node_index_lookup, 
+            by = c("from_id" = "id")) %>%
+  rename(from = .row_id) %>%
+  left_join(node_index_lookup, 
+            by = c("to_id" = "id")) %>%
+  rename(to = .row_id) %>%
+  select(from, to, is_inferred, type) %>%
+  filter(!is.na(from) & !is.na(to))  
+```
+
+Next the code chunk below is used to subset nodes to only those referenced by edges.
+
+```{r}
+used_node_indices <- sort(
+  unique(c(mc3_edges_indexed$from, 
+           mc3_edges_indexed$to)))
+
+mc3_nodes_final <- mc3_nodes_cleaned %>%
+  slice(used_node_indices) %>%
+  mutate(new_index = row_number())
+```
+
+We will then use the code chunk below to rebuild lookup from old index to new index.
+
+```{r}
+old_to_new_index <- tibble(
+  old_index = used_node_indices,
+  new_index = seq_along(
+    used_node_indices))
+```
+
+Lastly, the code chunk below will be used to update edge indices to match new node table.
+
+```{r}
+mc3_edges_final <- mc3_edges_indexed %>%
+  left_join(old_to_new_index, 
+            by = c("from" = "old_index")) %>%
+  rename(from_new = new_index) %>%
+  left_join(old_to_new_index, 
+            by = c("to" = "old_index")) %>%
+  rename(to_new = new_index) %>%
+  select(from = from_new, to = to_new, 
+         is_inferred, type)
+```
+
+## Building the tidygraph object
+
+Now we are ready to build the tidygraph object by using the code chunk below.
+
+```{r}
+mc3_graph <- tbl_graph(
+  nodes = mc3_nodes_final,
+  edges = mc3_edges_final,
+  directed = TRUE
+)
+```
+
+After the tidygraph object is created, it is always a good practice to examine the object by using `str()`.
+
+```{r}
+str(mc3_graph)
+```
+
+## Visualising the knowledge graph
+
+Several of the **ggraph** layouts involve randomisation. In order to ensure reproducibility, it is necessary to set the seed value before plotting by using the code chunk below.
+
+```{r}
+set.seed(1234)
+```
+
+In the code chunk below, **ggraph** functions are used to create the whole graph.
+
+```{r}
+ggraph(mc3_graph, 
+       layout = "fr") +
+  geom_edge_link(alpha = 0.3, 
+                 colour = "gray") +
+  geom_node_point(aes(color = `type`), 
+                  size = 4) +
+  geom_node_text(aes(label = type), 
+                 repel = TRUE, 
+                 size = 2.5) +
+  theme_void()
+```
+
+::: callout-warning
+The example below is not model answers, It is used to show you how to use the mantra of **Overview first, details on demand** of visual investigation.
+:::
+
