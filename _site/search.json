@@ -2433,7 +2433,7 @@
     "href": "outline/Lesson06_outline.html#lesson-slides",
     "title": "Designing Web-enabled Visual Analytics Application with Shiny",
     "section": "Lesson Slides",
-    "text": "Lesson Slides\n\nLesson 6a: Shiny Basic\nLesson 6b: Shiny Reactivity\nLesson 6c: Beyond Basic Basic\n\n\nGetting Started\n\nShiny from R Studio\nLearn Shiny\nFunction reference\nThe Shiny Cheat sheet\n\n\n\nShiny Video Series\n\nThe Past and Future of Shiny. A must view presentation.\nA new way to build your Shiny app’s UI.\nShiny Programming Practices.\nShiny UI Editor Feature Tour.\nShiny UI Editor Project Walkthrough.\nGetting Started with {shinytest2} Part I.\nGetting Started with {shinytest2} Part 2.\nGetting Started with {shinytest2} Part 3.\n\n\n\nBooks\n\nHadley Wickham (2020) Mastering Shiny. Everything you need to know about Shiny can be found here. It is not an easy to read book but worth investing time and effort to read.\nColin Fay, Sébastien Rochette, Vincent Guyader, Cervan Girard (2020) Engineering Production-Grade Shiny Apps\nDavid Granjon (2020) Outstanding User Interfaces with Shiny\nHow to Build a Shiny Application from Scratch\nShiny 入門\n\n\n\nShiny Applications\n\nGallery\nShiny Contest Winners 2019 - Full List\nShiny Contest Winners 2020\nShiny Contest Winners 2021\nFifteen New Zealand government Shiny web apps\nIntroducing the New Zealand Trade Intelligence Dashboard\nShiny for Good: R Shiny Projects with a Positive Impact\n\n\n\nBlog posts\n\n6 simple Shiny things I have learned from creating a somewhat small app\nHow to enhance your Shiny apps with JavaScript (JS) without knowing much JS"
+    "text": "Lesson Slides\n\nLesson 6a: Shiny Basic\nLesson 6b: Shiny Reactivity\nLesson 6c: Beyond Basic Basic\n\n\nGetting Started\n\nShiny from R Studio\nLearn Shiny\nFunction reference\nThe Shiny Cheat sheet\n\n\n\nShiny Video Series\n\nThe Past and Future of Shiny. A must view presentation.\nA new way to build your Shiny app’s UI.\nShiny Programming Practices.\nShiny UI Editor Feature Tour.\nShiny UI Editor Project Walkthrough.\nGetting Started with {shinytest2} Part I.\nGetting Started with {shinytest2} Part 2.\nGetting Started with {shinytest2} Part 3.\nTowards the Next Generation of Shiny UI\nNext Generation Shiny Apps with {bslib} and the website link here.\nModern Dashboards with bslib\n\nFind out more at Posit PBC on Youtube.\n\n\nBooks\n\nHadley Wickham (2020) Mastering Shiny. Everything you need to know about Shiny can be found here. It is not an easy to read book but worth investing time and effort to read.\nColin Fay, Sébastien Rochette, Vincent Guyader, Cervan Girard (2020) Engineering Production-Grade Shiny Apps\nDavid Granjon (2020) Outstanding User Interfaces with Shiny\nHow to Build a Shiny Application from Scratch\nShiny 入門"
   },
   {
     "objectID": "outline/Lesson08_outline.html",
@@ -2728,5 +2728,33 @@
     "title": "Take-home Exercise 3: Prototyping Modules for Visual Analytics Shiny Application",
     "section": "Peer Learning",
     "text": "Peer Learning"
+  },
+  {
+    "objectID": "outline/Lesson06_outline.html#shiny-contest",
+    "href": "outline/Lesson06_outline.html#shiny-contest",
+    "title": "Designing Web-enabled Visual Analytics Application with Shiny",
+    "section": "Shiny Contest",
+    "text": "Shiny Contest\n\nShiny Contest Winners 2019 - Full List\nShiny Contest Winners 2020\nShiny Contest Winners 2021\nShiny Contest Winners 2022\nShiny Contest Winners 2023\nShiny Contest Winners 2024"
+  },
+  {
+    "objectID": "outline/Lesson06_outline.html#shiny-conference",
+    "href": "outline/Lesson06_outline.html#shiny-conference",
+    "title": "Designing Web-enabled Visual Analytics Application with Shiny",
+    "section": "Shiny Conference",
+    "text": "Shiny Conference\n\nShinyConf 2023\nShinyConf 2024\nShinyConf 2025"
+  },
+  {
+    "objectID": "outline/Lesson06_outline.html#shiny-applications",
+    "href": "outline/Lesson06_outline.html#shiny-applications",
+    "title": "Designing Web-enabled Visual Analytics Application with Shiny",
+    "section": "Shiny Applications",
+    "text": "Shiny Applications\n\nGallery\nFifteen New Zealand government Shiny web apps\nIntroducing the New Zealand Trade Intelligence Dashboard\nShiny for Good: R Shiny Projects with a Positive Impact"
+  },
+  {
+    "objectID": "outline/Lesson06_outline.html#blog-posts",
+    "href": "outline/Lesson06_outline.html#blog-posts",
+    "title": "Designing Web-enabled Visual Analytics Application with Shiny",
+    "section": "Blog posts",
+    "text": "Blog posts\n\nAwsome RShiny\nAwesome Shiny Extensions\n6 simple Shiny things I have learned from creating a somewhat small app\nHow to enhance your Shiny apps with JavaScript (JS) without knowing much JS"
   }
 ]

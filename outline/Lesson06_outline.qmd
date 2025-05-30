@@ -34,13 +34,18 @@ editor: visual
 ### Shiny Video Series
 
 -   [The Past and Future of Shiny](https://shiny.rstudio.com/blog/the-past-and-future-of-shiny-joe-cheng.html). A must view presentation.
--   [A new way to build your Shiny app's UI](https://www.rstudio.com/conference/2022/talks/new-way-to-build-shiny/).
+-   [A new way to build your Shiny app's UI](https://www.youtube.com/watch?v=UIaigpCAIqE).
 -   [Shiny Programming Practices](https://www.youtube.com/watch?v=B2JzHv4FOTU&list=PL9HYL-VRX0oRbLoj3FyL5zeASU5FMDgVe&index=5).
 -   [Shiny UI Editor Feature Tour](https://www.youtube.com/watch?v=Zac1qdaYNsY&list=PL9HYL-VRX0oRbLoj3FyL5zeASU5FMDgVe&index=6).
 -   [Shiny UI Editor Project Walkthrough](https://www.youtube.com/watch?v=gYPnLiudtGU&list=PL9HYL-VRX0oRbLoj3FyL5zeASU5FMDgVe&index=7).
 -   [Getting Started with {shinytest2} Part I](https://www.youtube.com/watch?v=Gucwz865aqQ&list=PL9HYL-VRX0oRbLoj3FyL5zeASU5FMDgVe&index=15).
 -   [Getting Started with {shinytest2} Part 2](https://www.youtube.com/watch?v=7KLv6HdIxvU&list=PL9HYL-VRX0oRbLoj3FyL5zeASU5FMDgVe&index=18).
 -   [Getting Started with {shinytest2} Part 3](https://www.youtube.com/watch?v=xDxa_mDwN04&list=PL9HYL-VRX0oRbLoj3FyL5zeASU5FMDgVe&index=17).
+-   [Towards the Next Generation of Shiny UI](https://www.youtube.com/watch?v=je4fd_uYx18)
+-   [Next Generation Shiny Apps with {bslib}](https://www.youtube.com/watch?v=vzXTFbnKAqc) and the website link [here](https://pkg.garrickadenbuie.com/rmedicine-2024-bslib/).
+-   [Modern Dashboards with bslib](https://www.garrickadenbuie.com/talk/bslib-modern-dashboards/)
+
+Find out more at [Posit PBC on Youtube](https://www.youtube.com/c/RStudioPBC).
 
 ### Books
 
@@ -50,17 +55,31 @@ editor: visual
 -   [How to Build a Shiny Application from Scratch](https://bookdown.org/hadrien/how_to_build_a_shiny_app_from_scratch/)
 -   [Shiny 入門](https://bookdown.org/tpemartin/shiny_intro/shiny-part-i.html)
 
-### Shiny Applications
+## Shiny Contest
 
--   [Gallery](https://shiny.rstudio.com/gallery/)
 -   [Shiny Contest Winners 2019 - Full List](https://community.rstudio.com/t/shiny-contest-winners-2019-full-list/36347)
 -   [Shiny Contest Winners 2020](https://www.rstudio.com/blog/winners-of-the-2nd-shiny-contest/)
 -   [Shiny Contest Winners 2021](https://posit.co/blog/winners-of-the-3rd-annual-shiny-contest/)
+-   [Shiny Contest Winners 2022]()
+-   [Shiny Contest Winners 2023]()
+-   [Shiny Contest Winners 2024](https://posit.co/blog/winners-of-the-2024-shiny-contest/)
+
+## Shiny Conference
+
+-   [ShinyConf 2023](https://shinyconf2023.appsilon.com/)
+-   [ShinyConf 2024](https://www.shinyconf.com/shinyconf-2024/homepage)
+-   [ShinyConf 2025](https://www.shinyconf.com/)
+
+## Shiny Applications
+
+-   [Gallery](https://shiny.rstudio.com/gallery/)
 -   [Fifteen New Zealand government Shiny web apps](http://freerangestats.info/blog/2018/05/13/nz-govt-shinyapps)
 -   [Introducing the New Zealand Trade Intelligence Dashboard](https://nzprimarysectortrade.w%20ordpress.com/2018/10/15/introducing-the-new-zealand-trade-intelligence-dashboard/)
 -   [Shiny for Good: R Shiny Projects with a Positive Impact](https://appsilon.com/r-shiny-for-good-project-examples/)
 
-### Blog posts
+## Blog posts
 
+-   [Awsome RShiny](https://github.com/grabear/awesome-rshiny)
+-   [Awesome Shiny Extensions](https://github.com/nanxstats/awesome-shiny-extensions)
 -   [6 simple Shiny things I have learned from creating a somewhat small app](https://albert-rapp.de/posts/06_shiny_app_learnings/06_shiny_app_learnings.html)
 -   [How to enhance your Shiny apps with JavaScript (JS) without knowing much JS](https://albert-rapp.de/posts/15_use_js_with_shiny/15_use_js_with_shiny.html)
