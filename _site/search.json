@@ -2756,5 +2756,12 @@
     "title": "Designing Web-enabled Visual Analytics Application with Shiny",
     "section": "Blog posts",
     "text": "Blog posts\n\nAwsome RShiny\nAwesome Shiny Extensions\n6 simple Shiny things I have learned from creating a somewhat small app\nHow to enhance your Shiny apps with JavaScript (JS) without knowing much JS"
+  },
+  {
+    "objectID": "lesson/Lesson06/Shiny1/Shiny1.html#section",
+    "href": "lesson/Lesson06/Shiny1/Shiny1.html#section",
+    "title": "Building Web-enabled Visual Analytics Applications with Shiny: Shiny basic",
+    "section": "",
+    "text": "A basic Shiny app script"
   }
 ]
