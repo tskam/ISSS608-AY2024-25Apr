@@ -16,13 +16,29 @@ A project may involve developing new methods or implementing visual analytics sy
 
 ## Project Topic
 
-This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2025](https://vast-challenge.github.io/2025/index.html) or [ChinaVis Data Visualisation Competition 2025](https://chinavis.org/2025/zh/challenge). For VAST Challenge 2025, there are three Mini Challenges and a Design Challenge provided. On the other hand, for ChinaVis Data Visualisation Competition, there are two Visual Analytics Challenges. Teams are required to choose **one** of the Challenge and build a Shiny Application to answer the questions of the Challenge. For ChinaVis Data Visualisation Competition, students should select one of the topic of **Track 1: Humanities Data Visual Analysis and Visualization Creative Challenge**.
+This term the topic of Visual Analytics Project will be based on either [VAST Challenge 2025](https://vast-challenge.github.io/2025/index.html). There are three Mini Challenges (MC). Teams are required to choose **one** of the MC and build a Shiny Application to answer the questions of the challenge.
 
 ## Project Management
 
 The project is team work. Students are required to form a project team of **2-3** members by the first week of the academic term.
 
 A good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!
+
+## Project Milestone
+
+-   Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
+-   Editing and publishing project proposal on Netlify latest by the end of **8th June 2025 at 11:59pm (mid-night)**.
+-   Uploading project poster on eLearn by ~~**26th June**~~ **2nd July 2025 (Wednesday) at 11:59pm (mid-night)**.
+-   Poster presentation: ~~**2nd**~~ **5th July 2025 (Saturday), 2:00pm-3:30pm**
+-   Submission of Shiny application repository, project website repository, project poster, Minutes of Meeting and Peer Evaluation: **6th July 2025 (Sunday) by 11:59pm (mid-night)**
+
+## Project Deliverable
+
+### Project Website
+
+At the beginning of the project, project teams are required to create a project website by using [Quarto](https://quarto.org/docs/websites/). The project website should include, beside others, project overview, prototypes, storyboards, analysis and results, poster and user guide. The project website repository must be uploaded on github and publish on [Netlify](https://www.netlify.com/). Git must be used to maintain a complete project version control including the application and project documents. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.
+
+### Minutes of Meeting
 
 Each project team are required to maintain a comprehensive *Minutes of Meeting* from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.
 
@@ -32,38 +48,6 @@ The following links provided useful guides on how to prepare the minutes of a me
 2.  [How To Write Effective Meeting Minutes(with Templates and Samples)](https://www.wildapricot.com/blog/how-to-write-meeting-minutes)
 
 The Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended.
-
-## Project Milestone
-
--   Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
--   Editing and publishing project proposal on Netlify latest by the end of **8th June 2025 at 11:59pm (mid-night)**.
--   Uploading project poster on eLearn by **26th June 2025 at 11:59pm (mid-night)**.
--   Poster presentation: **2nd July 2025, 2:00pm-3:30pm**
--   Submission of final application, user guide, project poster and artifacts: **6th July 2025 by 11:59pm (mid-night)**
-
-## Project Deliverables
-
-#### Project Github
-
-At the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project version control including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.
-
-#### Project Website
-
-Each project team are required to create the project website by using [Quarto](https://quarto.org/docs/websites/). It will be disseminated by using webserver such as [Netfity](https://www.netlify.com/).
-
-As a first step, you should create a project summary at the project website that includes:
-
--   The title of your project,
--   A short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and
--   The project proposal. This should in a webpage (remember to provide a link at the wiki).
-
-### Project proposal
-
-Each project teams must start thinking about their project ideas after the Shiny Workshop. They are expected to discuss their project topic and scope of works with the instructor from week 1 onward. A project proposal in the form of website edited using Quarto will be prepared and the link must be provided on eLearn by **8th June 2025**.
-
-The project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.
-
-Students are required to update their project websites with all the details including the final application, user guide and poster by **7th July 2025**.
 
 ### Poster
 
@@ -90,6 +74,10 @@ Please ensure that the poster is in high resolution.
 
 **Note:** The poster will be considered a final deliverable, so don't forget to apply good visual design and data visualisation principles and best practice to your poster.
 
+### Peer Evaluation 
+
+During the townhall presentation, students are required to visit at least **three** poster booths and evaluate the Shiny applications designed and developed by them.  By the end of the poster presentation, each project team are required to submit, as a group, three peer evaluation reports in a single MS Word file.  The peer evaluation template can be found on eLearn.
+
 ### Final Deliverables
 
 The final deliverable will include:
@@ -102,7 +90,7 @@ The final deliverable will include:
 -   Project poster
 -   Minutes of Meeting
 
-The final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a **single zip** file format. If the file size is beyond the file size allocated by eLean, it can be upoaded on SMU OneDrive.
+The final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a **single zip** file format. If the file size is beyond the file size allocated by eLean, it can be uploaded on SMU OneDrive.
 
 ## Grading
 
