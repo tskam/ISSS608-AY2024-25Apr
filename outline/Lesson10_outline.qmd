@@ -20,6 +20,8 @@ editor: visual
 
 -   [Lesson 10: Information Dashboard Design](../lesson/Lesson10/Lesson10-IDD.html) slides.
 
+-   [Lesson 10: Introduction to Quarto Dashboards](../lesson/Lesson10/Lesson10-QuartoDashboard.html)
+
 -   [Hands-on Exercise 10: Information Dashboard Design: R methods](https://r4va.netlify.app/chap31).
 
 -   [The Epilogue](../lesson/Epilogue/The_Epilogue.html) slides.

@@ -16,7 +16,7 @@ execute:
   warning: false
 ---
 
-# Quarto dashboards
+## Quarto dashboards
 
 A new output format for easily creating dashboards from **.qmd** files. They make it easy to create interactive dashboards using Python, R, Julia, and Observable:
 
@@ -43,13 +43,13 @@ For live demo, click on this [link](https://mine-cetinkaya-rundel.github.io/ld-d
 
 For live demo, click on this [link](https://colorado.posit.co/rsc/nz-quakes/quakes.html).
 
-# Working with Quarto Dashboard
+## Working with Quarto Dashboard
 
 To get started, create a new Quarto document, then change **format:** to *dashboard* instead of *html*.
 
 ![](img/qdd/image1.jpg)
 
-# Dashboard Components
+## Dashboard Components
 
 -   Navigation Bar and Pages — Icon, title, and author along with links to sub-pages (if more than one page is defined).
 
@@ -59,7 +59,7 @@ To get started, create a new Quarto document, then change **format:** to *dashbo
 
 ## Navigation Bar and Pages
 
-![](img/qdd/image2.jpg)
+![](img/qdd/image2.jpg){width="800"}
 
 ## Sidebars: Page Level
 
@@ -113,14 +113,23 @@ To get started, create a new Quarto document, then change **format:** to *dashbo
 
 ::::: columns
 ::: {.column width="50%"}
-![](img/qdd/image7a.jpg)
+![](img/qdd/image7a.jpg){width="480"}
 :::
 
 ::: {.column width="50%"}
-![](img/qdd/image7b.jpg)
+![](img/qdd/image7b.jpg){width="600"}
 :::
 :::::
 
 ## Plots
 
-Each code chunk makes a card, and can take a title
+Each code chunk makes a card, and can take a title.
+
+![](img/qdd/image8.jpg)
+
+## Reference
+
+- [Quarto Dashboards](https://quarto.org/docs/dashboards/)
+- [Quarto dashboards video series](https://quarto.org/docs/blog/posts/2024-11-22-dashboards-workshop/)
+- [Build-a-Dashboard Workshop](https://posit-conf-2024.github.io/quarto-dashboards/)
+- [From Notebooks to Dashboards with Quarto](https://posit-dev.github.io/smalldatasf-quarto-workshop/1-hello-dashboards/)

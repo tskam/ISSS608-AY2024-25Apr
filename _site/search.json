@@ -620,7 +620,7 @@
     "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#plots",
     "title": "Lesson 10: Quarto Dashboard",
     "section": "Plots",
-    "text": "Plots\nEach code chunk makes a card, and can take a title"
+    "text": "Plots\nEach code chunk makes a card, and can take a title."
   },
   {
     "objectID": "lesson/Lesson09/Lesson09-NetworkVis.html#content",
@@ -2496,7 +2496,7 @@
     "href": "outline/Lesson10_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 10: Information Dashboard Design",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 10: Information Dashboard Design slides.\nHands-on Exercise 10: Information Dashboard Design: R methods.\nThe Epilogue slides."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 10: Information Dashboard Design slides.\nLesson 10: Introduction to Quarto Dashboards\nHands-on Exercise 10: Information Dashboard Design: R methods.\nThe Epilogue slides."
   },
   {
     "objectID": "outline/Lesson10_outline.html#reference",
@@ -2770,5 +2770,40 @@
     "title": "Visual Analytics Project",
     "section": "",
     "text": "At the beginning of the project, project teams are required to create a project website by using Quarto. The project website should include, beside others, project overview, prototypes, storyboards, analysis and results, poster and user guide. The project website repository must be uploaded on github and publish on Netlify. Git must be used to maintain a complete project version control including the application and project documents. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\n\nEach project team are required to maintain a comprehensive Minutes of Meeting from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.\nThe following links provided useful guides on how to prepare the minutes of a meeting:\n\nHow to Write Meeting Minutes: Examples + Best Practices\nHow To Write Effective Meeting Minutes(with Templates and Samples)\n\nThe Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended.\n\n\n\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)\nResolution = 300dpi or above\nImage dimension at 300 dpi: 7,016 x 9,933 pixels\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nNote: The poster will be considered a final deliverable, so don’t forget to apply good visual design and data visualisation principles and best practice to your poster.\n\n\n\nDuring the townhall presentation, students are required to visit at least three poster booths and evaluate the Shiny applications designed and developed by them. By the end of the poster presentation, each project team are required to submit, as a group, three peer evaluation reports in a single MS Word file. The peer evaluation template can be found on eLearn.\n\n\n\nThe final deliverable will include:\n\nDeployment of the Web-enabled Visual Analytics Application on shinyapps.io by RStudio.\nArtifact including the ShinyApp codes, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\n\nSample UserGuide 1\nSample UserGuide 2\n\nProject poster\nMinutes of Meeting\n\nThe final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a single zip file format. If the file size is beyond the file size allocated by eLean, it can be uploaded on SMU OneDrive."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#reference",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#reference",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Reference",
+    "text": "Reference\n\nQuarto Dashboards\nQuarto dashboards video series\nBuild-a-Dashboard Workshop\nFrom Notebooks to Dashboards with Quarto"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#resourse",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#resourse",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Resourse",
+    "text": "Resourse\n\nQuarto Dashboards 1: Hello, Dashboards!\nQuarto Dashboards 2: Components\nQuarto Dashboards 3: Theming and Styling"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#quarto-dashboards",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#quarto-dashboards",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Quarto dashboards",
+    "text": "Quarto dashboards\nA new output format for easily creating dashboards from .qmd files. They make it easy to create interactive dashboards using Python, R, Julia, and Observable:\n\nPublish a group of related data visualizations as a dashboard. Use a wide variety of components including Plotly, Leaflet, Jupyter Widgets, htmlwidgets; static graphics (Matplotlib, Seaborn, ggplot2, etc.); tabular data; value boxes; and text annotations.\nFlexible and easy to specify row and column-based Layouts. Components are intelligently re-sized to fill the browser and adapted for display on mobile devices.\nAuthor using any notebook editor (JupyterLab, etc.) or in plain text markdown with any text editor (VS Code, RStudio, Neovim, etc.)\nDashboards can be deployed as static web pages (no special server required) or you can optionally integrate a backend Shiny Server for enhanced interactivity."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#working-with-quarto-dashboard",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#working-with-quarto-dashboard",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Working with Quarto Dashboard",
+    "text": "Working with Quarto Dashboard\nTo get started, create a new Quarto document, then change format: to dashboard instead of html."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-QuartoDashboard.html#dashboard-components",
+    "href": "lesson/Lesson10/Lesson10-QuartoDashboard.html#dashboard-components",
+    "title": "Lesson 10: Quarto Dashboard",
+    "section": "Dashboard Components",
+    "text": "Dashboard Components\n\nNavigation Bar and Pages — Icon, title, and author along with links to sub-pages (if more than one page is defined).\nSidebars, Rows & Columns, and Tabsets — Rows and columns using markdown heading (with optional attributes to control height, width, etc.). Sidebars for interactive inputs. Tabsets to further divide content.\nCards (Plots, Tables, Value Boxes, Content) — Cards are containers for cell outputs and free form markdown text. The content of cards typically maps to cells in your notebook or source document."
   }
 ]
